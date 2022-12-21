@@ -9,6 +9,7 @@ h1, h2 {
 }
 .sticky-bar a:hover {
 	background-color: #386ea8;
+	color: white;
 }
 .sidebar-section {
   position: absolute;

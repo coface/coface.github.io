@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Icon API</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<title>Icon API</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 		<link rel="icon" href="https://raw.githubusercontent.com/coface/coface.github.io/main/img/icon-logo.png">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="icon.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -25,17 +27,234 @@
 					<div class="sidebar-item">
 						<div class="sticky-bar">
 							<a href="#introduction" class="nav-link align-middle"><span>Introduction</span></a>
+							<a href="#api" class="nav-link align-middle"><span>API & version</span></a>
+							<a href="#process" class="nav-link align-middle"><span>Process</span></a>
+							<a href="#documentation" class="nav-link align-middle"><span>Technical limitation</span></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-9">
 					<div class="content-section">
-						<p id="introduction">Coface has been a worldwide leader in the credit insurance market for more than 70 years. Our ambition is to facilitate business-to-business trade by working with customers to develop their domestic and export operations, fully assessing the financial risks they take and protecting their trade receivables against non-payment.</p>
-						<p>ICON is the Coface Business Information offer.</p>
-
-						<div class="alert alert-secondary" role="alert">
-							This website is here to help our customer to understand and implement our APIs. They make it possible to search for companies and to order various information. More details can be found on <a href="https://information.coface.com/fr-fr/api-solutions">our official website</a>.
+						<div id="introduction">
+							<p id="introduction">Coface has been a worldwide leader in the credit insurance market for more than 70 years. Our ambition is to facilitate business-to-business trade by working with customers to develop their domestic and export operations, fully assessing the financial risks they take and protecting their trade receivables against non-payment.</p>
+							<p>ICON is the Coface Business Information offer. Depending on the country, Coface relies on either a partner or its own research departments to retrieve detailed information on companies. This data is then returned in a COMMON format or used to establish different evaluations.</p>
+							<div class="alert alert-secondary" role="alert">
+								This website is here to help our customer to understand and implement our API. It make it possible to search for companies and to order various information. More details can be found on <a href="https://information.coface.com/fr-fr/api-solutions">our official website</a>.
+							</div>
 						</div>
+						<div id="api" class="mt-5 text-justify">
+							<h2>API offer & version</h2>
+							<hr>
+							<p>ICON propose two versions. Below the list of publications you can order depending of the version.</p>
+							<p>If you have already implemented the V1, click <a href="./migration-v1-v2">here</a> to see the difference between V1 and V2.</p>
+							<table class="table" style="width: auto; !important">
+								<thead>
+									<tr>
+										<th>Publication</th>
+										<th>Available format</th>
+										<th>V1</th>
+										<th>V2</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/publications/business-report">Full & Snapshot Reports</a></td>
+										<td>JSON, HTML, PDF, XML</td>
+										<td><i class="fa fa-check-circle"></i></td>
+										<td><i class="fa fa-check-circle"></i></td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/publications/credit-opinion">Credit opinion Reports</a></td>
+										<td>JSON, HTML, PDF, XML</td>
+										<td><i class="fa fa-check-circle"></i></td>
+										<td><i class="fa fa-check-circle"></i></td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/publications/score">Score Report</a></td>
+										<td>JSON, HTML, PDF, XML</td>
+										<td><i class="fa fa-check-circle"></i></td>
+										<td><i class="fa fa-check-circle"></i></td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/economic-insights">Country risk assessment</a></td>
+										<td>JSON</td>
+										<td></td>
+										<td><i class="fa fa-check-circle"></i></td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/economic-insights">Sector risk assessment</a></td>
+										<td>JSON</td>
+										<td></td>
+										<td><i class="fa fa-check-circle"></i></td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/publications/score">Debtor risk assessment (with and without history)</a></td>
+										<td>JSON</td>
+										<td></td>
+										<td><i class="fa fa-check-circle"></i></td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/publications/credit-opinion">Credit opinion & advanced opinion</a></td>
+										<td>JSON</td>
+										<td></td>
+										<td><i class="fa fa-check-circle"></i></td>
+									</tr>
+								</tbody>
+							</table>
+							<hr>
+							<p>We keep on doing our best to minimize impacts on our customers but we will sometimes need to modify our interface contract in order to enhance our features.</p>
+							<p>Such modifications will bring the need of a new version. Each version will be classified as a minor or a major one.</p>
+							<p>When released, a minor version has no impact on the consumer. Some bugs have been fixed and some evolutions have been given. It will sometimes bring a modification of the interface contract but being an upgrade i.e. new fields and/or endpoints, the consumer is free to decide whether he wants to add the potential new features or not.</p>
+							<p>However, a major version will impact the consumer in any case: both in the url (where the version stands) and in its code. New developments will be needed to be able to benefit from the modifications.</p>
+							<p>Coface will maintain at most two versions of the API.</p>
+							<table class="table" style="width: 50% !important">
+								<thead>
+									<tr>
+										<th>Version</th>
+										<th>Release date</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><a target="_blank" href="v1.html">V1</a></td>
+										<td>2017</td>
+									</tr>
+									<tr>
+										<td><a target="_blank" href="v2.html">V2</a></td>
+										<td>02/2023</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div id="process" class="mt-5 text-justify">
+							<h2>Process</h2>
+							<hr>
+							<div class="accordion" id="processAccordion">
+								<div class="card" id="processGlobal">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseProcessGlobal" aria-expanded="true" aria-controls="collapseProcessGlobal">
+												<h5>Global process</h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseProcessGlobal" class="collapse show" data-parent="#processAccordion">
+										<div class="card-body">
+											<img src="img/global-process.png" alt="Global process" class="img-fluid" style="max-width:800px;width: 100%;height: auto;min-width:500px;margin-bottom:10px" />
+											<p>To order monitoring or report, you need to follow 5 steps :</p>
+											<ol>
+												<li>Find the company</li>
+												<li>Check if the publication is available</li>
+												<li>Order the publication with or without monitoring</li>
+												<li>Verify that the order is finished</li>
+												<li>Retrieve the publication</li>
+											</ol>
+											<p>In case you have ordered a monitoring, during the next year, you can receive notifications. Once you get one, you can retrieve its content.</p>
+										</div>
+									</div>
+								</div>
+								<div class="card" id="processSearchCompany">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseProcessSearchCompany" aria-expanded="true" aria-controls="collapseProcessSearchCompany">
+												<h5>Search for a company process</h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseProcessSearchCompany" class="collapse" data-parent="#processAccordion">
+										<div class="card-body">
+											<p>To order monitoring or report, you need to find on which company you want the data.</p>
+											<p>To identify a company, you have two possibilities : use the Coface Id of the company or use an unique id from a national referential.</p>
+											<p>For example : in France, all companies must be registred in the National Institute of Statistics and Economic Studies (INSEE). This repository is used by Coface.</p>
+											<ul class="nav nav-tabs">
+												<li><a class="nav-item nav-link active" href="#processResearchFunct" data-toggle="tab">Functional view</a></li>
+												<li><a class="nav-item nav-link" href="#processResearchTech" data-toggle="tab">Technical view</a></li>
+											</ul>
+											<div class="tab-content">
+												<div class="tab-pane active" id="processResearchFunct">
+													<img src="img/search-companies-process.png" alt="Search company process" class="img-fluid" style="max-width:800px;width: 100%;height: auto;min-width:500px;margin-bottom:10px" />
+												</div>
+												<div class="tab-pane" id="processResearchTech">
+													In progress
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="card" id="processOrderPublication">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseProcessOrderPublication" aria-expanded="true" aria-controls="collapseProcessOrderPublication">
+												<h5>Order a publication</h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseProcessOrderPublication" class="collapse" data-parent="#processAccordion">
+										<div class="card-body">
+											<p>In progress</p>
+											<ul class="nav nav-tabs">
+												<li><a class="nav-item nav-link active" href="#processOrderFunct" data-toggle="tab">Functional view</a></li>
+												<li><a class="nav-item nav-link" href="#processOrderTech" data-toggle="tab">Technical view</a></li>
+											</ul>
+											<div class="tab-content">
+												<div class="tab-pane active" id="processOrderFunct">
+													<img src="img/order-products-process.png" alt="Order a publication" class="img-fluid" style="width: 100%;height: auto;min-width:800px;margin-bottom:10px" />
+												</div>
+												<div class="tab-pane" id="processOrderTech">
+													In progress
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="card" id="processOrderMonitoringPublication">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseProcessMonitoringPublication" aria-expanded="true" aria-controls="collapseProcessMonitoringPublication">
+												<h5>Order a publication monitoring</h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseProcessMonitoringPublication" class="collapse" data-parent="#processAccordion">
+										<div class="card-body">
+											<p>In progress</p>
+											<ul class="nav nav-tabs">
+												<li><a class="nav-item nav-link active" href="#processMonitoringFunct" data-toggle="tab">Functional view</a></li>
+												<li><a class="nav-item nav-link" href="#processMonitoringTech" data-toggle="tab">Technical view</a></li>
+											</ul>
+											<div class="tab-content">
+												<div class="tab-pane active" id="processMonitoringFunct">
+												<img src="img/order-monitoring-process.png" alt="Order a monitoring" class="img-fluid" />
+												</div>
+												<div class="tab-pane" id="processMonitoringTech">
+													In progress
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="documentation" class="mt-5">
+							<h2>Technical limitation</h2>
+							<hr>
+							<p>Specifics details for each version will be available directly on the page of the version.</p>
+							<div id="principle" class="mt-4">
+								<h5>Rate Limits</h5>
+								<p>API access rate limits are applied at a user basis in unit time. Access to the API is limited to <em>60 requests per minute per endpoint</em>. In addition, every API response is accompanied by the following set of headers to identify the status of your consumption.</p>
+								<table class="table">
+									<thead>
+										<tr><th>Header</th><th>Description</th></tr>
+									</thead>
+									<tbody>
+										<tr><td>X-RateLimit-Limit</td><td>The maximum number of requests that the consumer is permitted to make per minute.</td></tr>
+										<tr><td>X-RateLimit-Remaining</td><td>The number of requests remaining in the current rate limit window.</td></tr>
+									</tbody>
+								</table>
+								<p>If you are hitting this limit, further requests will be rejected with an HTTP 429 error. If you believe that due to the nature you intend to use the api your limit needs to be increased then please <a target="_blank" href="https://information.coface.com/en-gb/contact">contact us</a>.</p>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
