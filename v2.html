@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<link rel="icon" href="https://raw.githubusercontent.com/coface/coface.github.io/main/img/icon-logo.png">
+		<link rel="icon" href="img/icon-logo.png">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="icon.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -15,26 +15,215 @@
 	<body>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-3 bg-icon">
+				<div class="col-2 bg-icon">
 					<div class="row">
-						<img src="https://raw.githubusercontent.com/coface/coface.github.io/main/img/icon-logo.png" alt="Icon by Coface" class="img-fluid" style="max-height:100px" />
+						<a href="https://coface.github.io"><img src="https://raw.githubusercontent.com/coface/coface.github.io/main/img/icon-logo.png" alt="Icon by Coface" class="img-fluid" style="max-height:100px" /></a>
 					</div>
 				</div>
-				<div class="col-9 text-center">
+				<div class="col-10 text-center">
 					<h1 id="introduction">Coface ICON Business Information API</h1>
 					<h3>V2</h3>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-3 bg-icon">
+				<div class="col-2 bg-icon">
 					<div class="sidebar-item">
 						<div class="sticky-bar">
+							<a href="https://coface.github.io" class="nav-link align-middle"><span>Retour</span></a>
+							<a href="#products" class="nav-link align-middle"><span>Products</span></a>
+							<a href="#process" class="nav-link align-middle"><span>Process</span></a>
+							<a href="#processAuthentication" class="nav-link align-middle"><span class="pl-4">Authentication</span></a>
+							<a href="#processSearchCompany" class="nav-link align-middle"><span class="pl-4">Company search</span></a>
+							<a href="#processOrderPublication" class="nav-link align-middle"><span class="pl-4">Ordering report</span></a>
+							<a href="#processOrderMonitoringPublication" class="nav-link align-middle"><span class="pl-4">Ordering monitoring</span></a>
+							<a href="#technical" class="nav-link align-middle"><span>Technical helper</span></a>
+							<a href="#security" class="nav-link align-middle"><span class="pl-4">Security</span></a>
+							<a href="#environment" class="nav-link align-middle"><span class="pl-4">Environment</span></a>
+							<a href="#swagger" class="nav-link align-middle"><span class="pl-4">Swagger</span></a>
+							<a href="#postman" class="nav-link align-middle"><span class="pl-4">Postman</span></a>
 						</div>
 					</div>
 				</div>
-				<div class="col-9">
+				<div class="col-10">
 					<div class="content-section">
-					In progess
+						<div id="products" class="mt-5 text-justify">
+							<table class="table" style="width: auto; !important">
+								<thead>
+									<tr>
+										<th>Publication</th>
+										<th>Available format</th>
+										<th>Product type</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/publications/business-report">Full & Snapshot Reports</a></td>
+										<td>JSON, HTML, PDF, XML</td>
+										<td>Report</td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/publications/credit-opinion">Credit opinion Reports</a></td>
+										<td>JSON, HTML, PDF, XML</td>
+										<td>Report</td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/publications/score">Score Report</a></td>
+										<td>JSON, HTML, PDF, XML</td>
+										<td>Report</td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/economic-insights">Country risk assessment</a></td>
+										<td>JSON</td>
+										<td>Assessment</td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/economic-insights">Sector risk assessment</a></td>
+										<td>JSON</td>
+										<td>Assessment</td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/fr-fr/api-solutions">Debtor risk assessment (with and without history)</a></td>
+										<td>JSON</td>
+										<td>Assessment</td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/fr-fr/api-solutions">Credit opinion & advanced opinion</a></td>
+										<td>JSON</td>
+										<td>Assessment</td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/fr-fr/api-solutions">Icon global financials</a></td>
+										<td>JSON</td>
+										<td>Financial</td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/fr-fr/api-solutions">Financials</a></td>
+										<td>JSON</td>
+										<td>Financial</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div id="process" class="mt-5 text-justify">
+							<h2>Process</h2>
+							<hr>
+							<div class="accordion" id="processAccordion">
+								<div class="card" id="processGlobal">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseProcessGlobal" aria-expanded="true" aria-controls="collapseProcessGlobal">
+												<h5>Global process</h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseProcessGlobal" class="collapse show" data-parent="#processAccordion">
+										<div class="card-body">
+											<img src="img/global-process.png" alt="Global process" class="img-fluid" style="max-width:800px;width: 100%;height: auto;min-width:500px;margin-bottom:10px" />
+											<p>To order monitoring or report, you need to follow 5 steps :</p>
+											<ol>
+												<li>Find the company</li>
+												<li>Check if the publication is available</li>
+												<li>Order the publication with or without monitoring</li>
+												<li>Verify that the order is finished</li>
+												<li>Retrieve the publication</li>
+											</ol>
+											<p>In case you have ordered a monitoring, during the next year, you can receive notifications. Once you get one, you can retrieve its content.</p>
+										</div>
+									</div>
+								</div>
+								<div class="card" id="processSearchCompany">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseProcessSearchCompany" aria-expanded="true" aria-controls="collapseProcessSearchCompany">
+												<h5>Search for a company process</h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseProcessSearchCompany" class="collapse" data-parent="#processAccordion">
+										<div class="card-body">
+											<p>To order monitoring or report, you need to find on which company you want the data.</p>
+											<p>To identify a company, you have two possibilities : use the Coface Id of the company or use an unique id from a national referential.</p>
+											<p>For example : in France, all companies must be registred in the National Institute of Statistics and Economic Studies (INSEE). This repository is used by Coface.</p>
+											<ul class="nav nav-tabs">
+												<li><a class="nav-item nav-link active" href="#processResearchFunct" data-toggle="tab">Functional view</a></li>
+												<li><a class="nav-item nav-link" href="#processResearchTech" data-toggle="tab">Technical view</a></li>
+											</ul>
+											<div class="tab-content">
+												<div class="tab-pane active" id="processResearchFunct">
+													<img src="img/v2/search-companies-process.png" alt="Search company process" class="img-fluid" style="max-width:800px;width: 100%;height: auto;min-width:500px;margin-bottom:10px" />
+												</div>
+												<div class="tab-pane" id="processResearchTech">
+													In progress
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="card" id="processOrderPublication">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseProcessOrderPublication" aria-expanded="true" aria-controls="collapseProcessOrderPublication">
+												<h5>Order a publication</h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseProcessOrderPublication" class="collapse" data-parent="#processAccordion">
+										<div class="card-body">
+											<p>In progress</p>
+											<ul class="nav nav-tabs">
+												<li><a class="nav-item nav-link active" href="#processOrderFunct" data-toggle="tab">Functional view</a></li>
+												<li><a class="nav-item nav-link" href="#processOrderTech" data-toggle="tab">Technical view</a></li>
+											</ul>
+											<div class="tab-content">
+												<div class="tab-pane active" id="processOrderFunct">
+													<img src="img/v2/order-products-process.png" alt="Order a publication" class="img-fluid" style="width: 100%;height: auto;min-width:800px;margin-bottom:10px" />
+												</div>
+												<div class="tab-pane" id="processOrderTech">
+													In progress
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="card" id="processOrderMonitoringPublication">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseProcessMonitoringPublication" aria-expanded="true" aria-controls="collapseProcessMonitoringPublication">
+												<h5>Order a publication monitoring</h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseProcessMonitoringPublication" class="collapse" data-parent="#processAccordion">
+										<div class="card-body">
+											<p>In progress</p>
+											<ul class="nav nav-tabs">
+												<li><a class="nav-item nav-link active" href="#processMonitoringFunct" data-toggle="tab">Functional view</a></li>
+												<li><a class="nav-item nav-link" href="#processMonitoringTech" data-toggle="tab">Technical view</a></li>
+											</ul>
+											<div class="tab-content">
+												<div class="tab-pane active" id="processMonitoringFunct">
+												<img src="img/v2/order-monitoring-process.png" alt="Order a monitoring" class="img-fluid" />
+												</div>
+												<div class="tab-pane" id="processMonitoringTech">
+													In progress
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="technical" class="mt-5 text-justify">
+							<div id="security">
+							</div>
+							<div id="environment">
+							</div>
+							<div id="swagger">
+								<p>Our swagger is avaible on <a href="https://app.swaggerhub.com/apis-docs/amandine-tridou-coface/IconAPI/1.1.5" target="_blank">here</a></p>
+							</div>
+							<div id="postman">
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

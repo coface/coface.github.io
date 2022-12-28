@@ -1,0 +1,1348 @@
+{
+	"info": {
+		"_postman_id": "52615600-0544-45a5-baf5-fd0186677d9c",
+		"name": "ICON Report API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17265261"
+	},
+	"item": [
+		{
+			"name": "00 - Get a token",
+			"item": [
+				{
+					"name": "Token",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.environment.set(\"idToken\", JSON.parse(responseBody).idToken);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{apiKey}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "x-api-key",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\": \"{{password}}\",\r\n    \"grantType\": \"password\",\r\n    \"username\": \"{{login}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{authentificationAPIBaseUrl}}/token",
+							"host": [
+								"{{authentificationAPIBaseUrl}}"
+							],
+							"path": [
+								"token"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "01 - Search companies",
+			"item": [
+				{
+					"name": "By company name",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "{{apiKey}}",
+								"type": "text"
+							},
+							{
+								"key": "authorization",
+								"value": "{{idToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{reportAPIBaseUrl}}/companies?country_iso_code=PL&company_name=coface",
+							"host": [
+								"{{reportAPIBaseUrl}}"
+							],
+							"path": [
+								"companies"
+							],
+							"query": [
+								{
+									"key": "full_text_query",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "country_iso_code",
+									"value": "PL",
+									"description": "country where the company is registered (ISO 3166-1 alpha-2 code)"
+								},
+								{
+									"key": "company_name",
+									"value": "coface",
+									"description": "name (or partial name) of the company"
+								},
+								{
+									"key": "zip_code",
+									"value": "35770",
+									"description": "the postal code of the company",
+									"disabled": true
+								},
+								{
+									"key": "city",
+									"value": "Vern",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "10",
+									"description": "number of results to fetch starting from offset (the X-Total-Count header of the response indicates the total number of results found)",
+									"disabled": true
+								},
+								{
+									"key": "offset",
+									"value": null,
+									"disabled": true
+								}
+							]
+						},
+						"description": "Search for companies using name or other identifiers.\n\nTips for searching:\n* If you have a unique identifier for the company (i.e. you want exactly one result), use identifyCompany instead.\n* You don't need to include the legal form in the name (e.g. if the company is called PRINT Solutions Ltd, just search for PRINT Solutions).\n\nAllowed combinations:\n* full_text_query\n* full_text_query with country_iso_code\n* company_name and/or zip_code and/or city together with country_iso_code\n"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "02 - Identify a company + check product availability",
+			"item": [
+				{
+					"name": "By its icon number",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "x-api-key",
+								"value": "{{apiKey}}",
+								"type": "text"
+							},
+							{
+								"key": "authorization",
+								"value": "{{idToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{reportAPIBaseUrl}}/company?country_iso_code=PL&icon_number=73867050&show_available_creditreport_products=true&show_available_monitoring_products=true",
+							"host": [
+								"{{reportAPIBaseUrl}}"
+							],
+							"path": [
+								"company"
+							],
+							"query": [
+								{
+									"key": "country_iso_code",
+									"value": "PL",
+									"description": "country to search in (ISO 3166-1 alpha-2 code)"
+								},
+								{
+									"key": "icon_number",
+									"value": "73867050",
+									"description": "ICON number of the company"
+								},
+								{
+									"key": "easy_number",
+									"value": "0001468018656073867050",
+									"description": "EASY number of the company",
+									"disabled": true
+								},
+								{
+									"key": "identifier_type",
+									"value": "1",
+									"description": "the type of the national identifier to search for (use getIdentifiers to find out which identifiers are available per country)",
+									"disabled": true
+								},
+								{
+									"key": "identifier_value",
+									"value": "2021B02654",
+									"description": "the national identifier to search for",
+									"disabled": true
+								},
+								{
+									"key": "show_available_creditreport_products",
+									"value": "true"
+								},
+								{
+									"key": "show_available_monitoring_products",
+									"value": "true"
+								},
+								{
+									"key": "company_id",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Find a company using a unique identifier (returns exactly 1 or 0 results).\n\nTips for finding a company:\n* If you are searching using national identifiers, provide the country (via the country_iso_code)\n* You don't need to include the legal form in the name (e.g. if the company is called PRINT Solutions Ltd, just search for PRINT Solutions).\n"
+					},
+					"response": []
+				},
+				{
+					"name": "By its easy number",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "x-api-key",
+								"value": "{{apiKey}}",
+								"type": "text"
+							},
+							{
+								"key": "authorization",
+								"value": "{{idToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{reportAPIBaseUrl}}/company?country_iso_code=PL&easy_number=00001054768272&show_available_creditreport_products=true&show_available_monitoring_products=true",
+							"host": [
+								"{{reportAPIBaseUrl}}"
+							],
+							"path": [
+								"company"
+							],
+							"query": [
+								{
+									"key": "country_iso_code",
+									"value": "PL",
+									"description": "country to search in (ISO 3166-1 alpha-2 code)"
+								},
+								{
+									"key": "icon_number",
+									"value": "141274114",
+									"description": "ICON number of the company",
+									"disabled": true
+								},
+								{
+									"key": "easy_number",
+									"value": "00001054768272",
+									"description": "EASY number of the company"
+								},
+								{
+									"key": "identifier_type",
+									"value": "1",
+									"description": "the type of the national identifier to search for (use getIdentifiers to find out which identifiers are available per country)",
+									"disabled": true
+								},
+								{
+									"key": "identifier_value",
+									"value": "2021B02654",
+									"description": "the national identifier to search for",
+									"disabled": true
+								},
+								{
+									"key": "show_available_creditreport_products",
+									"value": "true"
+								},
+								{
+									"key": "show_available_monitoring_products",
+									"value": "true"
+								},
+								{
+									"key": "company_id",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Find a company using a unique identifier (returns exactly 1 or 0 results).\n\nTips for finding a company:\n* If you are searching using national identifiers, provide the country (via the country_iso_code)\n* You don't need to include the legal form in the name (e.g. if the company is called PRINT Solutions Ltd, just search for PRINT Solutions).\n"
+					},
+					"response": []
+				},
+				{
+					"name": "By its vat number",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "x-api-key",
+								"value": "{{apiKey}}",
+								"type": "text"
+							},
+							{
+								"key": "authorization",
+								"value": "{{idToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{reportAPIBaseUrl}}/company?country_iso_code=PL&identifier_type=120&identifier_value=7010041346&show_available_creditreport_products=true&show_available_monitoring_products=true",
+							"host": [
+								"{{reportAPIBaseUrl}}"
+							],
+							"path": [
+								"company"
+							],
+							"query": [
+								{
+									"key": "country_iso_code",
+									"value": "PL",
+									"description": "country to search in (ISO 3166-1 alpha-2 code)"
+								},
+								{
+									"key": "icon_number",
+									"value": "141274114",
+									"description": "ICON number of the company",
+									"disabled": true
+								},
+								{
+									"key": "easy_number",
+									"value": "00011986629361",
+									"description": "EASY number of the company",
+									"disabled": true
+								},
+								{
+									"key": "identifier_type",
+									"value": "120",
+									"description": "the type of the national identifier to search for (use getIdentifiers to find out which identifiers are available per country)"
+								},
+								{
+									"key": "identifier_value",
+									"value": "7010041346",
+									"description": "the national identifier to search for"
+								},
+								{
+									"key": "show_available_creditreport_products",
+									"value": "true"
+								},
+								{
+									"key": "show_available_monitoring_products",
+									"value": "true"
+								},
+								{
+									"key": "company_id",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Find a company using a unique identifier (returns exactly 1 or 0 results).\n\nTips for finding a company:\n* If you are searching using national identifiers, provide the country (via the country_iso_code)\n* You don't need to include the legal form in the name (e.g. if the company is called PRINT Solutions Ltd, just search for PRINT Solutions).\n"
+					},
+					"response": []
+				},
+				{
+					"name": "By its registration number",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "x-api-key",
+								"value": "{{apiKey}}",
+								"type": "text"
+							},
+							{
+								"key": "authorization",
+								"value": "{{idToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{reportAPIBaseUrl}}/company?country_iso_code=PL&identifier_type=1&identifier_value=KRS 0000266510&show_available_creditreport_products=true&show_available_monitoring_products=true",
+							"host": [
+								"{{reportAPIBaseUrl}}"
+							],
+							"path": [
+								"company"
+							],
+							"query": [
+								{
+									"key": "country_iso_code",
+									"value": "PL",
+									"description": "country to search in (ISO 3166-1 alpha-2 code)"
+								},
+								{
+									"key": "icon_number",
+									"value": "141274114",
+									"description": "ICON number of the company",
+									"disabled": true
+								},
+								{
+									"key": "easy_number",
+									"value": "00011986629361",
+									"description": "EASY number of the company",
+									"disabled": true
+								},
+								{
+									"key": "identifier_type",
+									"value": "1",
+									"description": "the type of the national identifier to search for (use getIdentifiers to find out which identifiers are available per country)"
+								},
+								{
+									"key": "identifier_value",
+									"value": "KRS 0000266510",
+									"description": "the national identifier to search for"
+								},
+								{
+									"key": "show_available_creditreport_products",
+									"value": "true"
+								},
+								{
+									"key": "show_available_monitoring_products",
+									"value": "true"
+								},
+								{
+									"key": "company_id",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Find a company using a unique identifier (returns exactly 1 or 0 results).\n\nTips for finding a company:\n* If you are searching using national identifiers, provide the country (via the country_iso_code)\n* You don't need to include the legal form in the name (e.g. if the company is called PRINT Solutions Ltd, just search for PRINT Solutions).\n"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "03 - Order product",
+			"item": [
+				{
+					"name": "Report",
+					"item": [
+						{
+							"name": "Advanced Opinion",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.environment.set(\"orderId\", JSON.parse(responseBody).id);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"accept-encoding": true,
+									"connection": true
+								}
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"product_details\": {\n    \"format\": \"json\",\n    \"language\": \"en\",\n    \"product_code\": \"20500\"\n  },\n  \"company_id\": \"73867050\",\n  \"credit_report_details\": {\n    \"research_instructions\": \"immediate_if_available_research_otherwise\",\n    \"research_callback_url\": \"https://mycompany.com/credit-report-orders/order-complete?our_ref=AB788823\",\n    \"research_delivery_speed\": \"normal\",\n    \"requested_amount\": \"50000\",\n    \"report_currency\": \"EUR\"\n  }\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{reportAPIBaseUrl}}/orders/creditreport",
+									"host": [
+										"{{reportAPIBaseUrl}}"
+									],
+									"path": [
+										"orders",
+										"creditreport"
+									]
+								},
+								"description": "Order a Business Report, a Score report (DRA: Debtor Risk Assessment), a Credit Opinion (CO) report and a Coface Advanced Opinion (CAO) report using the corresponding product codes from CC8800 table.\n\nYou will need to specify at least:\n* the company to order (either with the company_id if the company has already been uniquely identified or with company_unidentified).\n* the product to order (product_details).\n  * product_code: 200 for a standard credit report (values from code table CC8800).\n  * language: the language of the report (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, restrict your order to the company_id of a demo company.\n"
+							},
+							"response": []
+						},
+						{
+							"name": "Credit Opinion",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.environment.set(\"orderId\", JSON.parse(responseBody).id);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"accept-encoding": true,
+									"connection": true
+								}
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"product_details\": {\n    \"format\": \"json\",\n    \"language\": \"en\",\n    \"product_code\": \"20400\"\n  },\n  \"company_id\": \"73867050\",\n  \"credit_report_details\": {\n    \"research_instructions\": \"immediate_if_available_research_otherwise\",\n    \"research_callback_url\": \"https://mycompany.com/credit-report-orders/order-complete?our_ref=AB788823\",\n    \"research_delivery_speed\": \"normal\",\n    \"requested_amount\": \"50000\",\n    \"report_currency\": \"EUR\"\n  }\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{reportAPIBaseUrl}}/orders/creditreport",
+									"host": [
+										"{{reportAPIBaseUrl}}"
+									],
+									"path": [
+										"orders",
+										"creditreport"
+									]
+								},
+								"description": "Order a Business Report, a Score report (DRA: Debtor Risk Assessment), a Credit Opinion (CO) report and a Coface Advanced Opinion (CAO) report using the corresponding product codes from CC8800 table.\n\nYou will need to specify at least:\n* the company to order (either with the company_id if the company has already been uniquely identified or with company_unidentified).\n* the product to order (product_details).\n  * product_code: 200 for a standard credit report (values from code table CC8800).\n  * language: the language of the report (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, restrict your order to the company_id of a demo company.\n"
+							},
+							"response": []
+						},
+						{
+							"name": "Full Report",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.environment.set(\"orderId\", JSON.parse(responseBody).id);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"accept-encoding": true,
+									"connection": true
+								}
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"product_details\": {\n    \"format\": \"json\",\n    \"language\": \"en\",\n    \"product_code\": \"199\"\n  },\n  \"company_id\": \"73867050\",\n  \"credit_report_details\": {\n    \"research_instructions\": \"immediate_if_available_research_otherwise\",\n    \"research_callback_url\": \"https://mycompany.com/credit-report-orders/order-complete?our_ref=AB788823\",\n    \"research_delivery_speed\": \"normal\"\n  }\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{reportAPIBaseUrl}}/orders/creditreport",
+									"host": [
+										"{{reportAPIBaseUrl}}"
+									],
+									"path": [
+										"orders",
+										"creditreport"
+									]
+								},
+								"description": "Order a Business Report, a Score report (DRA: Debtor Risk Assessment), a Credit Opinion (CO) report and a Coface Advanced Opinion (CAO) report using the corresponding product codes from CC8800 table.\n\nYou will need to specify at least:\n* the company to order (either with the company_id if the company has already been uniquely identified or with company_unidentified).\n* the product to order (product_details).\n  * product_code: 200 for a standard credit report (values from code table CC8800).\n  * language: the language of the report (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, restrict your order to the company_id of a demo company.\n"
+							},
+							"response": []
+						},
+						{
+							"name": "Snaspshot",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.environment.set(\"orderId\", JSON.parse(responseBody).id);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"accept-encoding": true,
+									"connection": true
+								}
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"product_details\": {\n    \"format\": \"xml\",\n    \"language\": \"en\",\n    \"product_code\": \"9993\"\n  },\n  \"company_id\": \"73867050\",\n  \"credit_report_details\": {\n    \"research_instructions\": \"immediate_if_available_research_otherwise\",\n    \"research_callback_url\": \"https://mycompany.com/credit-report-orders/order-complete?our_ref=AB788823\",\n    \"research_delivery_speed\": \"normal\"\n  }\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{reportAPIBaseUrl}}/orders/creditreport",
+									"host": [
+										"{{reportAPIBaseUrl}}"
+									],
+									"path": [
+										"orders",
+										"creditreport"
+									]
+								},
+								"description": "Order a Business Report, a Score report (DRA: Debtor Risk Assessment), a Credit Opinion (CO) report and a Coface Advanced Opinion (CAO) report using the corresponding product codes from CC8800 table.\n\nYou will need to specify at least:\n* the company to order (either with the company_id if the company has already been uniquely identified or with company_unidentified).\n* the product to order (product_details).\n  * product_code: 200 for a standard credit report (values from code table CC8800).\n  * language: the language of the report (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, restrict your order to the company_id of a demo company.\n"
+							},
+							"response": []
+						},
+						{
+							"name": "DRA report",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.environment.set(\"orderId\", JSON.parse(responseBody).id);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"accept-encoding": true,
+									"connection": true
+								}
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"product_details\": {\n    \"format\": \"json\",\n    \"language\": \"en\",\n    \"product_code\": \"20300\"\n  },\n  \"company_id\": \"73867050\",\n  \"credit_report_details\": {\n    \"research_instructions\": \"immediate_if_available_research_otherwise\",\n    \"research_callback_url\": \"https://mycompany.com/credit-report-orders/order-complete?our_ref=AB788823\",\n    \"research_delivery_speed\": \"normal\"\n  }\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{reportAPIBaseUrl}}/orders/creditreport",
+									"host": [
+										"{{reportAPIBaseUrl}}"
+									],
+									"path": [
+										"orders",
+										"creditreport"
+									]
+								},
+								"description": "Order a Business Report, a Score report (DRA: Debtor Risk Assessment), a Credit Opinion (CO) report and a Coface Advanced Opinion (CAO) report using the corresponding product codes from CC8800 table.\n\nYou will need to specify at least:\n* the company to order (either with the company_id if the company has already been uniquely identified or with company_unidentified).\n* the product to order (product_details).\n  * product_code: 200 for a standard credit report (values from code table CC8800).\n  * language: the language of the report (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, restrict your order to the company_id of a demo company.\n"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Monitoring",
+					"item": [
+						{
+							"name": "Advanced Opinion",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.environment.set(\"orderId\", JSON.parse(responseBody).id);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"product_details\": {\n    \"format\": \"json\",\n    \"language\": \"en\",\n    \"product_code\": \"20510\"\n  },\n  \"company_id\": \"73867050\",\n  \"monitoring_details\": {\n      \"research_callback_url\": \"https://mycompany.com/credit-report-orders/order-complete?our_ref=AB788823\"\n  }\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{reportAPIBaseUrl}}/orders/monitoring",
+									"host": [
+										"{{reportAPIBaseUrl}}"
+									],
+									"path": [
+										"orders",
+										"monitoring"
+									]
+								},
+								"description": "Monitor a company to receive notifications when updated company data becomes available.\n\nYou will need to specify at least:\n* the company to monitor (company_id)\n* the monitoring product to order (product_details).\n  * product_code: 9002 for the standard CCE Risk monitor (values from code table CC8800).\n  * language: the language of notification (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, you cannot place a new monitoring order (you can check for notitifcations though)\n"
+							},
+							"response": []
+						},
+						{
+							"name": "Credit Opinion",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.environment.set(\"orderId\", JSON.parse(responseBody).id);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"product_details\": {\n    \"format\": \"json\",\n    \"language\": \"en\",\n    \"product_code\": \"20410\"\n  },\n  \"company_id\": \"73867050\",\n  \"monitoring_details\": {\n      \"research_callback_url\": \"https://mycompany.com/credit-report-orders/order-complete?our_ref=AB788823\"\n  }\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{reportAPIBaseUrl}}/orders/monitoring",
+									"host": [
+										"{{reportAPIBaseUrl}}"
+									],
+									"path": [
+										"orders",
+										"monitoring"
+									]
+								},
+								"description": "Monitor a company to receive notifications when updated company data becomes available.\n\nYou will need to specify at least:\n* the company to monitor (company_id)\n* the monitoring product to order (product_details).\n  * product_code: 9002 for the standard CCE Risk monitor (values from code table CC8800).\n  * language: the language of notification (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, you cannot place a new monitoring order (you can check for notitifcations though)\n"
+							},
+							"response": []
+						},
+						{
+							"name": "Full Report",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.environment.set(\"orderId\", JSON.parse(responseBody).id);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"product_details\": {\n    \"format\": \"json\",\n    \"language\": \"en\",\n    \"product_code\": \"197\"\n  },\n  \"company_id\": \"73867050\",\n  \"monitoring_details\": {\n      \"research_callback_url\": \"https://mycompany.com/credit-report-orders/order-complete?our_ref=AB788823\"\n  }\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{reportAPIBaseUrl}}/orders/monitoring",
+									"host": [
+										"{{reportAPIBaseUrl}}"
+									],
+									"path": [
+										"orders",
+										"monitoring"
+									]
+								},
+								"description": "Monitor a company to receive notifications when updated company data becomes available.\n\nYou will need to specify at least:\n* the company to monitor (company_id)\n* the monitoring product to order (product_details).\n  * product_code: 9002 for the standard CCE Risk monitor (values from code table CC8800).\n  * language: the language of notification (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, you cannot place a new monitoring order (you can check for notitifcations though)\n"
+							},
+							"response": []
+						},
+						{
+							"name": "Snaspshot",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.environment.set(\"orderId\", JSON.parse(responseBody).id);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"product_details\": {\n    \"format\": \"json\",\n    \"language\": \"en\",\n    \"product_code\": \"9992\"\n  },\n  \"company_id\": \"73867050\",\n  \"monitoring_details\": {\n      \"research_callback_url\": \"https://mycompany.com/credit-report-orders/order-complete?our_ref=AB788823\"\n  }\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{reportAPIBaseUrl}}/orders/monitoring",
+									"host": [
+										"{{reportAPIBaseUrl}}"
+									],
+									"path": [
+										"orders",
+										"monitoring"
+									]
+								},
+								"description": "Monitor a company to receive notifications when updated company data becomes available.\n\nYou will need to specify at least:\n* the company to monitor (company_id)\n* the monitoring product to order (product_details).\n  * product_code: 9002 for the standard CCE Risk monitor (values from code table CC8800).\n  * language: the language of notification (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, you cannot place a new monitoring order (you can check for notitifcations though)\n"
+							},
+							"response": []
+						},
+						{
+							"name": "DRA Report",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.environment.set(\"orderId\", JSON.parse(responseBody).id);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"product_details\": {\n    \"format\": \"xml\",\n    \"language\": \"en\",\n    \"product_code\": \"20310\"\n  },\n  \"company_id\": \"73867050\",\n  \"monitoring_details\": {\n      \"research_callback_url\": \"https://mycompany.com/credit-report-orders/order-complete?our_ref=AB788823\"\n  }\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{reportAPIBaseUrl}}/orders/monitoring",
+									"host": [
+										"{{reportAPIBaseUrl}}"
+									],
+									"path": [
+										"orders",
+										"monitoring"
+									]
+								},
+								"description": "Monitor a company to receive notifications when updated company data becomes available.\n\nYou will need to specify at least:\n* the company to monitor (company_id)\n* the monitoring product to order (product_details).\n  * product_code: 9002 for the standard CCE Risk monitor (values from code table CC8800).\n  * language: the language of notification (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, you cannot place a new monitoring order (you can check for notitifcations though)\n"
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "04 - Check order status",
+			"item": [
+				{
+					"name": "Get Order",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var order = JSON.parse(responseBody);\r",
+									"if (order.order_status == \"finished\") {\r",
+									"    pm.environment.set(\"fileName\", order.report_documents[0].file_name);\r",
+									"} else {\r",
+									"    pm.environment.unset(\"fileName\");\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "x-api-key",
+								"value": "{{apiKey}}",
+								"type": "text"
+							},
+							{
+								"key": "authorization",
+								"value": "{{idToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{reportAPIBaseUrl}}/order/:id",
+							"host": [
+								"{{reportAPIBaseUrl}}"
+							],
+							"path": [
+								"order",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{orderId}}"
+								}
+							]
+						},
+						"description": "Retrieve the details of an order."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "05 - Retrieve data",
+			"item": [
+				{
+					"name": "get Order Document List",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if (pm.response.to.have.status(200)) {\r",
+									"    var documents = JSON.parse(responseBody);\r",
+									"    pm.environment.set(\"fileName\", documents[0].file_name);\r",
+									"} else {\r",
+									"    pm.environment.unset(\"fileName\");\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/xml"
+							},
+							{
+								"key": "x-api-key",
+								"value": "{{apiKey}}",
+								"type": "text"
+							},
+							{
+								"key": "authorization",
+								"value": "{{idToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{reportAPIBaseUrl}}/order/:id/documents",
+							"host": [
+								"{{reportAPIBaseUrl}}"
+							],
+							"path": [
+								"order",
+								":id",
+								"documents"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{orderId}}",
+									"description": "(Required) the unique id of the order (returned from placeOrder) to which the comment should be submitted."
+								}
+							]
+						},
+						"description": "Retrieve a document (e.g. a report) associated with a finished order. The document may take some time to be created, so you need to check that the order status is \"finished\" before you retrieve the document (see GET '/order/{id}/status' above). You can see an example of this workflow at https://github.com/coface/business-information-api/blob/master/python/complete-workflows/search-order-download.py"
+					},
+					"response": []
+				},
+				{
+					"name": "Get data - prefilled fields",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/xml"
+							},
+							{
+								"key": "x-api-key",
+								"value": "{{apiKey}}",
+								"type": "text"
+							},
+							{
+								"key": "authorization",
+								"value": "{{idToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{reportAPIBaseUrl}}/order/:id/document/:file_name",
+							"host": [
+								"{{reportAPIBaseUrl}}"
+							],
+							"path": [
+								"order",
+								":id",
+								"document",
+								":file_name"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{orderId}}",
+									"description": "This field is filled by the response of post order"
+								},
+								{
+									"key": "file_name",
+									"value": "{{fileName}}",
+									"description": "This field is filled by the response of get document list"
+								}
+							]
+						},
+						"description": "Retrieve a document (e.g. a report) associated with a finished order. The document may take some time to be created, so you need to check that the order status is \"finished\" before you retrieve the document (see GET '/order/{id}/status' above). You can see an example of this workflow at https://github.com/coface/business-information-api/blob/master/python/complete-workflows/search-order-download.py"
+					},
+					"response": []
+				},
+				{
+					"name": "Get data",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/xml"
+							},
+							{
+								"key": "x-api-key",
+								"value": "{{apiKey}}",
+								"type": "text"
+							},
+							{
+								"key": "authorization",
+								"value": "{{idToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{reportAPIBaseUrl}}/order/:id/document/:file_name",
+							"host": [
+								"{{reportAPIBaseUrl}}"
+							],
+							"path": [
+								"order",
+								":id",
+								"document",
+								":file_name"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "<put your order id here>"
+								},
+								{
+									"key": "file_name",
+									"value": "<put your filename here>"
+								}
+							]
+						},
+						"description": "Retrieve a document (e.g. a report) associated with a finished order. The document may take some time to be created, so you need to check that the order status is \"finished\" before you retrieve the document (see GET '/order/{id}/status' above). You can see an example of this workflow at https://github.com/coface/business-information-api/blob/master/python/complete-workflows/search-order-download.py"
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "startDate",
+			"value": ""
+		}
+	]
+}

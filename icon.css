@@ -12,9 +12,9 @@ h1, h2 {
 	color: white;
 }
 .sidebar-section {
-  position: absolute;
-  height: 100%;
-  width: 100%;
+	position: absolute;
+	height: 100%;
+	width: 100%;
 }
 
 .sidebar-item {
@@ -26,7 +26,8 @@ h1, h2 {
 }
 
 .sticky-bar {
-  position: -webkit-sticky;
+	background-color: #14375c;
+	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 	padding: 0 15px;
