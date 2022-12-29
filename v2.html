@@ -17,36 +17,35 @@
 			<div class="row">
 				<div class="col-2 bg-icon">
 					<div class="row">
-						<a href="https://coface.github.io"><img src="https://raw.githubusercontent.com/coface/coface.github.io/main/img/icon-logo.png" alt="Icon by Coface" class="img-fluid" style="max-height:100px" /></a>
+						<a href="https://coface.github.io"><img src="img/icon-logo.png" alt="Icon by Coface" class="img-fluid" style="max-height:100px" /></a>
 					</div>
 				</div>
 				<div class="col-10 text-center">
 					<h1 id="introduction">Coface ICON Business Information API</h1>
-					<h3>V2</h3>
+					<h3>V2 - Data API</h3>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-2 bg-icon">
 					<div class="sidebar-item">
 						<div class="sticky-bar">
-							<a href="https://coface.github.io" class="nav-link align-middle"><span>Retour</span></a>
+							<a href="https://coface.github.io" class="nav-link align-middle"><span>Back to main page</span></a>
+							<a href="#introduction" class="nav-link align-middle"><span>Introduction</span></a>
 							<a href="#products" class="nav-link align-middle"><span>Products</span></a>
+							<a href="#security" class="nav-link align-middle"><span>Access & Security</span></a>
 							<a href="#process" class="nav-link align-middle"><span>Process</span></a>
-							<a href="#processAuthentication" class="nav-link align-middle"><span class="pl-4">Authentication</span></a>
+							<a href="#processGlobal" class="nav-link align-middle"><span class="pl-4">Global</span></a>
 							<a href="#processSearchCompany" class="nav-link align-middle"><span class="pl-4">Company search</span></a>
 							<a href="#processOrderPublication" class="nav-link align-middle"><span class="pl-4">Ordering report</span></a>
 							<a href="#processOrderMonitoringPublication" class="nav-link align-middle"><span class="pl-4">Ordering monitoring</span></a>
-							<a href="#technical" class="nav-link align-middle"><span>Technical helper</span></a>
-							<a href="#security" class="nav-link align-middle"><span class="pl-4">Security</span></a>
-							<a href="#environment" class="nav-link align-middle"><span class="pl-4">Environment</span></a>
-							<a href="#swagger" class="nav-link align-middle"><span class="pl-4">Swagger</span></a>
-							<a href="#postman" class="nav-link align-middle"><span class="pl-4">Postman</span></a>
+							<a href="#documentation" class="nav-link align-middle"><span>Technical documentation</span></a>
+							<a href="#FAQ" class="nav-link align-middle"><span>FAQ</span></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-10">
 					<div class="content-section">
-						<div id="products" class="mt-5 text-justify">
+						<div id="products" class="mt-5">
 							<table class="table" style="width: auto; !important">
 								<thead>
 									<tr>
@@ -104,6 +103,12 @@
 								</tbody>
 							</table>
 						</div>
+						<div id="security" class="mt-5">
+							<h2>Access & Security</h2>
+							<hr>
+							<p>Follow the process described in <a href="https://coface.github.io/#security" target="_blank">the main page</a></p>
+							<p>On the dev portal, you should subscribe to "ICON Data API" or "ICON Data API Sandbox"</p>
+						</div>
 						<div id="process" class="mt-5 text-justify">
 							<h2>Process</h2>
 							<hr>
@@ -119,7 +124,7 @@
 									<div id="collapseProcessGlobal" class="collapse show" data-parent="#processAccordion">
 										<div class="card-body">
 											<img src="img/global-process.png" alt="Global process" class="img-fluid" style="max-width:800px;width: 100%;height: auto;min-width:500px;margin-bottom:10px" />
-											<p>To order monitoring or report, you need to follow 5 steps :</p>
+											<p>To order publication with ou without monitoring, you need to follow 5 steps :</p>
 											<ol>
 												<li>Find the company</li>
 												<li>Check if the publication is available</li>
@@ -142,8 +147,18 @@
 									<div id="collapseProcessSearchCompany" class="collapse" data-parent="#processAccordion">
 										<div class="card-body">
 											<p>To order monitoring or report, you need to find on which company you want the data.</p>
-											<p>To identify a company, you have two possibilities : use the Coface Id of the company or use an unique id from a national referential.</p>
-											<p>For example : in France, all companies must be registred in the National Institute of Statistics and Economic Studies (INSEE). This repository is used by Coface.</p>
+											<p>You <b>always</b> need to check if the company is still available because
+												<ul>
+													<li> companies are a living entity, it can disappear following a bankruptcy for example</li>
+													<li>Coface relies on partners to get the information for some countries. It happens that we decide to change partner if we find one with better information. In this case the company id can change.</li>
+												</ul>
+											</p>
+											<p>Retrieving a company depends on the accuracy of your input : 
+												<ul>
+													<li>if you know an unique identifier for this company (like icon number or use an unique id from a national referential, like VAT number), you will retrieve all identification data on this company (address, phone number, nace codes, legal forms, email, external id...)</li>
+													<li>if you don't then search a company with its name and address. You will receive a summary of matching companies. When you find the one you want, you can retrieve the full details about this company by calling the GET /companies with the external id provided in the summary.</li>
+												</ul>
+											</p>
 											<ul class="nav nav-tabs">
 												<li><a class="nav-item nav-link active" href="#processResearchFunct" data-toggle="tab">Functional view</a></li>
 												<li><a class="nav-item nav-link" href="#processResearchTech" data-toggle="tab">Technical view</a></li>
@@ -153,7 +168,7 @@
 													<img src="img/v2/search-companies-process.png" alt="Search company process" class="img-fluid" style="max-width:800px;width: 100%;height: auto;min-width:500px;margin-bottom:10px" />
 												</div>
 												<div class="tab-pane" id="processResearchTech">
-													In progress
+													<img src="img/v2/searchCompaniesProcessTech.png" alt="Company search process" class="img-fluid" style="max-width:800px" />
 												</div>
 											</div>
 										</div>
@@ -169,7 +184,11 @@
 									</div>
 									<div id="collapseProcessOrderPublication" class="collapse" data-parent="#processAccordion">
 										<div class="card-body">
-											<p>In progress</p>
+											<ul class="text-justify">
+												<li>Coface will try its best to answer you quickly. But in some countries, it can't be possible and Coface will need time to make an investigation. When you order you report, you will have the possibility to specify if you want immediate result or not. If we can't provide you data, you will of course not be charged.</li>
+												<li>You have to possibility to request a report even if you don't find the company in our database. A Coface agent will do an investigation and create a report if he find the company or cancel the order if not. In this case, you will not be charged.</li>
+												<li>The time to process an order varies by country and provider. For immediate order, it takes maximum few seconds</li>
+											</ul>
 											<ul class="nav nav-tabs">
 												<li><a class="nav-item nav-link active" href="#processOrderFunct" data-toggle="tab">Functional view</a></li>
 												<li><a class="nav-item nav-link" href="#processOrderTech" data-toggle="tab">Technical view</a></li>
@@ -179,7 +198,7 @@
 													<img src="img/v2/order-products-process.png" alt="Order a publication" class="img-fluid" style="width: 100%;height: auto;min-width:800px;margin-bottom:10px" />
 												</div>
 												<div class="tab-pane" id="processOrderTech">
-													In progress
+													<img src="img/v2/orderReportProcessTech.png" alt="Ordering a report" class="img-fluid" style="max-width:800px" />
 												</div>
 											</div>
 										</div>
@@ -195,7 +214,10 @@
 									</div>
 									<div id="collapseProcessMonitoringPublication" class="collapse" data-parent="#processAccordion">
 										<div class="card-body">
-											<p>In progress</p>
+											<ul class="text-justify">
+												<li>Sames indications as Ordering a publication</li>
+												<li>A monitoring is placed for 1 year</li>
+											</ul>
 											<ul class="nav nav-tabs">
 												<li><a class="nav-item nav-link active" href="#processMonitoringFunct" data-toggle="tab">Functional view</a></li>
 												<li><a class="nav-item nav-link" href="#processMonitoringTech" data-toggle="tab">Technical view</a></li>
@@ -205,7 +227,24 @@
 												<img src="img/v2/order-monitoring-process.png" alt="Order a monitoring" class="img-fluid" />
 												</div>
 												<div class="tab-pane" id="processMonitoringTech">
-													In progress
+													<img src="img/v2/orderMonitoringProcessTech.png" alt="Ordering a report" class="img-fluid" style="max-width:800px" />
+												</div>
+											</div>
+											<br/>
+											<div id="processNotification">
+												<h4>Notification</h4>
+												<p>Once your monitoring is placed, you will receive notifications when changes are made. If you have set a callback url in your monitoring order, we will ping you as soon as something changed, if not it's up to you to check any change.</p>
+												<nav class="nav nav-tabs">
+													<a class="nav-item nav-link active" href="#processNotificationFunct" data-toggle="tab">Functional view</a>
+													<a class="nav-item nav-link" href="#processNotificationTech" data-toggle="tab">Technical view</a>
+												</nav>
+												<div class="tab-content">
+													<div class="tab-pane active" id="processNotificationFunct">
+														<img src="img/v2/notificationProcessFunct.png" alt="Notification management" class="img-fluid" style="max-width:800px" />
+													</div>
+													<div class="tab-pane" id="processNotificationTech">
+														<img src="img/v2/notificationProcessTech.png" alt="Notification management" class="img-fluid" style="max-width:800px" />
+													</div>
 												</div>
 											</div>
 										</div>
@@ -213,15 +252,56 @@
 								</div>
 							</div>
 						</div>
-						<div id="technical" class="mt-5 text-justify">
-							<div id="security">
+						<div id="documentation" class="mt-5">
+							<h2>Technical documentation</h2>
+							<hr>
+							<div id="swagger" class="mt-4">
+								<h4>Swagger</h4>
+								<p>Our swagger is available on our <a target="_blank" href="https://devportal.coface.com/apis/0zxpafxwxj/v1">dev portal</a>. NOTE : you need to be logged otherwise you will see an empty page.</p>
 							</div>
-							<div id="environment">
+							<div id="postman" class="mt-4">
+								<h4>Postman collection</h4>
+								<p> You can test our API without any developpment using Postman.</p>
+								<p>You have to</p>
+								<ol>
+									<li>Download <a target="_blank" href="https://www.postman.com/">Postman</a></li>
+									<li>Download our 
+										<ul>
+											<li><a href="postman/environment/Test.postman_environment.json" download>demo environment setting</a>, using a demo user</li>
+											<li><a href="postman/environment/PROD.postman_environment.json" download>prod environment setting</a></li>
+											<li><a href="postman/v2/ICON Data API.postman_collection.json" download>collection</a> with all the steps to order report</li>
+										</ul>
+									</li>
+									<li>Modify the credentials in the environment settings</li>
+								</ol>
 							</div>
-							<div id="swagger">
-								<p>Our swagger is avaible on <a href="https://app.swaggerhub.com/apis-docs/amandine-tridou-coface/IconAPI/1.1.5" target="_blank">here</a></p>
-							</div>
-							<div id="postman">
+						</div>
+						<div id="faq" class="mt-5 text-justify">
+							<h2>FAQ</h2>
+							<hr>
+							<div class="accordion" id="processFAQ">
+								<div class="card">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseQuestionPostman" aria-expanded="true" aria-controls="collapseQuestionPostman">
+												<h5>How to configure Postman ?</h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseQuestionPostman" class="collapse" data-parent="#processAccordion">
+										<div class="card-body">
+											<img src="img/postman.png" alt="Set postman" class="img-fluid" style="max-width:800px" />
+											<ol>
+												<li>Import the files</li>
+												<li>Click on "Environments" tab</li>
+												<li>Select the environment you want to modify</li>
+												<li>Change the initial value of credentials</li>
+												<li>Click on "Persist All" to copy Initial value to Current value</li>
+												<li>Save</li>
+											</ol>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

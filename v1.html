@@ -44,7 +44,7 @@
 				</div>
 				<div class="col-10">
 					<div class="content-section">
-						<p>Report APIs is a service offered by <a target="_blank" href="https://information.coface.com/en-gb/api-solutions">ICON, Coface Business Information offer</a>. It allows you to request informations about a company.</p>
+						<p>Report API is a service offered by <a target="_blank" href="https://information.coface.com/en-gb/api-solutions">ICON, Coface Business Information offer</a>. It allows you to request informations about a company.</p>
 						<div id="product" class="mt-5">
 							<h2>Products</h2>
 							<hr>
@@ -76,7 +76,7 @@
 						<div id="security" class="mt-5">
 							<h2>Access & Security</h2>
 							<hr>
-							<p>Folow the process described in <a href="https://coface.github.io/#security" target="_blank">the main page</a></p>
+							<p>Follow the process described in <a href="https://coface.github.io/#security" target="_blank">the main page</a></p>
 							<p>On the dev portal, you should subscribe to "ICON Report API" or "ICON Report API Sandbox"</p>
 						</div>
 						<div id="process" class="mt-5 text-justify">
@@ -117,8 +117,12 @@
 									<div id="collapseProcessSearchCompany" class="collapse" data-parent="#processAccordion">
 										<div class="card-body">
 											<p>To order monitoring or report, you need to find on which company you want the data.</p>
-											<p>Because companies are a living entity, you always needd to checkif the company is still available (for example : it can disappear following a bankruptcy).</p>
-											<p>Coface relies on partner to get the information for some countries. It happens that we decide to change partner if we find one with better information.</p>
+											<p>You <b>always</b> need to check if the company is still available because
+												<ul>
+													<li> companies are a living entity, it can disappear following a bankruptcy for example</li>
+													<li>Coface relies on partners to get the information for some countries. It happens that we decide to change partner if we find one with better information. In this case the company id can change.</li>
+												</ul>
+											</p>
 											<p>Retrieving a company depends on the accuracy of your input : 
 												<ul>
 													<li>if you know an unique identifier for this company (like icon number or use an unique id from a national referential, like VAT number), you can call directly the GET /company endpoint to retrieve the company AND the available products.</li>
