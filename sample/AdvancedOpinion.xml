@@ -1,0 +1,49 @@
+<ICON VERSION="2.0.0">
+<!--meta.report.documentId=14278244-4-S02-cce_clone-2.16.2.0-e72c1eec-P2
+meta.report.documentLayout=20500
+-->
+    <ORDERRESULTS>
+        <ORDERID>14278244</ORDERID>
+        <SCORECALCULATEDON>30/12/2022</SCORECALCULATEDON>
+        <ICONCOMPANYNO>73867050</ICONCOMPANYNO>
+        <DRA>4</DRA>
+        <DRADESCRIPTION>4/10: Significant risk. Company is facing some real weaknesses : if not solved, ability to fulfil obligations could be altered. Risk of default is significant but may be acceptable for limited short-term credits.</DRADESCRIPTION>
+        <DECISION_STATUS>DECIDED_REFUSED</DECISION_STATUS>
+        <AOFINALVALUE>0</AOFINALVALUE>
+        <CURRENCY>EUR</CURRENCY>
+        
+        <MOTIVATIONCODES>AA07,AB07,AA19</MOTIVATIONCODES>
+        <MOTIVATIONLABELS> - Low cash position and/or negative working capital, - Solvency is insufficient, - External financial dependence- high level of debt regarding the structure</MOTIVATIONLABELS>
+        <COCOUNTRYRISK>A4</COCOUNTRYRISK>
+        <COCOUNTRYDESCRIPTION>A4: Economic and financial outlook could be marked by some weaknesses. Political context could suffer from tension. Business climate may present significant deficiencies. The average probability of company default is reasonable.</COCOUNTRYDESCRIPTION>
+    </ORDERRESULTS>
+    <COMPANY>
+        <COMPANYNAME>COFACE POLAND FACTORING Sp. z o.o.</COMPANYNAME>
+        <ADDRESSLINE>Al. Jerozolimskie 142A</ADDRESSLINE>
+        <POSTALCODE>02-305</POSTALCODE>
+        <CITYNAME>Warszawa</CITYNAME>
+        <COUNTRY VALUE="POL"></COUNTRY>
+        <PHONE>+48-22-4650238</PHONE>
+        <FAX>+48-22-4654238</FAX>
+        <EMAIL></EMAIL>
+        <URL></URL>
+        <FOUNDATIONDATE></FOUNDATIONDATE>
+        <LEGALSTATUS>OPEN</LEGALSTATUS>
+        <EASYNUMBER>00001054768272</EASYNUMBER>
+        <NATIONALID></NATIONALID>
+        <STATISTICNUMBER>140733151</STATISTICNUMBER>
+        <VATNUMBER>7010041346</VATNUMBER>
+        <REGISTRATIONNUMBER>KRS0000266510</REGISTRATIONNUMBER>
+        <TAXID></TAXID>
+        <MAINACTIVITY>
+            <CODE>6499</CODE>
+            <LABEL>Other financial service activities, except insurance and pension funding n.e.c.</LABEL>
+        </MAINACTIVITY>
+        <ACTIVITIES>
+            <ACTIVITYLIST>
+                <NACECODE>6499</NACECODE>
+                <NACETEXT>Other financial service activities, except insurance and pension funding n.e.c.</NACETEXT>
+            </ACTIVITYLIST>
+        </ACTIVITIES>
+    </COMPANY>
+</ICON>
