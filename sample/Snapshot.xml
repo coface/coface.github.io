@@ -1,0 +1,1083 @@
+<ICON VERSION="2.0.0"><!--meta.report.documentId=14278250-4-S02-cce_clone-2.16.2.0-e72c1eec-P2 
+meta.report.documentLayout=9993 
+-->
+   <ORDERSTATUS>
+      <INTERCREDITORDERNUMBER>14278250</INTERCREDITORDERNUMBER>
+      <PROVIDER>
+         <PROVIDERID>4</PROVIDERID>
+         <NAME>Coface Poland Services Sp. z o.o.</NAME>
+         <SENDERID>IC01</SENDERID>
+         <CITY>Warszawa</CITY>
+         <COUNTRY VALUE="PL">Poland</COUNTRY>
+         <STREET>Al. Jerozolimskie</STREET>
+         <HOUSENUMBER>142A</HOUSENUMBER>
+         <ZIPCODE>02-305</ZIPCODE>
+      </PROVIDER>
+      <CUSTOMER>
+         <CUSTOMERID>128846659</CUSTOMERID>
+         <NAME>TestBDC</NAME>
+         <RECIPIENTID/>
+         <CITY>Wien</CITY>
+         <COUNTRY VALUE="AT">Austria</COUNTRY>
+         <STREET>Sigmundsgasse</STREET>
+         <HOUSENUMBER>11/2A</HOUSENUMBER>
+         <ZIPCODE>1070</ZIPCODE>
+      </CUSTOMER>
+      <CUSTOMERSREFERENCE/>
+      <PURCHASEORDERNUMBER/>
+      <LANGUAGE VALUE="2">English</LANGUAGE>
+      <PRODUCT VALUE="9993">Snapshot Report</PRODUCT>
+      <REPORTMIMETYPE>TEXT/XML</REPORTMIMETYPE>
+      <BALANCESHEETLAYOUT VALUE="5">PL BS LLC</BALANCESHEETLAYOUT>
+      <TIMESTAMP>20221230100403</TIMESTAMP>
+      <STATUS VALUE="10">Finished</STATUS>
+      <REQUIREDBY>20221230110400</REQUIREDBY>
+      <GIVENCOMPANYNAME/>
+      <REQUESTEDCOMPANYINFORMATION>
+         <COMPANYNAME/>
+         <REGISTRATIONCOUNTRY VALUE=""/>
+         <ZIPCODE/>
+         <CITY/>
+         <STREET/>
+         <HOUSENUMBER/>
+         <ADDITIONALADDRESSLINE/>
+         <COUNTRY VALUE=""/>
+         <TELEPHONAREACODE/>
+         <TELEPHONENUMBER/>
+         <NATIONALNUMBER/>
+      </REQUESTEDCOMPANYINFORMATION>
+      <QUESTION/>
+      <ANSWER/>
+   </ORDERSTATUS>
+   <CREDITREPORT>
+      <COMPANY>
+         <COPYRIGHT>Coface Poland Services Sp. z o.o.</COPYRIGHT>
+         <INTERCREDITNUMBER>73867050</INTERCREDITNUMBER>
+         <NATIONALID>7010041346</NATIONALID>
+         <STATUS VALUE="0">Active</STATUS>
+         <COMPANYNAME>COFACE POLAND FACTORING Sp. z o.o.</COMPANYNAME>
+         <SORTNAME>COFACE POLAND FACTORING Sp. z</SORTNAME>
+         <INTERNATIONALNAME/>
+         <EASYNUMBER>00001054768272</EASYNUMBER>
+         <SHORTNAME/>
+         <LEGALFORM VALUE="300">Limited Liability Company</LEGALFORM>
+         <REGISTRATION>
+            <NUMBER>KRS 0000266510</NUMBER>
+            <CITY>Sąd Rejonowy Warszawa</CITY>
+            <COUNTRY>PL</COUNTRY>
+            <COUNTRYREGION VALUE="PL-MZ">Mazowieckie</COUNTRYREGION>
+            <DATE>20061024</DATE>
+         </REGISTRATION>
+         <COMPANYCOMMENT/>
+         <HISTORY>The subject was established in 2006 as a limited liability company.</HISTORY>
+         <TAXNUMBER/>
+         <STATISTICALNUMBER>
+            <TYPE VALUE="140">Statistic number</TYPE>
+            <VALUE>140733151</VALUE>
+         </STATISTICALNUMBER>
+         <VATNUMBER>
+            <TYPE VALUE="120">VAT number</TYPE>
+            <VALUE>7010041346</VALUE>
+         </VATNUMBER>
+         <VALIDITYDATE>20220816</VALIDITYDATE>
+         <LASTMAJORUPDATE>20220924</LASTMAJORUPDATE>
+         <ESTABLISHED>20061024</ESTABLISHED>
+         <CAPITAL>
+            <INDICATOR>
+               <TYPE VALUE="5305">Called up share capital (issued capital stock)</TYPE>
+               <DATE>20081001</DATE>
+               <FROMDATE/>
+               <TODATE/>
+               <FROMAMOUNT>3500000.0000</FROMAMOUNT>
+               <TOAMOUNT/>
+               <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+               <DIMENSION/>
+               <MEASURE/>
+            </INDICATOR>
+         </CAPITAL>
+         <NATIONALCURRENCY VALUE="PLN">Polish Zloty</NATIONALCURRENCY>
+         <ALIASES/>
+         <ADDRESSES>
+            <ADDRESS>
+               <ADDRESSTYPE VALUE="1">Principal Address</ADDRESSTYPE>
+               <RUNNINGNUMBER>0</RUNNINGNUMBER>
+               <NAME/>
+               <STREET>Al. Jerozolimskie</STREET>
+               <HOUSENUMBER>142A</HOUSENUMBER>
+               <ADDITIONALADDRESSLINE/>
+               <ZIPCODE>02-305</ZIPCODE>
+               <CITY>Warszawa</CITY>
+               <COUNTRY VALUE="PL">Poland</COUNTRY>
+               <COUNTRYREGION VALUE="PL-MZ">Mazowieckie</COUNTRYREGION>
+               <TELEPHONE>
+                  <INTERNATIONAL>48</INTERNATIONAL>
+                  <AREA>22</AREA>
+                  <NUMBER>4650238</NUMBER>
+               </TELEPHONE>
+               <TELEPHONE>
+                  <INTERNATIONAL>48</INTERNATIONAL>
+                  <AREA>22</AREA>
+                  <NUMBER>4650022</NUMBER>
+               </TELEPHONE>
+               <TELEPHONE>
+                  <INTERNATIONAL>48</INTERNATIONAL>
+                  <AREA>22</AREA>
+                  <NUMBER>4650012</NUMBER>
+               </TELEPHONE>
+               <FAX>
+                  <INTERNATIONAL>48</INTERNATIONAL>
+                  <AREA>22</AREA>
+                  <NUMBER>4654238</NUMBER>
+               </FAX>
+               <EMAIL>factoring@coface.pl</EMAIL>
+               <INTERNET>www.coface.pl</INTERNET>
+            </ADDRESS>
+            <ADDRESS>
+               <ADDRESSTYPE VALUE="12">Branch</ADDRESSTYPE>
+               <RUNNINGNUMBER>0</RUNNINGNUMBER>
+               <NAME/>
+               <STREET>Vilniaus Street</STREET>
+               <HOUSENUMBER>23-3</HOUSENUMBER>
+               <ADDITIONALADDRESSLINE/>
+               <ZIPCODE>LT-01119</ZIPCODE>
+               <CITY>Vilnius</CITY>
+               <COUNTRY VALUE="LT">Lithuania</COUNTRY>
+               <TELEPHONE>
+                  <INTERNATIONAL>370</INTERNATIONAL>
+                  <AREA/>
+                  <NUMBER/>
+               </TELEPHONE>
+               <FAX>
+                  <INTERNATIONAL>370</INTERNATIONAL>
+                  <AREA/>
+                  <NUMBER/>
+               </FAX>
+               <EMAIL/>
+               <INTERNET/>
+            </ADDRESS>
+            <ADDRESS>
+               <ADDRESSTYPE VALUE="50">Former Principal Address</ADDRESSTYPE>
+               <RUNNINGNUMBER>0</RUNNINGNUMBER>
+               <NAME/>
+               <STREET>Al. Jerozolimskie</STREET>
+               <HOUSENUMBER>136</HOUSENUMBER>
+               <ADDITIONALADDRESSLINE/>
+               <ZIPCODE>02-305</ZIPCODE>
+               <CITY>Warszawa</CITY>
+               <COUNTRY VALUE="PL">Poland</COUNTRY>
+               <COUNTRYREGION VALUE="PL-MZ">Mazowieckie</COUNTRYREGION>
+               <TELEPHONE>
+                  <INTERNATIONAL>48</INTERNATIONAL>
+                  <AREA/>
+                  <NUMBER/>
+               </TELEPHONE>
+               <FAX>
+                  <INTERNATIONAL>48</INTERNATIONAL>
+                  <AREA/>
+                  <NUMBER/>
+               </FAX>
+               <EMAIL/>
+               <INTERNET/>
+            </ADDRESS>
+            <COMMENT/>
+         </ADDRESSES>
+         <PRIMARYNATIONALIDENTIFIER>
+            <TYPE VALUE="140">Statisticalnumber</TYPE>
+            <VALUE>140733151</VALUE>
+         </PRIMARYNATIONALIDENTIFIER>
+      </COMPANY>
+      <MANAGEMENT>
+         <MANAGER>
+            <TYPE VALUE="300">Chairman of the executive board</TYPE>
+            <NAME>KILIŃSKI Łukasz</NAME>
+            <ACTIVESINCE>20220301</ACTIVESINCE>
+            <ACTIVEUNTIL/>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="301">Deputy chairman of the executive board</TYPE>
+            <NAME>TOBIS Paweł Stanisław</NAME>
+            <ACTIVESINCE>20061024</ACTIVESINCE>
+            <ACTIVEUNTIL/>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="305">Member of the supervisory board</TYPE>
+            <NAME>Al Tawil Bilal</NAME>
+            <ACTIVESINCE>20220913</ACTIVESINCE>
+            <ACTIVEUNTIL/>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="305">Member of the supervisory board</TYPE>
+            <NAME>JAWORSKI Jarosław Marek</NAME>
+            <ACTIVESINCE>20220301</ACTIVESINCE>
+            <ACTIVEUNTIL/>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="305">Member of the supervisory board</TYPE>
+            <NAME>SPIEŻ MAŁETKA Anna Helena</NAME>
+            <ACTIVESINCE>20211230</ACTIVESINCE>
+            <ACTIVEUNTIL/>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="305">Member of the supervisory board</TYPE>
+            <NAME>Stoffel Christian</NAME>
+            <ACTIVESINCE>20190918</ACTIVESINCE>
+            <ACTIVEUNTIL/>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="507">Officer/Proxy</TYPE>
+            <NAME>CHARUBA CZARNOCKA Aleksandra</NAME>
+            <ACTIVESINCE>20220301</ACTIVESINCE>
+            <ACTIVEUNTIL/>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="507">Officer/Proxy</TYPE>
+            <NAME>CZERWIŃSKI Adam</NAME>
+            <ACTIVESINCE>20220301</ACTIVESINCE>
+            <ACTIVEUNTIL/>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="507">Officer/Proxy</TYPE>
+            <NAME>SUPERSON Wojciech Sylwester</NAME>
+            <ACTIVESINCE>20160113</ACTIVESINCE>
+            <ACTIVEUNTIL/>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="2300">Former Chairman of the executive board</TYPE>
+            <NAME>JAWORSKI Jarosław Marek</NAME>
+            <ACTIVESINCE>20061024</ACTIVESINCE>
+            <ACTIVEUNTIL>20220301</ACTIVEUNTIL>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="2305">Former Member of the supervisory board</TYPE>
+            <NAME>CHRISTIAN Berger</NAME>
+            <ACTIVESINCE>20061024</ACTIVESINCE>
+            <ACTIVEUNTIL>20140217</ACTIVEUNTIL>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="2305">Former Member of the supervisory board</TYPE>
+            <NAME>Constantinescu Ana-maria</NAME>
+            <ACTIVESINCE>20190927</ACTIVESINCE>
+            <ACTIVEUNTIL>20211230</ACTIVEUNTIL>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="2305">Former Member of the supervisory board</TYPE>
+            <NAME>DALY Declan</NAME>
+            <ACTIVESINCE>20180621</ACTIVESINCE>
+            <ACTIVEUNTIL>20220301</ACTIVEUNTIL>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="2305">Former Member of the supervisory board</TYPE>
+            <NAME>DUKER Gabriele</NAME>
+            <ACTIVESINCE>20070221</ACTIVESINCE>
+            <ACTIVEUNTIL>20160617</ACTIVEUNTIL>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="2305">Former Member of the supervisory board</TYPE>
+            <NAME>ERCUTA Mihaela</NAME>
+            <ACTIVESINCE>20180621</ACTIVESINCE>
+            <ACTIVEUNTIL>20190927</ACTIVEUNTIL>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="2305">Former Member of the supervisory board</TYPE>
+            <NAME>HAVEL Hans</NAME>
+            <ACTIVESINCE>20170426</ACTIVESINCE>
+            <ACTIVEUNTIL>20180621</ACTIVEUNTIL>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="2305">Former Member of the supervisory board</TYPE>
+            <NAME>KILIŃSKI Łukasz</NAME>
+            <ACTIVESINCE>20160617</ACTIVESINCE>
+            <ACTIVEUNTIL>20170426</ACTIVEUNTIL>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="2305">Former Member of the supervisory board</TYPE>
+            <NAME>KNOUREK Alexander</NAME>
+            <ACTIVESINCE>20140217</ACTIVESINCE>
+            <ACTIVEUNTIL>20140826</ACTIVEUNTIL>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="2305">Former Member of the supervisory board</TYPE>
+            <NAME>KOMPOWSKA Katarzyna Ewa</NAME>
+            <ACTIVESINCE>20061024</ACTIVESINCE>
+            <ACTIVEUNTIL>20180621</ACTIVEUNTIL>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="2305">Former Member of the supervisory board</TYPE>
+            <NAME>SCHLUETTER Andreas</NAME>
+            <ACTIVESINCE>20170426</ACTIVESINCE>
+            <ACTIVEUNTIL>20190918</ACTIVEUNTIL>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="2305">Former Member of the supervisory board</TYPE>
+            <NAME>SOURNAT Stephane</NAME>
+            <ACTIVESINCE>20140826</ACTIVESINCE>
+            <ACTIVEUNTIL>20170426</ACTIVEUNTIL>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <MANAGER>
+            <TYPE VALUE="2507">Former Officer/Proxy</TYPE>
+            <NAME>SPIEŻ MAŁETKA Anna Helena</NAME>
+            <ACTIVESINCE>20171117</ACTIVESINCE>
+            <ACTIVEUNTIL>20220301</ACTIVEUNTIL>
+            <EQUITYAMOUNT/>
+            <EQUITYCURRENCY VALUE=""/>
+            <EQUITYDIMENSION VALUE=""/>
+            <ISPERSON>true</ISPERSON>
+         </MANAGER>
+         <COMMENTS/>
+      </MANAGEMENT>
+      <AUTHORITY>
+         <AUTHORITYTYPE VALUE="300">If more than one managing director is nominated, the firm is represented jointly by two managing directors or by one of them together with a signing clerk.</AUTHORITYTYPE>
+      </AUTHORITY>
+      <ACTIVITIES>
+         <ACTIVITY>
+            <PRIORITY>0</PRIORITY>
+            <NACECODE>6523</NACECODE>
+            <NACETEXT>Other financial intermediation n.e.c.</NACETEXT>
+            <LOCALACTIVITYCODE/>
+            <LOCALACTIVITYTEXT/>
+         </ACTIVITY>
+         <ACTIVITY>
+            <PRIORITY>1</PRIORITY>
+            <NACECODE>6522</NACECODE>
+            <NACETEXT>Other credit granting</NACETEXT>
+            <LOCALACTIVITYCODE/>
+            <LOCALACTIVITYTEXT/>
+         </ACTIVITY>
+         <ACTIVITY>
+            <PRIORITY>5</PRIORITY>
+            <NACECODE>7414</NACECODE>
+            <NACETEXT>Business and management consultancy activities</NACETEXT>
+            <LOCALACTIVITYCODE/>
+            <LOCALACTIVITYTEXT/>
+         </ACTIVITY>
+         <ACTIVITY>
+            <PRIORITY>6</PRIORITY>
+            <NACECODE>6512</NACECODE>
+            <NACETEXT>Other monetary intermediation</NACETEXT>
+            <LOCALACTIVITYCODE/>
+            <LOCALACTIVITYTEXT/>
+         </ACTIVITY>
+         <ACTIVITY>
+            <PRIORITY>7</PRIORITY>
+            <NACECODE>6713</NACECODE>
+            <NACETEXT>Activities auxiliary to financial intermediation n.e.c.</NACETEXT>
+            <LOCALACTIVITYCODE/>
+            <LOCALACTIVITYTEXT/>
+         </ACTIVITY>
+         <ACTIVITY>
+            <PRIORITY>8</PRIORITY>
+            <NACECODE>6720</NACECODE>
+            <NACETEXT>Activities auxiliary to insurance and pension funding</NACETEXT>
+            <LOCALACTIVITYCODE/>
+            <LOCALACTIVITYTEXT/>
+         </ACTIVITY>
+         <ACTIVITY>
+            <PRIORITY>9</PRIORITY>
+            <NACECODE>7010</NACECODE>
+            <NACETEXT>Real estate activities with own property</NACETEXT>
+            <LOCALACTIVITYCODE/>
+            <LOCALACTIVITYTEXT/>
+         </ACTIVITY>
+         <ACTIVITY>
+            <PRIORITY>10</PRIORITY>
+            <NACECODE>7487</NACECODE>
+            <NACETEXT>Other business activities n.e.c.</NACETEXT>
+            <LOCALACTIVITYCODE/>
+            <LOCALACTIVITYTEXT/>
+         </ACTIVITY>
+         <ACTIVITY>
+            <PRIORITY>11</PRIORITY>
+            <NACECODE>7480</NACECODE>
+            <NACETEXT>Miscellaneous business activities n.e.c.</NACETEXT>
+            <LOCALACTIVITYCODE/>
+            <LOCALACTIVITYTEXT/>
+         </ACTIVITY>
+         <ACTIVITY>
+            <PRIORITY>12</PRIORITY>
+            <NACECODE>9111</NACECODE>
+            <NACETEXT>Activities of business and employers' organizations</NACETEXT>
+            <LOCALACTIVITYCODE/>
+            <LOCALACTIVITYTEXT/>
+         </ACTIVITY>
+         <COMMENT>factoring services
+The NACE codes given here are from revision 1.1</COMMENT>
+      </ACTIVITIES>
+      <ADDITIONALBALANCESHEETS>
+         <ADDITIONALBALANCESHEET NAME="Key Financial Data" TYPE="638">
+            <BALANCESHEETITEM NAME="" TYPE="">
+               <INDICATOR>
+                  <TYPE VALUE="7">Turnover</TYPE>
+                  <DATE>20200000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>59608000</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="7">Turnover</TYPE>
+                  <DATE>20190000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>79159000</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="7">Turnover</TYPE>
+                  <DATE>20180000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>75589000</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="7">Turnover</TYPE>
+                  <DATE>20170000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>67626100</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="2">Fixed assets</TYPE>
+                  <DATE>20200000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>560048000</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="2">Fixed assets</TYPE>
+                  <DATE>20190000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>519321000</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="2">Fixed assets</TYPE>
+                  <DATE>20180000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>1864000</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="2">Fixed assets</TYPE>
+                  <DATE>20170000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>2510200</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="21">Equity capital</TYPE>
+                  <DATE>20200000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>70029000</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="21">Equity capital</TYPE>
+                  <DATE>20190000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>75790000</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="21">Equity capital</TYPE>
+                  <DATE>20180000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>78251000</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="21">Equity capital</TYPE>
+                  <DATE>20170000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>69858400</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="941">Net result of the year</TYPE>
+                  <DATE>20200000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>16710000</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="941">Net result of the year</TYPE>
+                  <DATE>20190000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>22471000</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="941">Net result of the year</TYPE>
+                  <DATE>20180000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>24932000</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="941">Net result of the year</TYPE>
+                  <DATE>20170000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>16538800</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="5919">Operating result</TYPE>
+                  <DATE>20200000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>37711000</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="5919">Operating result</TYPE>
+                  <DATE>20190000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>56151000</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="5919">Operating result</TYPE>
+                  <DATE>20180000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>55485000</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+               <INDICATOR>
+                  <TYPE VALUE="5919">Operating result</TYPE>
+                  <DATE>20170000</DATE>
+                  <FROMDATE/>
+                  <TODATE/>
+                  <FROMAMOUNT>40284300</FROMAMOUNT>
+                  <TOAMOUNT/>
+                  <CURRENCY VALUE="PLN">Polish Zloty</CURRENCY>
+                  <DIMENSION VALUE="0">Blank</DIMENSION>
+                  <MEASURE VALUE=""/>
+                  <LABELTYPE OUTLINENUMBER=""/>
+               </INDICATOR>
+            </BALANCESHEETITEM>
+         </ADDITIONALBALANCESHEET>
+      </ADDITIONALBALANCESHEETS>
+      <WORKFORCE>
+         <INDICATOR>
+            <TYPE VALUE="11">Total workforce</TYPE>
+            <DATE>20200000</DATE>
+            <FROMDATE/>
+            <TODATE/>
+            <FROMAMOUNT>49</FROMAMOUNT>
+            <TOAMOUNT/>
+            <CURRENCY VALUE=""/>
+            <DIMENSION VALUE=""/>
+            <MEASURE VALUE=""/>
+         </INDICATOR>
+         <INDICATOR>
+            <TYPE VALUE="11">Total workforce</TYPE>
+            <DATE>20190000</DATE>
+            <FROMDATE/>
+            <TODATE/>
+            <FROMAMOUNT>49</FROMAMOUNT>
+            <TOAMOUNT/>
+            <CURRENCY VALUE=""/>
+            <DIMENSION VALUE=""/>
+            <MEASURE VALUE=""/>
+         </INDICATOR>
+         <INDICATOR>
+            <TYPE VALUE="11">Total workforce</TYPE>
+            <DATE>20180000</DATE>
+            <FROMDATE/>
+            <TODATE/>
+            <FROMAMOUNT>40</FROMAMOUNT>
+            <TOAMOUNT/>
+            <CURRENCY VALUE=""/>
+            <DIMENSION VALUE=""/>
+            <MEASURE VALUE="1">approximately</MEASURE>
+         </INDICATOR>
+      </WORKFORCE>
+      <INSOLVENCY>
+         <COMMENT/>
+      </INSOLVENCY>
+      <ADDITIONALINSOLVENCYLIST>
+         <COMMENT/>
+      </ADDITIONALINSOLVENCYLIST>
+      <MAXIMUMCREDIT>
+         <INDICATOR>
+            <TYPE VALUE="20">Maximum credit</TYPE>
+            <DATE/>
+            <FROMDATE/>
+            <TODATE/>
+            <FROMAMOUNT>0</FROMAMOUNT>
+            <TOAMOUNT/>
+            <CURRENCY VALUE="EUR">Euro</CURRENCY>
+            <DIMENSION VALUE=""/>
+            <MEASURE VALUE=""/>
+            <COMMENT>No Maximum Credit due to the company’s special type of activities.
+	
+				</COMMENT>
+         </INDICATOR>
+         <COMMENT/>
+      </MAXIMUMCREDIT>
+      <CUSTOMERSPECIFICMAXCREDITS>
+         <CUSTOMERSPECIFICMAXCREDIT>
+            <TYPE VALUE="50">Quick Rate</TYPE>
+            <CSMAXCREDITVALUE>2</CSMAXCREDITVALUE>
+            <CSMAXCREDITCURRENCY VALUE=""/>
+            <CSMAXCREDITCODE VALUE="2">Medium High Risk</CSMAXCREDITCODE>
+         </CUSTOMERSPECIFICMAXCREDIT>
+         <CUSTOMERSPECIFICMAXCREDIT>
+            <TYPE VALUE="85">Coface Credit Assessment short</TYPE>
+            <CSMAXCREDITVALUE>2</CSMAXCREDITVALUE>
+            <CSMAXCREDITCURRENCY VALUE=""/>
+            <CSMAXCREDITCODE VALUE="2">Medium risk</CSMAXCREDITCODE>
+         </CUSTOMERSPECIFICMAXCREDIT>
+      </CUSTOMERSPECIFICMAXCREDITS>
+      <COUNTRYINDICATORS/>
+      <ADDITIONALTEXTINFORMATIONS>
+         <ADDITIONALTEXTINFORMATIONITEM>
+            <TYPE VALUE="88">Company name</TYPE>
+            <TEXT VALUE="80">In the context of the current geopolitical situation, we remind you that the Information Products provide assessment of credit risks based on past performance as result of payment behavior and that past performance does not necessarily predict future results.  We also remind you that you are solely responsible for any business, financial or other decision you make using any Information Product and the consequences thereof. Therefore, we recommend you to closely monitor the developments of the subject matter, the general situation in the sector and/or in the country.</TEXT>
+         </ADDITIONALTEXTINFORMATIONITEM>
+         <ADDITIONALTEXTINFORMATIONITEM>
+            <TYPE VALUE="41">Company name and address</TYPE>
+            <TEXT VALUE="81">In the context of the current geopolitical situation, we remind you that the Information Products provide assessment of credit risks based on past performance as result of payment behavior and that past performance does not necessarily predict future results.  We also remind you that you are solely responsible for any business, financial or other decision you make using any Information Product and the consequences thereof. Therefore, we recommend you to closely monitor the developments of the subject matter, the general situation in the sector and/or in the country.</TEXT>
+         </ADDITIONALTEXTINFORMATIONITEM>
+      </ADDITIONALTEXTINFORMATIONS>
+      <UNSTRUCTURED>                                Snapshot Report                                
+
+-------------------------------------------------------------------------------
+                                          (c) Coface Poland Services Sp. z o.o.
+                                              email: customerservice@coface.com
+                                                                     30.12.2022
+                     document id: 14278250-4-S02-cce_clone-2.16.2.0-e72c1eec-P2
+-------------------------------------------------------------------------------
+
+
+
+
+COMPANY
+
+-------------------------------------------------------------------------------
+                     COFACE POLAND FACTORING SP. Z O.O.
+                     
+
+
+                     Principal Address:
+                     Al. Jerozolimskie 142A
+                     02-305 Warszawa
+                     Mazowieckie
+                     Poland
+                     &lt;b&gt;Telephone:&lt;/b&gt; +48-22-4650238, +48-22-4650022,
+                     +48-22-4650012
+                     &lt;b&gt;Fax:&lt;/b&gt; +48-22-4654238
+                     &lt;b&gt;Email:&lt;/b&gt; factoring@coface.pl
+                     &lt;b&gt;Web:&lt;/b&gt; www.coface.pl
+
+
+                     ICON number: 73867050
+                     Easy number: 00001054768272
+                     Company registry number: KRS 0000266510
+                     Statistic number: 140733151
+                     VAT number: 7010041346
+
+-------------------------------------------------------------------------------
+
+                     24.09.2022
+
+
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+CREDIT INFORMATION
+
+-------------------------------------------------------------------------------
+Recommended Maximum  EUR 0
+Credit:              No Maximum Credit due to the company’s special type of
+                     activities.
+                     
+                     The Recommended Maximum Credit is to be understood as the
+                     highest possible engagement to a supplier delivering
+                     goods or rendering services on open terms with an average
+                     of 60 days. The calculation is based on the assumption
+                     that, on average, the company in question has 5 suppliers
+                     which deliver goods or render services at the same time.
+                     This amount is an indication of the credit amount to
+                     allow a company; it is not an insurance decision given by
+                     an underwritter of Coface Credit Insurance. Unless there
+                     is a specific contractual agreement, the recommended
+                     maximum credit cannot be considered as a credit insurance
+                     guarantee by Coface.
+
+
+Quick Rate:          Quick Rate: Medium High Risk
+
+
+Coface Credit        Coface Credit Assessment short: Medium risk
+Assessment short:    
+
+
+Legal Events:        According to available information sources the Company is
+                     not in a insolvency/preliminary/debt regulation
+                     proceeding.
+
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+COMPANY DETAILS
+
+-------------------------------------------------------------------------------
+Registration         24.10.2006 - Registered company
+status:              
+
+-------------------------------------------------------------------------------
+
+Registration:        No. KRS 0000266510
+                     
+                     24.10.2006
+                     Sad Rejonowy Warszawa, Poland
+                     Mazowieckie
+
+-------------------------------------------------------------------------------
+
+Activity status:     24.10.2006 - Active company
+
+-------------------------------------------------------------------------------
+
+Legal Form:          24.10.2006
+                     Limited Liability Company
+
+-------------------------------------------------------------------------------
+
+Management:          KILINSKI Lukasz - Chairman of the executive board
+                     
+                     since 01.03.2022
+                     
+                     TOBIS Pawel Stanislaw - Deputy chairman of the executive
+                     board
+                     
+                     since 24.10.2006
+                     
+                     Al Tawil Bilal - Member of the supervisory board
+                     
+                     since 13.09.2022
+                     
+                     JAWORSKI Jaroslaw Marek - Member of the supervisory board
+                     
+                     since 01.03.2022
+                     
+                     SPIEZ MALETKA Anna Helena - Member of the supervisory
+                     board
+                     
+                     since 30.12.2021
+                     
+                     Stoffel Christian - Member of the supervisory board
+                     
+                     since 18.09.2019
+                     
+                     CHARUBA CZARNOCKA Aleksandra - Officer/Proxy
+                     
+                     since 01.03.2022
+                     
+                     CZERWINSKI Adam - Officer/Proxy
+                     
+                     since 01.03.2022
+                     
+                     SUPERSON Wojciech Sylwester - Officer/Proxy
+                     
+                     since 13.01.2016
+                     
+
+-------------------------------------------------------------------------------
+
+
+
+KEY DATA ON OPERATIONS
+
+-------------------------------------------------------------------------------
+Activities:          NACE
+                       Main activity:
+                       6523 Other financial intermediation n.e.c.
+                       
+                       6522 Other credit granting
+                       7414 Business and management consultancy activities
+                       6512 Other monetary intermediation
+                       6713 Activities auxiliary to financial intermediation
+                     n.e.c.
+                       6720 Activities auxiliary to insurance and pension
+                     funding
+                       7010 Real estate activities with own property
+                       7487 Other business activities n.e.c.
+                       7480 Miscellaneous business activities n.e.c.
+                       9111 Activities of business and employers'
+                     organizations
+                     
+                     factoring services
+                     The NACE codes given here are from revision 1.1
+                     
+                     The company is active in the Coface sector 'Financial
+                     services'.
+
+-------------------------------------------------------------------------------
+
+Workforce:           2020
+                     Total workforce: 49
+                     
+                     2019
+                     Total workforce: 49
+                     
+                     2018
+                     Total workforce: 40 (approximately)
+                     
+                     
+                     
+                     Fitrma also employs co-workers on civil law contracts.
+
+-------------------------------------------------------------------------------
+
+
+
+FINANCIAL INFORMATION
+
+-------------------------------------------------------------------------------
+Key Financial Data:
+Amounts shown in Polish Zloty (PLN)
+                                         2020             2019             2018
+      Turnover                  59.608.000,00    79.159.000,00    75.589.000,00
+      Fixed assets             560.048.000,00   519.321.000,00     1.864.000,00
+      Equity capital            70.029.000,00    75.790.000,00    78.251.000,00
+      Net result of the year    16.710.000,00    22.471.000,00    24.932.000,00
+      Operating result          37.711.000,00    56.151.000,00    55.485.000,00
+ 
+
+	
+-------------------------------------------------------------------------------
+
+
+
+
+ORDER DETAILS
+
+-------------------------------------------------------------------------------
+Order Details:       Customer: TestBDC
+                     
+                     	
+                     Order number: 14278250
+                     Delivery speed: Immediate
+                     Language: English
+                     
+
+-------------------------------------------------------------------------------
+
+
+
+END GROUP
+
+-------------------------------------------------------------------------------
+The information and/or data provided in this report are subject to the General
+Terms and Conditions or individual Contract Terms and may be used only for the
+purpose they have been requested for.
+As the recipient of the information report, you are bound by a duty of
+confidentiality. You shall keep the information included therein strictly
+confidential, not use it in any way that would bring it into the public domain
+and avoid its disclosure.
+The report may contain personal data. You undertake to respect and comply with
+all applicable legislation on personal data protection regarding all personal
+data which may be contained in this report.
+You remain liable to implement all appropriate measures ensuring the
+protection, safety and confidentiality of the personal data contained in this
+report and to prevent it from being distorted, damaged or communicated to
+unauthorized third parties in accordance with the applicable law.
+You shall be liable for any of your acts and omissions relating to the above
+mentioned obligations that result in a breach of personal data protection.
+Thank you for using our services. If you have any questions, please get in
+touch with your usual Customer Service Contact.
+
+		
+</UNSTRUCTURED>
+   </CREDITREPORT>
+</ICON>

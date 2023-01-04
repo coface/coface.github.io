@@ -1,0 +1,72 @@
+{
+	"icon": {
+		"version": "1.0.0",
+		"orderResults" : {
+		    "orderId" : "14278253",
+		    "scoreCalculatedOn" : "30/12/2022",
+		    "iconCompanyNo" : "73867050",
+		    "dra" : "4" ,
+		    "draDescription" : "4/10: Significant risk. Company is facing some real weaknesses : if not solved, ability to fulfil obligations could be altered. Risk of default is significant but may be acceptable for limited short-term credits.",
+		    "probabilityOfDefault" : "2%",
+		    "draHistory": [
+		        {
+		            "year" : "2017",
+		            "dra" : "6",
+		            "previousValuesThisYear": [{"dra":"4", "date":"4/4/2017"}, {"dra":"3", "date":"4/9/2017"}, {"dra":"6", "date":"6/9/2017"}]
+                },
+		        {
+		            "year" : "2018",
+		            "dra" : "3",
+		            "previousValuesThisYear": [{"dra":"4", "date":"27/9/2018"}, {"dra":"3", "date":"4/10/2018"}]
+                },
+		        {
+		            "year" : "2019",
+		            "dra" : "4",
+		            "previousValuesThisYear": [{"dra":"3", "date":"2/3/2019"}, {"dra":"4", "date":"24/8/2019"}]
+                },
+		        {
+		            "year" : "2020",
+		            "dra" : "4",
+		            "previousValuesThisYear": [{"dra":"4", "date":"25/11/2020"}]
+                },
+		        {
+		            "year" : "2021",
+		            "dra" : "4",
+		            "previousValuesThisYear": [{"dra":"4", "date":"15/9/2021"}]
+                }
+            ]
+        },
+		"company" : {
+		    "companyName" : "COFACE POLAND FACTORING Sp. z o.o.",
+		    "addressLine" : "Al. Jerozolimskie 142A",
+		    "postalCode" : "02-305",
+		    "cityName" : "Warszawa",
+		    "country" : {
+		        "name" : "POL",
+		        "value" : ""
+		    },
+		    "phone" : "+48-22-4650238",
+		    "fax" : "+48-22-4654238",
+		    "email" : "",
+		    "url" : "",
+		    "foundationDate" : "",
+                    "legalStatus" : "OPEN",
+                    "easyNumber" : "00001054768272",
+                    "nationalId" : "",
+                    "statisticNumber" : "140733151",
+                    "vatNumber" : "7010041346",
+                    "registrationNumber" : "KRS0000266510",
+                    "taxId" : "",
+                    "mainActivity" : {
+             	        "code" : "6499",
+             	        "label" : "Other financial service activities, except insurance and pension funding n.e.c."
+                     },
+                    "activities" : {
+                        "activityList" : [{
+                            "naceCode": "6499",
+                            "naceText": "Other financial service activities, except insurance and pension funding n.e.c."
+                   }]
+                }
+	    }
+        }
+    }
