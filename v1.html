@@ -21,7 +21,7 @@
 				</div>
 				<div class="col-10 text-center">
 					<h1 id="introduction">Coface ICON Business Information API</h1>
-					<h3>V1</h3>
+					<h3>V1 - Report API</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -53,12 +53,12 @@
 								<thead>
 									<tr>
 										<th>Publication</th>
-										<th>Available format</th>
+										<th>Available format ( and samples)</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td><a href="https://information.coface.com/en-gb/publications/business-report">Full Reports</a></td>
+										<td><a href="https://information.coface.com/en-gb/products/business-report">Full Reports</a></td>
 										<td>
 											<a href="sample/FullReport.xml" download>XML</a>,
 											<a href="sample/FullReport.json" download>JSON</a>,
@@ -67,14 +67,14 @@
 										</td>
 									</tr>
 									<tr>
-										<td><a href="https://information.coface.com/en-gb/publications/business-report">Snapshot Reports</a></td>
+										<td><a href="https://information.coface.com/en-gb/products/business-report">Snapshot Reports</a></td>
 										<td>
 											<a href="sample/Snapshot.xml" download>XML</a>, 
 											<a href="sample/Snapshot.pdf" download>PDF</a>
 										</td>
 									</tr>
 									<tr>
-										<td><a href="https://information.coface.com/en-gb/publications/credit-opinion">Credit opinion Reports</a></td>
+										<td><a href="https://information.coface.com/en-gb/products/credit-opinion">Credit opinion Reports</a></td>
 										<td>
 											<a href="sample/CreditOpinion.xml" download>XML</a>, 
 											<a href="sample/CreditOpinion.json" download>JSON</a>, 
@@ -83,7 +83,7 @@
 										</td>
 									</tr>
 									<tr>
-										<td><a href="https://information.coface.com/en-gb/publications/credit-opinion">Advanced opinion Reports</a></td>
+										<td><a href="https://information.coface.com/en-gb/products/credit-opinion">Advanced opinion Reports</a></td>
 										<td>
 											<a href="sample/AdvancedOpinion.xml" download>XML</a>, 
 											<a href="sample/AdvancedOpinion.json" download>JSON</a>, 
@@ -92,7 +92,7 @@
 										</td>
 									</tr>
 									<tr>
-										<td><a href="https://information.coface.com/en-gb/publications/score">Score Report</a></td>
+										<td><a href="https://information.coface.com/en-gb/products/score">Score Report</a></td>
 										<td>
 											<a href="sample/DRAReport.xml" download>XML</a>, 
 											<a href="sample/DRAReport.json" download>JSON</a>, 
@@ -102,13 +102,14 @@
 									</tr>
 								</tbody>
 							</table>
-							<p><b>Note :</b> Specific products can be available depending on your contrat with ICON.</p>
+							<p><b>Notes:</b> Specific products can be available depending on your contract with ICON.</p>
+							<p>Please check <b>How to / FAQ</b> section below for more details about how to use API for ordering a product</p>
 						</div>
 						<div id="security" class="mt-5">
 							<h2>Access & Security</h2>
 							<hr>
 							<p>Follow the process described in <a href="https://coface.github.io/#security" target="_blank">the main page</a></p>
-							<p>On the dev portal, you should subscribe to "ICON Report API" or "ICON Report API "</p>
+							<p>On the dev portal, you should subscribe to "ICON Report API Sandbox" for testing purposes or "ICON Report API" when you switch to Production environment</p>
 						</div>
 						<div id="process" class="mt-5 text-justify">
 							<h2>Process</h2>
@@ -318,16 +319,11 @@
 									<div class="card-header">
 										<h2 class="mb-0">
 											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseQuestionHowToReportAPI" aria-expanded="true" aria-controls="collapseQuestionHowToReportAPI">
-												<h5>How to call Report API using AWS dev portal?</h5>
+												<h5><a href="utilities/HowToUse_ReportAPI_viaAWS_DevPortal.pdf">How to call Report API using AWS dev portal?</a></h5>
 											</button>
 										</h2>
 									</div>
 									<div id="collapseQuestionHowToReportAPI" class="collapse" data-parent="#processAccordion">
-										<div class="card-body">
-											
-											<p> First, please check that you are subscribed and all authentication actions are done. Check  <b>How to configure user on AWS dev portal and test API via swagger</b> section from above</p>
-											<p> Now, you can check this <a href="utilities/HowToUse_ReportAPI_viaAWS_DevPortal.pdf">document</a> for details</p>
-										</div>
 									</div>
 								</div>
 								<div class="card">
