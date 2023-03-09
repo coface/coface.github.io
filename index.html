@@ -179,7 +179,7 @@
 						<div id="security" class="mt-5">
 							<h2>Access & Security</h2>
 							<hr>
-							<p>Our APIs use an OAuth2 protocol. You will need to request a token, available 1H, to call our API. For more details related to how to authenticate via token and how to request token renewal, please visit the <b>How To /  FAQ</b> section existing in each detailed page of the corresponding API version that you are interested in.</p>
+							<p>We have two ways to secure our API: firstly with a special API key and secondly with a token generated with OAuth 2.0 Password Grant (identification protocol).</p>
 							<p>Currently there are two possibilities to acces the API. Depending on your discussion with the contact person from our team, one of them will be provided to you.</p>
 							<ul>
 								<li>One posibility is to receive a Demo account which is available for testing purposes only. Please be aware that a limited set of data is available for this Demo account</li>
@@ -192,7 +192,23 @@
 										<li>Retrieve a token by calling the "API Coface - Authentication" with your credential : login and password of your dev portal account in the request body and your api key in the "x-api-key" request header.Your API Key can be found in the "My Dashboard" page on the dev portal</li>
 									</ul>
 							</ul>
-							<p>For more details and exactly what concrete steps needs to be done, please check our <a href="https://coface.github.io/v1.html#FAQ" target="_blank"> <b>How To /  FAQ</b></a> section </p>
+							<div class="accordion" id="techViewAccordion">
+								<div class="card" id="AWSTechView">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseAWSTechView" aria-expanded="true" aria-controls="collapseAWSTechView">
+												<h5>Technical View</h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseAWSTechView" class="collapse show" data-parent="#techViewAccordion">
+										<div class="card-body">
+											<img src="img/AWS_Connectivity.png" alt="Technical View" class="img-fluid" style="max-width:800px;width: 100%;height: auto;min-width:500px;margin-bottom:10px">
+										</div>
+									</div>
+								</div>
+							</div>
+							<p>For more details and exactly what concrete steps needs to be done, please check also our <a href="https://coface.github.io/v1.html#FAQ" target="_blank"> <b>How To /  FAQ</b></a> section </p>
 						</div>
 						<div id="process" class="mt-5 text-justify">
 							<h2>Process</h2>
