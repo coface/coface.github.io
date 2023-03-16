@@ -111,6 +111,20 @@
 							<p>Follow the process described in <a href="https://coface.github.io/#security" target="_blank">the main page</a></p>
 							<p>On the dev portal, you should subscribe to "ICON Report API Sandbox" for testing purposes or "ICON Report API" when you switch to Production environment</p>
 						</div>
+						<div id="security" class="mt-5">
+							<h6>Paging</h6>
+							<hr>
+							<p>The API uses its specific paging based on offset and limit parameters for paged operations. Pagination size will always be maxim 20.</p>
+							<p>The request can have input parameters offset and limit. More details can be found in Swagger file</p>
+							<p>The response header will have the following fields added:</p>
+							<ul>
+								<li>Accept-Range -{ressourceName} ${maxPageSize}</li>
+								<li>Content-Range - ${offset}–${limit} / total count of search results</li>
+								<li>X-Total-Count - total count of search results</li>
+							</ul>
+							<p>An X-Total-Count header is added to responses to indicate the total number of items in a paged response.</p>
+							
+						</div>
 						<div id="process" class="mt-5 text-justify">
 							<h2>Process</h2>
 							<hr>
