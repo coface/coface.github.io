@@ -118,9 +118,9 @@
 							<p>The request can have input parameters offset and limit. More details can be found in Swagger file</p>
 							<p>The response header will have the following fields added:</p>
 							<ul>
-								<li>Accept-Range -{ressourceName} ${maxPageSize}</li>
-								<li>Content-Range - ${offset}–${limit} / total count of search results</li>
-								<li>X-Total-Count - total count of search results</li>
+								<li><mark>Accept-Range</mark> -{ressourceName} ${maxPageSize}</li>
+								<li><mark>Content-Range</mark> - ${offset}–${limit} / total count of search results</li>
+								<li><mark>X-Total-Count</mark> - total count of search results</li>
 							</ul>
 							<p>An X-Total-Count header is added to responses to indicate the total number of items in a paged response.</p>
 							
