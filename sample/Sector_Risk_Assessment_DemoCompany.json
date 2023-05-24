@@ -1,0 +1,495 @@
+[
+    {
+        "isCurrent": true,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "4",
+        "inHouseRegionRiskValue": "4",
+        "year": "2022",
+        "yearPeriod": "Q4",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "Very high risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "4",
+        "inHouseRegionRiskValue": "4",
+        "year": "2022",
+        "yearPeriod": "Q3",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "Very high risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "4",
+        "inHouseRegionRiskValue": "4",
+        "year": "2022",
+        "yearPeriod": "Q2",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "Very high risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2021",
+        "yearPeriod": "Q4",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "High risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2021",
+        "yearPeriod": "Q3",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "High risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2021",
+        "yearPeriod": "Q2",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "High risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2021",
+        "yearPeriod": "Q1",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "High risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2020",
+        "yearPeriod": "Q4",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "High risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2020",
+        "yearPeriod": "Q3",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "High risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2020",
+        "yearPeriod": "Q2",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "High risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2020",
+        "yearPeriod": "Q1",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "High risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2019",
+        "yearPeriod": "Q4",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "High risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2019",
+        "yearPeriod": "Q3",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "High risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2019",
+        "yearPeriod": "Q2",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "High risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2019",
+        "yearPeriod": "Q1",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "High risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2018",
+        "yearPeriod": "Q4",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "High risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Central and Eastern Europe"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4200",
+            "label": "CIVIL ENGINEERING"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2018",
+        "yearPeriod": "Q3",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "full": "High risk",
+                "language": "en",
+                "short": "SRA"
+            }
+        ]
+    }
+]

@@ -1,0 +1,41 @@
+{
+    "icon": {
+        "version": "2.0.0",
+        "orderResults": {
+            "orderId": "3400616",
+            "scoreCalculatedOn": "08/05/2023",
+            "iconCompanyNo": "5606280",
+            "dra": "1",
+            "draDescription": "1/10: Extremely high risk. Global situation is very bad and close to critical/pre-insolvency. Any commitment corresponds to an extremely high risk of default. Also applies to Inactive company.",
+            "coRating": "X",
+            "coValue": "0.0000",
+            "currency": "EUR",
+            "motivationCodes": "EA04",
+            "motivationLabels": "-",
+            "coCountryRisk": "A4",
+            "coCountryRiskDescription": "A4: Economic and financial outlook could be marked by some weaknesses. Political context could suffer from tension. Business climate may present significant deficiencies. The average probability of company default is reasonable."
+        },
+        "company": {
+            "companyName": "Grupa Polskie Składy Budowlane S.A.",
+            "addressLine": "Welecz 142",
+            "postalCode": "28-100",
+            "cityName": "Busko-Zdroj",
+            "country": {
+                "name": "POL",
+                "value": ""
+            },
+            "phone": "+48-41-3785200",
+            "fax": "+48-41-3785205",
+            "email": "",
+            "url": "",
+            "foundationDate": "",
+            "legalStatus": "CLOSED",
+            "easyNumber": "00000414980824",
+            "nationalId": "",
+            "statisticNumber": "290938715",
+            "vatNumber": "6551640402",
+            "registrationNumber": "KRS0000015152",
+            "taxId": ""
+        }
+    }
+}

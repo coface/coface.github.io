@@ -1,0 +1,12 @@
+[
+    {
+        "releaseDate": "2023-05-08",
+        "assessmentSlug": "credit-opinion",
+        "companyId": "b0dbc487-7b21-3bad-b568-8536410cf2c9",
+        "rating": "X",
+        "maxCreditAmount": {
+            "currency": "EUR",
+            "value": 0.0
+        }
+    }
+]

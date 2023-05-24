@@ -1,0 +1,1065 @@
+{
+    "icon": {
+        "version": "1.0.0",
+        "orderStatus": {
+            "intercreditOrderNumber": "3400600",
+            "provider": {
+                "providerId": "4",
+                "name": "Coface Poland Credit Management Services Sp. z o.o.",
+                "senderId": "IC01",
+                "city": "Warszawa",
+                "country": {
+                    "value": "PL",
+                    "name": "Poland"
+                },
+                "street": "Al. Jerozolimskie",
+                "houseNumber": "142A",
+                "zipcode": "02-305"
+            },
+            "customer": {
+                "customerId": "127675554",
+                "name": "SAP Adapter",
+                "recipientId": "",
+                "city": "Ettlingen",
+                "country": {
+                    "value": "DE",
+                    "name": "Germany"
+                },
+                "street": "Loc am Hardtwald",
+                "houseNumber": "11",
+                "zipcode": "76275"
+            },
+            "customersReference": "",
+            "purchaseOrderNumber": "",
+            "language": {
+                "value": "2",
+                "name": "English"
+            },
+            "product": {
+                "value": "9993",
+                "name": "Snapshot Report"
+            },
+            "reportMimeType": "APPLICATION/JSON",
+            "balanceSheetLayout": {
+                "value": "5",
+                "name": "Limited liability company-new Poland"
+            },
+            "timestamp": "20230508015905",
+            "status": {
+                "value": "10",
+                "name": "Finished"
+            },
+            "requiredBy": "20230508090000",
+            "givenCompanyName": "",
+            "requestedCompanyInformation": {
+                "companyName": "",
+                "registrationCountry": {
+                    "value": "",
+                    "name": ""
+                },
+                "zipcode": "",
+                "city": "",
+                "street": "",
+                "houseNumber": "",
+                "additionalAddressLine": "",
+                "country": {
+                    "value": "",
+                    "name": ""
+                },
+                "telephonAreacode": "",
+                "telephoneNumber": "",
+                "nationalNumber": ""
+            },
+            "question": "",
+            "answer": ""
+        },
+        "creditReport": {
+            "company": {
+                "copyright": "Coface Poland Credit Management Services Sp. z o.o.",
+                "intercreditNumber": "5415240",
+                "nationalId": "123456789012345678901234567890",
+                "status": {
+                    "value": "0",
+                    "name": "Active"
+                },
+                "companyName": "TEST FOR SIX HYDRO BUDOWA-6 S.A.",
+                "sortName": "SIX HYDROBUDOWA-6 S.A.",
+                "internationalName": "",
+                "easyNumber": "00000411224330",
+                "shortName": "",
+                "legalForm": {
+                    "value": "300",
+                    "name": "Limited Liability Company"
+                },
+                "registration": {
+                    "number": "KRS 0000079628",
+                    "city": "Sąd Rejonowy Warszawa",
+                    "country": {
+                        "value": "PL",
+                        "name": "Poland"
+                    },
+                    "countryRegion": {
+                        "value": "PL-MZ",
+                        "name": "Mazowieckie"
+                    },
+                    "date": 20020110
+                },
+                "companyComment": "",
+                "history": "The subject was established in 1947 as a state owned company.\r\nIn 1991 the company was transformed to a joint stock company.\r\n\r\nOn 01.10.2008 the company took over the company Hydrobudowa Grunt-Bud sp. z o.o..",
+                "taxNumber": {},
+                "statisticalNumber": {
+                    "type": {
+                        "value": "140",
+                        "name": "Statistic number"
+                    },
+                    "value": "012074213"
+                },
+                "vatNumber": {
+                    "type": {
+                        "value": "120",
+                        "name": "VAT number"
+                    },
+                    "value": "5240303257"
+                },
+                "validityDate": 20221201,
+                "lastMajorUpdate": 20221201,
+                "established": 19470000,
+                "capital": {
+                    "indicator": {
+                        "type": {
+                            "value": "5305",
+                            "name": "Called up share capital (issued capital stock)"
+                        },
+                        "date": 20170331,
+                        "fromAmount": 100000,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {},
+                        "measure": {}
+                    }
+                },
+                "nationalCurrency": {
+                    "value": "PLN",
+                    "name": "Polish Zloty"
+                },
+                "aliases": [],
+                "addresses": {
+                    "addressList": [
+                        {
+                            "addressType": {
+                                "value": "1",
+                                "name": "Principal Address"
+                            },
+                            "runningNumber": "0",
+                            "name": "",
+                            "street": "Marka Wcisło",
+                            "houseNumber": "555",
+                            "additionalAddressLine": "",
+                            "zipcode": "02-457",
+                            "city": "Mińsk Mazowiecki",
+                            "country": {
+                                "value": "PL",
+                                "name": "Poland"
+                            },
+                            "countryRegion": {
+                                "value": "PL-MZ",
+                                "name": "Mazowieckie"
+                            },
+                            "telephone": {
+                                "international": "48",
+                                "area": "",
+                                "number": ""
+                            },
+                            "fax": {
+                                "international": "48",
+                                "area": "66",
+                                "number": "666"
+                            },
+                            "email": "",
+                            "internet": ""
+                        },
+                        {
+                            "addressType": {
+                                "value": "50",
+                                "name": "Former Principal Address"
+                            },
+                            "runningNumber": "0",
+                            "name": "",
+                            "street": "Szimanski",
+                            "houseNumber": "4711",
+                            "additionalAddressLine": "",
+                            "zipcode": "02-457",
+                            "city": "Krakov",
+                            "country": {
+                                "value": "PL",
+                                "name": "Poland"
+                            },
+                            "countryRegion": {
+                                "value": "PL-MZ",
+                                "name": "Mazowieckie"
+                            },
+                            "telephone": {
+                                "international": "48",
+                                "area": "",
+                                "number": ""
+                            },
+                            "fax": {
+                                "international": "48",
+                                "area": "",
+                                "number": ""
+                            },
+                            "email": "",
+                            "internet": ""
+                        },
+                        {
+                            "addressType": {
+                                "value": "50",
+                                "name": "Former Principal Address"
+                            },
+                            "runningNumber": "2",
+                            "name": "",
+                            "street": "ul. Augustówka",
+                            "houseNumber": "22",
+                            "additionalAddressLine": "",
+                            "zipcode": "02-981",
+                            "city": "Warszawa",
+                            "country": {
+                                "value": "PL",
+                                "name": "Poland"
+                            },
+                            "countryRegion": {
+                                "value": "PL-MZ",
+                                "name": "Mazowieckie"
+                            },
+                            "telephone": {
+                                "international": "48",
+                                "area": "",
+                                "number": ""
+                            },
+                            "fax": {
+                                "international": "48",
+                                "area": "",
+                                "number": ""
+                            },
+                            "email": "",
+                            "internet": ""
+                        },
+                        {
+                            "addressType": {
+                                "value": "50",
+                                "name": "Former Principal Address"
+                            },
+                            "runningNumber": "1",
+                            "name": "",
+                            "street": "ul. Domaniewska",
+                            "houseNumber": "50A",
+                            "additionalAddressLine": "",
+                            "zipcode": "02-672",
+                            "city": "Warszawa",
+                            "country": {
+                                "value": "PL",
+                                "name": "Poland"
+                            },
+                            "countryRegion": {
+                                "value": "PL-MZ",
+                                "name": "Mazowieckie"
+                            },
+                            "telephone": {
+                                "international": "48",
+                                "area": "",
+                                "number": ""
+                            },
+                            "fax": {
+                                "international": "48",
+                                "area": "",
+                                "number": ""
+                            },
+                            "email": "",
+                            "internet": ""
+                        }
+                    ],
+                    "comment": "Current place of business is located in rented premises of 2.635 sq.m."
+                },
+                "primaryNationalIdentifier": {
+                    "type": {
+                        "value": "140",
+                        "name": "Statisticalnumber"
+                    },
+                    "value": "012074213"
+                }
+            },
+            "management": {
+                "managers": [
+                    {
+                        "type": {
+                            "value": "307",
+                            "name": "Shareholder"
+                        },
+                        "name": "BILFINGER BERGER SE",
+                        "address": {
+                            "addressType": {
+                                "value": "1",
+                                "name": "Principal Address"
+                            },
+                            "runningNumber": "0",
+                            "name": "",
+                            "street": "",
+                            "houseNumber": "",
+                            "additionalAddressLine": "",
+                            "zipcode": "",
+                            "city": "Mannheim",
+                            "country": {
+                                "value": "DE",
+                                "name": "Germany"
+                            },
+                            "telephone": {
+                                "international": "49",
+                                "area": "",
+                                "number": ""
+                            },
+                            "fax": {
+                                "international": "49",
+                                "area": "",
+                                "number": ""
+                            },
+                            "email": "",
+                            "internet": ""
+                        },
+                        "equityAmount": 100,
+                        "equityCurrency": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "equityDimension": {
+                            "value": "4",
+                            "name": "Percent"
+                        },
+                        "IsPerson": false,
+                        "intercreditNumber": "103527492",
+                        "registrationCountry": {
+                            "value": "DE",
+                            "name": "Germany"
+                        },
+                        "registrationPlace": "",
+                        "registrationNumber": ""
+                    },
+                    {
+                        "type": {
+                            "value": "200",
+                            "name": "Managing director"
+                        },
+                        "name": "ALAIN TAIEB ELIE",
+                        "equityCurrency": {},
+                        "equityDimension": {},
+                        "IsPerson": true
+                    },
+                    {
+                        "type": {
+                            "value": "200",
+                            "name": "Managing director"
+                        },
+                        "name": "Managing director",
+                        "equityCurrency": {},
+                        "equityDimension": {},
+                        "IsPerson": true
+                    },
+                    {
+                        "type": {
+                            "value": "300",
+                            "name": "Chairman of the executive board"
+                        },
+                        "name": "KLEDZIK Piotr",
+                        "activeSince": 20080130,
+                        "equityCurrency": {},
+                        "equityDimension": {},
+                        "IsPerson": true
+                    },
+                    {
+                        "type": {
+                            "value": "302",
+                            "name": "Member of the executive board"
+                        },
+                        "name": "CHOJNACKI Jakub Artur",
+                        "activeSince": 20090730,
+                        "equityCurrency": {},
+                        "equityDimension": {},
+                        "IsPerson": true
+                    },
+                    {
+                        "type": {
+                            "value": "305",
+                            "name": "Member of the supervisory board"
+                        },
+                        "name": "",
+                        "activeSince": 20160922,
+                        "equityCurrency": {},
+                        "equityDimension": {},
+                        "IsPerson": true
+                    },
+                    {
+                        "type": {
+                            "value": "305",
+                            "name": "Member of the supervisory board"
+                        },
+                        "name": "",
+                        "activeSince": 20151223,
+                        "equityCurrency": {},
+                        "equityDimension": {},
+                        "IsPerson": true
+                    },
+                    {
+                        "type": {
+                            "value": "305",
+                            "name": "Member of the supervisory board"
+                        },
+                        "name": "",
+                        "activeSince": 20150908,
+                        "equityCurrency": {},
+                        "equityDimension": {},
+                        "IsPerson": true
+                    },
+                    {
+                        "type": {
+                            "value": "2305",
+                            "name": "Former Member of the supervisory board"
+                        },
+                        "name": "",
+                        "activeSince": 20150908,
+                        "activeUntil": 20160922,
+                        "equityCurrency": {},
+                        "equityDimension": {},
+                        "IsPerson": true
+                    },
+                    {
+                        "type": {
+                            "value": "2305",
+                            "name": "Former Member of the supervisory board"
+                        },
+                        "name": "ENENKEL Joachim",
+                        "activeSince": 20101222,
+                        "activeUntil": 20151223,
+                        "equityCurrency": {},
+                        "equityDimension": {},
+                        "IsPerson": true
+                    },
+                    {
+                        "type": {
+                            "value": "2305",
+                            "name": "Former Member of the supervisory board"
+                        },
+                        "name": "HEIDRICH Karol Edward",
+                        "activeUntil": 20130628,
+                        "equityCurrency": {},
+                        "equityDimension": {},
+                        "IsPerson": true
+                    },
+                    {
+                        "type": {
+                            "value": "2305",
+                            "name": "Former Member of the supervisory board"
+                        },
+                        "name": "LEWANDOWSKI Jerzy Kazimierz",
+                        "activeUntil": 20130628,
+                        "equityCurrency": {},
+                        "equityDimension": {},
+                        "IsPerson": true
+                    },
+                    {
+                        "type": {
+                            "value": "2305",
+                            "name": "Former Member of the supervisory board"
+                        },
+                        "name": "MULLER Joachim",
+                        "activeSince": 20090723,
+                        "activeUntil": 20150908,
+                        "equityCurrency": {},
+                        "equityDimension": {},
+                        "IsPerson": true
+                    },
+                    {
+                        "type": {
+                            "value": "2305",
+                            "name": "Former Member of the supervisory board"
+                        },
+                        "name": "SCHETTER Hans Helmut",
+                        "activeUntil": 20151223,
+                        "equityCurrency": {},
+                        "equityDimension": {},
+                        "IsPerson": true
+                    },
+                    {
+                        "type": {
+                            "value": "2507",
+                            "name": "Former Officer/Proxy"
+                        },
+                        "name": "JAKUBOWSKA Bogdana Agnieszka",
+                        "activeSince": 20060420,
+                        "activeUntil": 20151223,
+                        "equityCurrency": {},
+                        "equityDimension": {},
+                        "IsPerson": true
+                    }
+                ],
+                "comments": []
+            },
+            "authority": {
+                "authorityTypes": [
+                    {
+                        "value": "300",
+                        "name": "If more than one managing director is nominated, the firm is represented jointly by two managing directors or by one of them together with a signing clerk."
+                    }
+                ]
+            },
+            "activities": {
+                "activitiesList": [
+                    {
+                        "priority": 1,
+                        "naceCode": "4200",
+                        "naceText": "Civil engineering",
+                        "localActivityCode": "",
+                        "localActivityText": ""
+                    },
+                    {
+                        "priority": 2,
+                        "naceCode": "4291",
+                        "naceText": "Construction of water projects",
+                        "localActivityCode": "",
+                        "localActivityText": ""
+                    },
+                    {
+                        "priority": 3,
+                        "naceCode": "4520",
+                        "naceText": "Maintenance and repair of motor vehicles",
+                        "localActivityCode": "",
+                        "localActivityText": ""
+                    },
+                    {
+                        "priority": 4,
+                        "naceCode": "7800",
+                        "naceText": "Employment activities",
+                        "localActivityCode": "",
+                        "localActivityText": ""
+                    },
+                    {
+                        "priority": 5,
+                        "naceCode": "6311",
+                        "naceText": "Data processing, hosting and related activities",
+                        "localActivityCode": "",
+                        "localActivityText": ""
+                    },
+                    {
+                        "priority": 6,
+                        "naceCode": "9523",
+                        "naceText": "Repair of footwear and leather goods",
+                        "localActivityCode": "",
+                        "localActivityText": ""
+                    }
+                ],
+                "comment": "Building insulation and weather-profing contractors\r\nland drainage contractors, transport infrastucture\r\nengineering contractors, waterproofing contractors,\r\nunderground power line contractors , plumbing, general building\r\ncontractors\nNACE codes given are based on the most recent NACE Revision 2."
+            },
+            "additionalBalanceSheets": [
+                {
+                    "type": "637",
+                    "name": "Key Financial Data",
+                    "balanceSheetItems": [
+                        {
+                            "type": "",
+                            "name": "",
+                            "indicators": [
+                                {
+                                    "type": {
+                                        "value": "7",
+                                        "name": "Turnover"
+                                    },
+                                    "date": 20210000,
+                                    "fromAmount": 5455336.07,
+                                    "currency": {
+                                        "value": "PLN",
+                                        "name": "Polish Zloty"
+                                    },
+                                    "dimension": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "measure": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "labelType": {
+                                        "outlineNumber": "",
+                                        "name": ""
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "value": "7",
+                                        "name": "Turnover"
+                                    },
+                                    "date": 20200000,
+                                    "fromAmount": 5066499.41,
+                                    "currency": {
+                                        "value": "PLN",
+                                        "name": "Polish Zloty"
+                                    },
+                                    "dimension": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "measure": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "labelType": {
+                                        "outlineNumber": "",
+                                        "name": ""
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "value": "7",
+                                        "name": "Turnover"
+                                    },
+                                    "date": 20190000,
+                                    "fromAmount": 5554363.07,
+                                    "currency": {
+                                        "value": "PLN",
+                                        "name": "Polish Zloty"
+                                    },
+                                    "dimension": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "measure": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "labelType": {
+                                        "outlineNumber": "",
+                                        "name": ""
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "value": "7",
+                                        "name": "Turnover"
+                                    },
+                                    "date": 20180000,
+                                    "fromAmount": 5455336.07,
+                                    "currency": {
+                                        "value": "PLN",
+                                        "name": "Polish Zloty"
+                                    },
+                                    "dimension": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "measure": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "labelType": {
+                                        "outlineNumber": "",
+                                        "name": ""
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "value": "2",
+                                        "name": "Fixed assets"
+                                    },
+                                    "date": 20210000,
+                                    "fromAmount": 719722.96,
+                                    "currency": {
+                                        "value": "PLN",
+                                        "name": "Polish Zloty"
+                                    },
+                                    "dimension": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "measure": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "labelType": {
+                                        "outlineNumber": "",
+                                        "name": "2"
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "value": "2",
+                                        "name": "Fixed assets"
+                                    },
+                                    "date": 20200000,
+                                    "fromAmount": 663141.23,
+                                    "currency": {
+                                        "value": "PLN",
+                                        "name": "Polish Zloty"
+                                    },
+                                    "dimension": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "measure": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "labelType": {
+                                        "outlineNumber": "",
+                                        "name": "2"
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "value": "2",
+                                        "name": "Fixed assets"
+                                    },
+                                    "date": 20180000,
+                                    "fromAmount": 719722.96,
+                                    "currency": {
+                                        "value": "PLN",
+                                        "name": "Polish Zloty"
+                                    },
+                                    "dimension": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "measure": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "labelType": {
+                                        "outlineNumber": "",
+                                        "name": "2"
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "value": "21",
+                                        "name": "Equity capital"
+                                    },
+                                    "date": 20210000,
+                                    "fromAmount": 4.085806235E7,
+                                    "currency": {
+                                        "value": "PLN",
+                                        "name": "Polish Zloty"
+                                    },
+                                    "dimension": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "measure": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "labelType": {
+                                        "outlineNumber": "",
+                                        "name": "3"
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "value": "21",
+                                        "name": "Equity capital"
+                                    },
+                                    "date": 20200000,
+                                    "fromAmount": 5.198077118E7,
+                                    "currency": {
+                                        "value": "PLN",
+                                        "name": "Polish Zloty"
+                                    },
+                                    "dimension": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "measure": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "labelType": {
+                                        "outlineNumber": "",
+                                        "name": "3"
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "value": "21",
+                                        "name": "Equity capital"
+                                    },
+                                    "date": 20180000,
+                                    "fromAmount": 4.085806235E7,
+                                    "currency": {
+                                        "value": "PLN",
+                                        "name": "Polish Zloty"
+                                    },
+                                    "dimension": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "measure": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "labelType": {
+                                        "outlineNumber": "",
+                                        "name": "3"
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "value": "5919",
+                                        "name": "Operating result"
+                                    },
+                                    "date": 20210000,
+                                    "fromAmount": 1.873454033E7,
+                                    "currency": {
+                                        "value": "PLN",
+                                        "name": "Polish Zloty"
+                                    },
+                                    "dimension": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "measure": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "labelType": {
+                                        "outlineNumber": "",
+                                        "name": ""
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "value": "5919",
+                                        "name": "Operating result"
+                                    },
+                                    "date": 20200000,
+                                    "fromAmount": 24348.71,
+                                    "currency": {
+                                        "value": "PLN",
+                                        "name": "Polish Zloty"
+                                    },
+                                    "dimension": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "measure": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "labelType": {
+                                        "outlineNumber": "",
+                                        "name": ""
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "value": "5919",
+                                        "name": "Operating result"
+                                    },
+                                    "date": 20180000,
+                                    "fromAmount": 1.873454033E7,
+                                    "currency": {
+                                        "value": "PLN",
+                                        "name": "Polish Zloty"
+                                    },
+                                    "dimension": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "measure": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "labelType": {
+                                        "outlineNumber": "",
+                                        "name": ""
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "value": "941",
+                                        "name": "Net result of the year"
+                                    },
+                                    "date": 20210000,
+                                    "fromAmount": 1.975893192E7,
+                                    "currency": {
+                                        "value": "PLN",
+                                        "name": "Polish Zloty"
+                                    },
+                                    "dimension": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "measure": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "labelType": {
+                                        "outlineNumber": "",
+                                        "name": ""
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "value": "941",
+                                        "name": "Net result of the year"
+                                    },
+                                    "date": 20200000,
+                                    "fromAmount": 1123723.86,
+                                    "currency": {
+                                        "value": "PLN",
+                                        "name": "Polish Zloty"
+                                    },
+                                    "dimension": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "measure": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "labelType": {
+                                        "outlineNumber": "",
+                                        "name": ""
+                                    }
+                                },
+                                {
+                                    "type": {
+                                        "value": "941",
+                                        "name": "Net result of the year"
+                                    },
+                                    "date": 20180000,
+                                    "fromAmount": 1.975893192E7,
+                                    "currency": {
+                                        "value": "PLN",
+                                        "name": "Polish Zloty"
+                                    },
+                                    "dimension": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "measure": {
+                                        "value": "",
+                                        "name": ""
+                                    },
+                                    "labelType": {
+                                        "outlineNumber": "",
+                                        "name": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "workforce": [
+                {
+                    "type": {
+                        "value": "11",
+                        "name": "Total workforce"
+                    },
+                    "date": 20210000,
+                    "fromAmount": 110,
+                    "currency": {
+                        "value": "",
+                        "name": ""
+                    },
+                    "dimension": {
+                        "value": "",
+                        "name": ""
+                    },
+                    "measure": {
+                        "value": "",
+                        "name": ""
+                    }
+                }
+            ],
+            "customerSpecificMaxCredits": [
+                {
+                    "type": {
+                        "value": "50",
+                        "name": "Quick Rate"
+                    },
+                    "csMaxCreditValue": "1",
+                    "csMaxCreditCurrency": {
+                        "value": "",
+                        "name": ""
+                    },
+                    "csMaxCreditCode": {
+                        "value": "1",
+                        "name": "RED"
+                    }
+                },
+                {
+                    "type": {
+                        "value": "75",
+                        "name": "Maximum Credit Recommendation"
+                    },
+                    "csMaxCreditValue": "0",
+                    "csMaxCreditCurrency": {
+                        "value": "EUR",
+                        "name": "Euro"
+                    }
+                }
+            ],
+            "statusList": {
+                "companyStatusList": [
+                    {
+                        "type": {
+                            "value": "1",
+                            "name": "Registration status"
+                        },
+                        "status": {
+                            "value": "50",
+                            "name": "Company has changed legal form"
+                        },
+                        "validSince": 19910000,
+                        "comment": ""
+                    },
+                    {
+                        "type": {
+                            "value": "1",
+                            "name": "Registration status"
+                        },
+                        "status": {
+                            "value": "20",
+                            "name": "Registered company"
+                        },
+                        "validSince": 19470000,
+                        "comment": ""
+                    },
+                    {
+                        "type": {
+                            "value": "2",
+                            "name": "Activity status"
+                        },
+                        "status": {
+                            "value": "10",
+                            "name": "Active company"
+                        },
+                        "validSince": 19470000,
+                        "comment": ""
+                    }
+                ]
+            },
+            "countryIndicators": [],
+            "additionalTextInformations": [
+                {
+                    "type": {
+                        "value": "407",
+                        "name": "CofaNet Maximum Credit"
+                    },
+                    "text": {
+                        "value": "37",
+                        "name": "This amount is a commercial credit limit guide and is not written through the Coface Global underwriting centres. Unless there is a specific contractual agreement the commercial credit limit cannot be considered as a credit insurance guarantee by Coface.\r\nBased on 60 days open payments terms."
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,93 @@
+[
+    {
+        "releaseDate": "2023-05-08",
+        "isCurrent": true,
+        "assessmentSlug": "debtor-risk-assessment-package",
+        "companyId": "b0dbc487-7b21-3bad-b568-8536410cf2c9",
+        "debtorRiskValue": "1",
+        "probabilityOfDefault": 25.0,
+        "descriptions": [
+            {
+                "label": "Debtor Risk Assessment (DRA)",
+                "full": "1/10: Extremely high risk.  Global situation is very bad and close to critical/pre-insolvency.  Any commitment corresponds to an extremely high risk of default.  Also applies to Inactive company.",
+                "language": "en",
+                "short": "DRA"
+            }
+        ]
+    },
+    {
+        "releaseDate": "2018-03-16",
+        "isCurrent": false,
+        "assessmentSlug": "debtor-risk-assessment-package",
+        "companyId": "b0dbc487-7b21-3bad-b568-8536410cf2c9",
+        "debtorRiskValue": "1",
+        "descriptions": [
+            {
+                "label": "Debtor Risk Assessment (DRA)",
+                "full": "1/10: Extremely high risk.  Global situation is very bad and close to critical/pre-insolvency.  Any commitment corresponds to an extremely high risk of default.  Also applies to Inactive company.",
+                "language": "en",
+                "short": "DRA"
+            }
+        ]
+    },
+    {
+        "releaseDate": "2019-03-28",
+        "isCurrent": false,
+        "assessmentSlug": "debtor-risk-assessment-package",
+        "companyId": "b0dbc487-7b21-3bad-b568-8536410cf2c9",
+        "debtorRiskValue": "1",
+        "descriptions": [
+            {
+                "label": "Debtor Risk Assessment (DRA)",
+                "full": "1/10: Extremely high risk.  Global situation is very bad and close to critical/pre-insolvency.  Any commitment corresponds to an extremely high risk of default.  Also applies to Inactive company.",
+                "language": "en",
+                "short": "DRA"
+            }
+        ]
+    },
+    {
+        "releaseDate": "2020-08-19",
+        "isCurrent": false,
+        "assessmentSlug": "debtor-risk-assessment-package",
+        "companyId": "b0dbc487-7b21-3bad-b568-8536410cf2c9",
+        "debtorRiskValue": "1",
+        "descriptions": [
+            {
+                "label": "Debtor Risk Assessment (DRA)",
+                "full": "1/10: Extremely high risk.  Global situation is very bad and close to critical/pre-insolvency.  Any commitment corresponds to an extremely high risk of default.  Also applies to Inactive company.",
+                "language": "en",
+                "short": "DRA"
+            }
+        ]
+    },
+    {
+        "releaseDate": "2021-02-18",
+        "isCurrent": false,
+        "assessmentSlug": "debtor-risk-assessment-package",
+        "companyId": "b0dbc487-7b21-3bad-b568-8536410cf2c9",
+        "debtorRiskValue": "1",
+        "descriptions": [
+            {
+                "label": "Debtor Risk Assessment (DRA)",
+                "full": "1/10: Extremely high risk.  Global situation is very bad and close to critical/pre-insolvency.  Any commitment corresponds to an extremely high risk of default.  Also applies to Inactive company.",
+                "language": "en",
+                "short": "DRA"
+            }
+        ]
+    },
+    {
+        "releaseDate": "2022-08-24",
+        "isCurrent": false,
+        "assessmentSlug": "debtor-risk-assessment-package",
+        "companyId": "b0dbc487-7b21-3bad-b568-8536410cf2c9",
+        "debtorRiskValue": "1",
+        "descriptions": [
+            {
+                "label": "Debtor Risk Assessment (DRA)",
+                "full": "1/10: Extremely high risk.  Global situation is very bad and close to critical/pre-insolvency.  Any commitment corresponds to an extremely high risk of default.  Also applies to Inactive company.",
+                "language": "en",
+                "short": "DRA"
+            }
+        ]
+    }
+]

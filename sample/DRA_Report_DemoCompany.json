@@ -1,0 +1,87 @@
+{
+    "icon": {
+        "version": "1.0.0",
+        "orderResults": {
+            "orderId": "3400617",
+            "scoreCalculatedOn": "08/05/2023",
+            "iconCompanyNo": "5606280",
+            "dra": "1",
+            "draDescription": "1/10: Extremely high risk. Global situation is very bad and close to critical/pre-insolvency. Any commitment corresponds to an extremely high risk of default. Also applies to Inactive company.",
+            "probabilityOfDefault": "25%",
+            "draHistory": [
+                {
+                    "year": "2018",
+                    "dra": "1",
+                    "previousValuesThisYear": [
+                        {
+                            "dra": "1",
+                            "date": "16/3/2018"
+                        }
+                    ]
+                },
+                {
+                    "year": "2019",
+                    "dra": "1",
+                    "previousValuesThisYear": [
+                        {
+                            "dra": "1",
+                            "date": "28/3/2019"
+                        }
+                    ]
+                },
+                {
+                    "year": "2020",
+                    "dra": "1",
+                    "previousValuesThisYear": [
+                        {
+                            "dra": "1",
+                            "date": "19/8/2020"
+                        }
+                    ]
+                },
+                {
+                    "year": "2021",
+                    "dra": "1",
+                    "previousValuesThisYear": [
+                        {
+                            "dra": "1",
+                            "date": "18/2/2021"
+                        }
+                    ]
+                },
+                {
+                    "year": "2022",
+                    "dra": "1",
+                    "previousValuesThisYear": [
+                        {
+                            "dra": "1",
+                            "date": "24/8/2022"
+                        }
+                    ]
+                }
+            ]
+        },
+        "company": {
+            "companyName": "Grupa Polskie Składy Budowlane S.A.",
+            "addressLine": "Welecz 142",
+            "postalCode": "28-100",
+            "cityName": "Busko-Zdroj",
+            "country": {
+                "name": "POL",
+                "value": ""
+            },
+            "phone": "+48-41-3785200",
+            "fax": "+48-41-3785205",
+            "email": "",
+            "url": "",
+            "foundationDate": "",
+            "legalStatus": "CLOSED",
+            "easyNumber": "00000414980824",
+            "nationalId": "",
+            "statisticNumber": "290938715",
+            "vatNumber": "6551640402",
+            "registrationNumber": "KRS0000015152",
+            "taxId": ""
+        }
+    }
+}

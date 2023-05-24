@@ -1,0 +1,290 @@
+[
+    {
+        "isCurrent": true,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A4",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A4: Economic and financial outlook could be struck by some weaknesses. Political context could suffer from tension. Business climate may present significant deficiencies. The average probability of company default is reasonable.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2022",
+        "yearPeriod": "Q4"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A4",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A4: Economic and financial outlook could be struck by some weaknesses. Political context could suffer from tension. Business climate may present significant deficiencies. The average probability of company default is reasonable.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2022",
+        "yearPeriod": "Q3"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A4",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A4: Economic and financial outlook could be struck by some weaknesses. Political context could suffer from tension. Business climate may present significant deficiencies. The average probability of company default is reasonable.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2022",
+        "yearPeriod": "Q2"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A3",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A3: Less favourable and/or volatile macroeconomic and financial outlook. Political context remains stable. Business climate may have some shortcomings. The average probability of company default is satisfactory.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2022",
+        "yearPeriod": "Q1"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A3",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A3: Less favourable and/or volatile macroeconomic and financial outlook. Political context remains stable. Business climate may have some shortcomings. The average probability of company default is satisfactory.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2021",
+        "yearPeriod": "Q4"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A3",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A3: Less favourable and/or volatile macroeconomic and financial outlook. Political context remains stable. Business climate may have some shortcomings. The average probability of company default is satisfactory.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2021",
+        "yearPeriod": "Q3"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A4",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A4: Economic and financial outlook could be struck by some weaknesses. Political context could suffer from tension. Business climate may present significant deficiencies. The average probability of company default is reasonable.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2021",
+        "yearPeriod": "Q2"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A4",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A4: Economic and financial outlook could be struck by some weaknesses. Political context could suffer from tension. Business climate may present significant deficiencies. The average probability of company default is reasonable.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2021",
+        "yearPeriod": "Q1"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A4",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A4: Economic and financial outlook could be struck by some weaknesses. Political context could suffer from tension. Business climate may present significant deficiencies. The average probability of company default is reasonable.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2020",
+        "yearPeriod": "Q4"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A4",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A4: Economic and financial outlook could be struck by some weaknesses. Political context could suffer from tension. Business climate may present significant deficiencies. The average probability of company default is reasonable.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2020",
+        "yearPeriod": "Q3"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A4",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A4: Economic and financial outlook could be struck by some weaknesses. Political context could suffer from tension. Business climate may present significant deficiencies. The average probability of company default is reasonable.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2020",
+        "yearPeriod": "Q2"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A3",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A3: Less favourable and/or volatile macroeconomic and financial outlook. Political context remains stable. Business climate may have some shortcomings. The average probability of company default is satisfactory.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2020",
+        "yearPeriod": "Q1"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A3",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A3: Less favourable and/or volatile macroeconomic and financial outlook. Political context remains stable. Business climate may have some shortcomings. The average probability of company default is satisfactory.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2019",
+        "yearPeriod": "Q4"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A3",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A3: Less favourable and/or volatile macroeconomic and financial outlook. Political context remains stable. Business climate may have some shortcomings. The average probability of company default is satisfactory.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2019",
+        "yearPeriod": "Q3"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A3",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A3: Less favourable and/or volatile macroeconomic and financial outlook. Political context remains stable. Business climate may have some shortcomings. The average probability of company default is satisfactory.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2019",
+        "yearPeriod": "Q2"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A3",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A3: Less favourable and/or volatile macroeconomic and financial outlook. Political context remains stable. Business climate may have some shortcomings. The average probability of company default is satisfactory.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2019",
+        "yearPeriod": "Q1"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A3",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A3: Less favourable and/or volatile macroeconomic and financial outlook. Political context remains stable. Business climate may have some shortcomings. The average probability of company default is satisfactory.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2018",
+        "yearPeriod": "Q4"
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "country-risk-assessment",
+        "countryCode": "PL",
+        "countryRiskValue": "A3",
+        "descriptions": [
+            {
+                "label": "Key financial data",
+                "full": "A3: Less favourable and/or volatile macroeconomic and financial outlook. Political context remains stable. Business climate may have some shortcomings. The average probability of company default is satisfactory.",
+                "language": "en",
+                "short": "CRA"
+            }
+        ],
+        "year": "2018",
+        "yearPeriod": "Q3"
+    }
+]

@@ -1,0 +1,40 @@
+{
+    "icon": {
+        "version": "2.0.0",
+        "orderResults": {
+            "orderId": "3400602",
+            "scoreCalculatedOn": "08/05/2023",
+            "iconCompanyNo": "5415240",
+            "dra": "4",
+            "draDescription": "4/10: Significant risk. Company is facing some real weaknesses : if not solved, ability to fulfil obligations could be altered. Risk of default is significant but may be acceptable for limited short-term credits.",
+            "coCountryRisk": "A4",
+            "coCountryRiskDescription": "A4: Economic and financial outlook could be marked by some weaknesses. Political context could suffer from tension. Business climate may present significant deficiencies. The average probability of company default is reasonable.",
+            "aoFinalValue": "0",
+            "currency": "EUR",
+            "motivationCodes": "AB09,AA18,AB05",
+            "motivationLabels": "- Weak  profitability, - Low equity return relative to activity, - Decrease in turnover."
+        },
+        "company": {
+            "companyName": "HYDROBUDOWA-6 S.A.",
+            "addressLine": "ul. Augustowka 24",
+            "postalCode": "02-981",
+            "cityName": "Warszawa",
+            "country": {
+                "name": "POL",
+                "value": ""
+            },
+            "phone": "+48-0-604211333",
+            "fax": "+48-22-4949999",
+            "email": "",
+            "url": "",
+            "foundationDate": "",
+            "legalStatus": "OPEN",
+            "easyNumber": "00000411224330",
+            "nationalId": "",
+            "statisticNumber": "012074213",
+            "vatNumber": "5240303257",
+            "registrationNumber": "KRS0000079628",
+            "taxId": ""
+        }
+    }
+}

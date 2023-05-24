@@ -1,0 +1,43 @@
+[
+    {
+        "releaseDate": "2023-05-08",
+        "assessmentSlug": "advanced-opinion",
+        "companyId": "aa272cd1-c4d1-3c4c-9df8-d99616f5ef21",
+        "maxCreditAmount": {
+            "currency": "EUR",
+            "value": 0.0
+        },
+        "decisionDetails": [
+            {
+                "code": "AB09",
+                "descriptions": [
+                    {
+                        "label": "Refusal Motivation",
+                        "full": "Weak  profitability",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "code": "AA18",
+                "descriptions": [
+                    {
+                        "label": "Refusal Motivation",
+                        "full": "Low equity return relative to activity",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "code": "AB05",
+                "descriptions": [
+                    {
+                        "label": "Refusal Motivation",
+                        "full": "Decrease in turnover.",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    }
+]
