@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Icon API</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="icon" href="img/icon-logo.png">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="icon.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-2 bg-icon">
+					<div class="row">
+						<a href="https://coface.github.io"><img src="img/icon-logo.png" alt="Icon by Coface" class="img-fluid" style="max-height:100px" /></a>
+					</div>
+				</div>
+				<div class="col-10 text-center">
+					<h1 id="introduction">Coface ICON Business Information API</h1>
+					<h3>V2 - Data API</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-2 bg-icon">
+					<div class="sidebar-item">
+						<div class="sticky-bar">
+							<a href="https://coface.github.io" class="nav-link align-middle"><span>Back to main page</span></a>
+							<a href="#introduction" class="nav-link align-middle"><span>Introduction</span></a>
+							<a href="#products" class="nav-link align-middle"><span>Products</span></a>
+							<a href="#security" class="nav-link align-middle"><span>Access & Security</span></a>
+							<a href="#process" class="nav-link align-middle"><span>Process</span></a>
+							<a href="#processGlobal" class="nav-link align-middle"><span class="pl-4">Global</span></a>
+							<a href="#processSearchCompany" class="nav-link align-middle"><span class="pl-4">Company search</span></a>
+							<a href="#processOrderPublication" class="nav-link align-middle"><span class="pl-4">Ordering report</span></a>
+							<a href="#processOrderMonitoringPublication" class="nav-link align-middle"><span class="pl-4">Ordering monitoring</span></a>
+							<a href="#documentation" class="nav-link align-middle"><span>Technical documentation</span></a>
+							<a href="#FAQ" class="nav-link align-middle"><span>How To / FAQ</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-10">
+					<div class="content-section">
+						<div id="listOfProducts" class="mt-5">
+							<h2>Products</h2>
+							<hr>
+							<p>This API allows you to order and monitor the following products:</p>
+							<table class="table" style="width: auto; !important">
+								<thead>
+									<tr>
+										<th>Publication</th>
+										<th>Available format</th>
+										<th>Product type</th>
+										<th>Samples</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/products/business-report">Full Reports</a></td>
+										<td>JSON, HTML, PDF, XML</td>
+										<td>Report</td>
+										<td><a href="sample/FullReport_DemoCompany.json" download>JSON</a></td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/products/business-report">Snapshot Reports</a></td>
+										<td>JSON, HTML, PDF, XML</td>
+										<td>Report</td>
+										<td><a href="sample/SnapshotReport_DemoCompany.json" download>JSON</a></td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/products/credit-opinion">Credit opinion Reports</a></td>
+										<td>JSON, HTML, PDF, XML</td>
+										<td>Report</td>
+										<td><a href="sample/CO_Report_DemoCompany.json" download>JSON</a></td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/products/credit-opinion">Advanced opinion Reports</a></td>
+										<td>JSON, HTML, PDF, XML</td>
+										<td>Report</td>
+										<td><a href="sample/AO_Report_DemoCompany.json" download>JSON</a></td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/products/score">Score Report</a></td>
+										<td>JSON, HTML, PDF, XML</td>
+										<td>Report</td>
+										<td><a href="sample/DRA_Report_DemoCompany.json" download>JSON</a></td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/economic-insights">Country Risk Assessment</a></td>
+										<td>JSON</td>
+										<td>Assessment</td>
+										<td><a href="sample/CountryRiskAssessment_DemoCompany.json" download>JSON</a></td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/economic-insights">Sector Risk Assessment</a></td>
+										<td>JSON</td>
+										<td>Assessment</td>
+										<td><a href="sample/Sector_Risk_Assessment_DemoCompany.json" download>JSON</a></td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/api-solutions">Debtor risk assessment (with and without history)</a></td>
+										<td>JSON</td>
+										<td>Assessment</td>
+										<td><a href="sample/Debtor_Risk_Assessment_Package_DemoCompany.json" download>DRA package JSON</a></td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/api-solutions">Credit opinion & advanced opinion</a></td>
+										<td>JSON</td>
+										<td>Assessment</td>
+										<td><a href="sample/CO_DemoCompany.json" download>CO JSON</a>,
+											<a href="sample/AdvancedOpinion_DemoCompany.json" download>AO JSON</a>
+										</td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/api-solutions">Icon global financials</a></td>
+										<td>JSON</td>
+										<td>Financial</td>
+									</tr>
+									<tr>
+										<td><a href="https://information.coface.com/en-gb/api-solutions">Financials</a></td>
+										<td>JSON</td>
+										<td>Financial</td>
+									</tr>
+								</tbody>
+							</table>
+							<h4>Notes:</h4>
+							<p>You can find the <a href="utilities/Coface_Data_API_ Products.xlsx" target="_self"><b>list of standard products</b></a>  (assessments, reports or financials) together with their internal IDs in ICON application.</p>
+							<p>Also, in order to test your flow in the begining, recomendation is to use a Demo company. Please check the <a href="utilities/Coface _API_ DemoCmpanies.xlsx" target="_blank"><b>Demo companies</b></a> list.</p>
+							<p>Business blocks which are part of <b>Full Report</b> and <b>Full URBA Report</b>can be checked on <a href="utilities/Coface _API_ BusinessBlocks_FullReports.xlsx" target="_blank"><b>Business Blocks</b></a> document.</p>
+						</div>
+						<div id="Urba" class="mt-5">
+							<h2>URBA data via API</h2>
+							<hr>
+							<p>Currently you can buy URBA data via API. There is no endpoint to order all URBA data in one call ( this is planned for future) but individual products can be ordered.</p>
+							<p>Picture below shows what products you need to order for URBA 360 view and how you will get information about corresponding products:</p>
+							<img src="img/URBAProducts.PNG" class="img-fluid" style="max-width:800px;width: 100%;height: auto;min-width:600px;margin-bottom:10px" />
+							<p>For ordering <b>Full URBA Report</b> there is a prerequisite which needs to be fulfilled: first you order a DRA (debtore-risk-assessment-package) and a Credit Opinion (advanced-opinion) and then you can order the Full URBA Report in json or pdf formats. Otherwise the Full URBA Report will not contain these data.</p>
+						</div>
+						<div id="security" class="mt-5">
+							<h2>Access & Security</h2>
+							<hr>
+							<p>Follow the process described in <a href="https://coface.github.io/#security" target="_blank">the main page</a></p>
+							<p>On the dev portal, you should subscribe to "ICON Data API Sandbox" for testing purposes or "ICON Data API" when you switch to Production environment</p>
+						</div>
+						<div id="process" class="mt-5 text-justify">
+							<h2>Process</h2>
+							<hr>
+							<div class="accordion" id="processAccordion">
+								<div class="card" id="processGlobal">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseProcessGlobal" aria-expanded="true" aria-controls="collapseProcessGlobal">
+												<h5>Global process</h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseProcessGlobal" class="collapse show" data-parent="#processAccordion">
+										<div class="card-body">
+											<img src="img/global-process.png" alt="Global process" class="img-fluid" style="max-width:800px;width: 100%;height: auto;min-width:500px;margin-bottom:10px" />
+											<p>To order publication with ou without monitoring, you need to follow 5 steps :</p>
+											<ol>
+												<li>Find the company</li>
+												<li>Check if the publication is available</li>
+												<li>Order the publication with or without monitoring</li>
+												<li>Verify that the order is finished</li>
+												<li>Retrieve the publication</li>
+											</ol>
+											<p>In case you have ordered a monitoring, during the next year, you can receive notifications. Once you get one, you can retrieve its content.</p>
+										</div>
+									</div>
+								</div>
+								<div class="card" id="processSearchCompany">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseProcessSearchCompany" aria-expanded="true" aria-controls="collapseProcessSearchCompany">
+												<h5>Search for a company process</h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseProcessSearchCompany" class="collapse" data-parent="#processAccordion">
+										<div class="card-body">
+											<p>To order monitoring or report, you need to find on which company you want the data.</p>
+											<p>You <b>always</b> need to check if the company is still available because
+												<ul>
+													<li> companies are a living entity, it can disappear following a bankruptcy for example</li>
+													<li>Coface relies on partners to get the information for some countries. It happens that we decide to change partner if we find one with better information. In this case the company id can change.</li>
+												</ul>
+											</p>
+											<p>Retrieving a company depends on the accuracy of your input : 
+												<ul>
+													<li>if you know an unique identifier for this company (like icon number or use an unique id from a national referential, like VAT number), you will retrieve all identification data on this company (address, phone number, nace codes, legal forms, email, external id...)</li>
+													<li>if you don't then search a company with its name and address. You will receive a summary of matching companies. When you find the one you want, you can retrieve the full details about this company by calling the GET /companies with the external id provided in the summary.</li>
+												</ul>
+											</p>
+											<ul class="nav nav-tabs">
+												<li><a class="nav-item nav-link active" href="#processResearchFunct" data-toggle="tab">Functional view</a></li>
+												<li><a class="nav-item nav-link" href="#processResearchTech" data-toggle="tab">Technical view</a></li>
+											</ul>
+											<div class="tab-content">
+												<div class="tab-pane active" id="processResearchFunct">
+													<img src="img/v2/search-companies-process.png" alt="Search company process" class="img-fluid" style="max-width:800px;width: 100%;height: auto;min-width:500px;margin-bottom:10px" />
+												</div>
+												<div class="tab-pane" id="processResearchTech">
+													<img src="img/v2/searchCompaniesProcessTech.png" alt="Company search process" class="img-fluid" style="max-width:800px" />
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="card" id="processOrderPublication">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseProcessOrderPublication" aria-expanded="true" aria-controls="collapseProcessOrderPublication">
+												<h5>Order a publication</h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseProcessOrderPublication" class="collapse" data-parent="#processAccordion">
+										<div class="card-body">
+											<ul class="text-justify">
+												<li>Coface will try its best to answer you quickly. But in some countries, it can't be possible and Coface will need time to make an investigation. When you order you report, you will have the possibility to specify if you want immediate result or not. If we can't provide you data, you will of course not be charged.</li>
+												<li>You have to possibility to request a report even if you don't find the company in our database. A Coface agent will do an investigation and create a report if he find the company or cancel the order if not. In this case, you will not be charged.</li>
+												<li>The time to process an order varies by country and provider. For immediate order, it takes maximum few seconds</li>
+											</ul>
+											<ul class="nav nav-tabs">
+												<li><a class="nav-item nav-link active" href="#processOrderFunct" data-toggle="tab">Functional view</a></li>
+												<li><a class="nav-item nav-link" href="#processOrderTech" data-toggle="tab">Technical view</a></li>
+											</ul>
+											<div class="tab-content">
+												<div class="tab-pane active" id="processOrderFunct">
+													<img src="img/v2/order-products-process.png" alt="Order a publication" class="img-fluid" style="width: 100%;height: auto;min-width:800px;margin-bottom:10px" />
+												</div>
+												<div class="tab-pane" id="processOrderTech">
+													<img src="img/v2/orderReportProcessTech.png" alt="Ordering a report" class="img-fluid" style="max-width:800px" />
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="card" id="processOrderMonitoringPublication">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseProcessMonitoringPublication" aria-expanded="true" aria-controls="collapseProcessMonitoringPublication">
+												<h5>Order a publication monitoring</h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseProcessMonitoringPublication" class="collapse" data-parent="#processAccordion">
+										<div class="card-body">
+											<ul class="text-justify">
+												<li>Sames indications as Ordering a publication</li>
+												<li>A monitoring is placed for 1 year</li>
+											</ul>
+											<ul class="nav nav-tabs">
+												<li><a class="nav-item nav-link active" href="#processMonitoringFunct" data-toggle="tab">Functional view</a></li>
+												<li><a class="nav-item nav-link" href="#processMonitoringTech" data-toggle="tab">Technical view</a></li>
+											</ul>
+											<div class="tab-content">
+												<div class="tab-pane active" id="processMonitoringFunct">
+												<img src="img/v2/order-monitoring-process.png" alt="Order a monitoring" class="img-fluid" />
+												</div>
+												<div class="tab-pane" id="processMonitoringTech">
+													<img src="img/v2/orderMonitoringProcessTech.png" alt="Ordering a report" class="img-fluid" style="max-width:800px" />
+												</div>
+											</div>
+											<br/>
+											<div id="processNotification">
+												<h4>Notification</h4>
+												<p>Once your monitoring is placed, you will receive notifications when changes are made. If you have set a callback url in your monitoring order, we will ping you as soon as something changed, if not it's up to you to check any change.</p>
+												<nav class="nav nav-tabs">
+													<a class="nav-item nav-link active" href="#processNotificationFunct" data-toggle="tab">Functional view</a>
+													<a class="nav-item nav-link" href="#processNotificationTech" data-toggle="tab">Technical view</a>
+												</nav>
+												<div class="tab-content">
+													<div class="tab-pane active" id="processNotificationFunct">
+														<img src="img/v2/notificationProcessFunct.png" alt="Notification management" class="img-fluid" style="max-width:800px" />
+													</div>
+													<div class="tab-pane" id="processNotificationTech">
+														<img src="img/v2/notificationProcessTech.png" alt="Notification management" class="img-fluid" style="max-width:800px" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="documentation" class="mt-5">
+							<h2>Technical documentation</h2>
+							<hr>
+							<div id="swagger" class="mt-4">
+								<h4>Swagger</h4>
+								<p>Public available <a target="_blank" href="https://b2b.cofacecentraleurope.com/web/online/api-docs/index.html?url=https://b2b.cofacecentraleurope.com/api/on/v1/swagger.yaml#/">here</a></p>
+								<p>Also available on our <a target="_blank" href="https://devportal.coface.com/apis/0zxpafxwxj/v1">dev portal</a>. NOTE : you need to be logged otherwise you will see an empty page.</p>
+							</div>
+							<div id="postman" class="mt-4">
+								<h4>Postman collection</h4>
+								<p> You can test our API without any developpment using Postman.</p>
+								<p>You have to</p>
+								<ol>
+									<li>Download <a target="_blank" href="https://www.postman.com/">Postman</a></li>
+									<li>Download our 
+										<ul>
+											<li><a href="postman/environment/Test.postman_environment.json" download>demo environment setting</a>, using a demo user</li>
+											<li><a href="postman/environment/PROD.postman_environment.json" download>prod environment setting</a></li>
+											<li><a href="postman/v2/ICON Data API.postman_collection.json" download>collection</a> with all the steps to order report</li>
+										</ul>
+									</li>
+									<li>Modify the credentials in the environment settings</li>
+								</ol>
+							</div>
+						</div>
+						<div id="FAQ" class="mt-5 text-justify">
+							<h2>How To / FAQ</h2>
+							<hr>
+							<div class="accordion" id="processFAQ">
+								<div class="card">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseQuestionPostman" aria-expanded="true" aria-controls="collapseQuestionPostman">
+												<h5>How to configure Postman ?</h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseQuestionPostman" class="collapse" data-parent="#processAccordion">
+										<div class="card-body">
+											<img src="img/postman.png" alt="Set postman" class="img-fluid" style="max-width:800px" />
+											<ol>
+												<li>Import the files </li>
+												<li>Click on "Environments" tab</li>
+												<li>Select the environment you want to modify</li>
+												<li>Change the initial value of credentials</li>
+												<li>Click on "Persist All" to copy Initial value to Current value</li>
+												<li>Save</li>
+											</ol>
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseQuestionAWSHowTo" aria-expanded="true" aria-controls="collapseQuestionAWSHowTo">
+												<h5><a href="utilities/DataAPI_UserConfiguration_SwaggerTesting.pdf">How to configure user on AWS dev portal and test API via swagger</a></h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseQuestionAWSHowTo" class="collapse" data-parent="#processAccordion">
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<h2 class="mb-0">
+											<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseQuestionDataAPIHowTo" aria-expanded="true" aria-controls="collapseQuestionDataAPIHowTo">
+												<h5><a href="utilities/HowToUse_DataAPI.pdf">How to use Data API</a></h5>
+											</button>
+										</h2>
+									</div>
+									<div id="collapseQuestionDataAPIHowTo" class="collapse" data-parent="#processAccordion">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
