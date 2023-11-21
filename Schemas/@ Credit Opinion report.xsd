@@ -1,0 +1,80 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="icon">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:string" name="version"/>
+                <xs:element name="orderResults">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="orderId"/>
+                            <xs:element type="xs:string" name="scoreCalculatedOn"/>
+                            <xs:element type="xs:string" name="iconCompanyNo"/>
+                            <xs:element type="xs:string" name="dra"/>
+                            <xs:element type="xs:string" name="draDescription"/>
+                            <xs:element type="xs:string" name="coRating"/>
+                            <xs:element type="xs:string" name="coValue"/>
+                            <xs:element type="xs:string" name="currency"/>
+                            <xs:element type="xs:string" name="motivationCodes"/>
+                            <xs:element type="xs:string" name="motivationLabels"/>
+                            <xs:element type="xs:string" name="coCountryRisk"/>
+                            <xs:element type="xs:string" name="coCountryRiskDescription"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="company">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="companyName"/>
+                            <xs:element type="xs:string" name="addressLine"/>
+                            <xs:element type="xs:string" name="postalCode"/>
+                            <xs:element type="xs:string" name="cityName"/>
+                            <xs:element name="country">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="name"/>
+                                        <xs:element type="xs:string" name="value"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element type="xs:string" name="phone"/>
+                            <xs:element type="xs:string" name="fax"/>
+                            <xs:element type="xs:string" name="email"/>
+                            <xs:element type="xs:string" name="url"/>
+                            <xs:element type="xs:string" name="foundationDate"/>
+                            <xs:element type="xs:string" name="legalStatus"/>
+                            <xs:element type="xs:string" name="easyNumber"/>
+                            <xs:element type="xs:string" name="nationalId"/>
+                            <xs:element type="xs:string" name="statisticNumber"/>
+                            <xs:element type="xs:string" name="vatNumber"/>
+                            <xs:element type="xs:string" name="registrationNumber"/>
+                            <xs:element type="xs:string" name="taxId"/>
+                            <xs:element name="mainActivity">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="code"/>
+                                        <xs:element type="xs:string" name="label"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="activities">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="activityList">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="naceCode"/>
+                                                    <xs:element type="xs:string" name="naceText"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:attribute default="http://json-schema.org/draft-04/schema#" name="$schema" type="xs:string"/>
+</xs:schema>

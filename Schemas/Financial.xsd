@@ -1,0 +1,92 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Financial">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="companyId" type="xs:string"/>
+                <xs:element name="externalId" type="xs:string"/>
+                <xs:element name="financialSlug" type="xs:string"/>
+                <xs:element name="years">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="item" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="type" type="xs:string"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="balanceSheetItems">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="item">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="type" type="xs:string"/>
+                                        <xs:element name="name" type="xs:string"/>
+                                        <xs:element name="indicators">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="item">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="type">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="value" type="xs:string"/>
+                                                                            <xs:element name="name" type="xs:string"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="date" type="xs:string"/>
+                                                                <xs:element name="fromDate" type="xs:string"/>
+                                                                <xs:element name="toDate" type="xs:string"/>
+                                                                <xs:element name="fromAmount" type="xs:integer"/>
+                                                                <xs:element name="currency">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="value" type="xs:string"/>
+                                                                            <xs:element name="name" type="xs:string"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="dimension">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="value" type="xs:string"/>
+                                                                            <xs:element name="name" type="xs:string"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="measure">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="value" type="xs:string"/>
+                                                                            <xs:element name="name" type="xs:string"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="labelType">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="outlineNumber" type="xs:string"/>
+                                                                            <xs:element name="name" type="xs:string"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="releaseDate" type="xs:string"/>
+                <xs:element name="isCurrent" type="xs:boolean"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

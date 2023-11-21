@@ -1,0 +1,175 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "companyId": {
+      "type": "string"
+    },
+    "externalId": {
+      "type": "string"
+    },
+    "financialSlug": {
+      "type": "string"
+    },
+    "years": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "type": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "balanceSheetItems": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "indicators": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "value",
+                        "name"
+                      ]
+                    },
+                    "date": {
+                      "type": "string"
+                    },
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    },
+                    "fromAmount": {
+                      "type": "integer"
+                    },
+                    "currency": {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "value",
+                        "name"
+                      ]
+                    },
+                    "dimension": {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "value",
+                        "name"
+                      ]
+                    },
+                    "measure": {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "value",
+                        "name"
+                      ]
+                    },
+                    "labelType": {
+                      "type": "object",
+                      "properties": {
+                        "outlineNumber": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "outlineNumber",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "date",
+                    "fromDate",
+                    "toDate",
+                    "fromAmount",
+                    "currency",
+                    "dimension",
+                    "measure",
+                    "labelType"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "type",
+            "name",
+            "indicators"
+          ]
+        }
+      ]
+    },
+    "releaseDate": {
+      "type": "string"
+    },
+    "isCurrent": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "companyId",
+    "externalId",
+    "financialSlug",
+    "years",
+    "type",
+    "name",
+    "balanceSheetItems",
+    "releaseDate",
+    "isCurrent"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for CreditOpinion",
+  "type": "object",
+  "properties": {
+    "assessmentSlug": {
+      "type": "string"
+    },
+    "companyId": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "string",
+      "enum": ["X", "@", "@@", "@@@", "@@@@", "NA"]
+    },
+    "maxCreditAmount": {
+      "type": "object",
+      "properties": {
+        "currency": {
+          "type": "string"
+        },
+        "value": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "currency",
+        "value"
+      ]
+    },
+    "decisionDetails": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "descriptions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string"
+                },
+                "short": {
+                  "type": "string"
+                },
+                "full": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "label",
+                "short",
+                "full",
+                "language"
+              ]
+            }
+          }
+        },
+        "required": [
+          "code",
+          "descriptions"
+        ]
+      }
+    },
+    "releaseDate": {
+      "type": "string"
+    },
+    "isCurrent": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "assessmentSlug",
+    "companyId",
+    "rating",
+    "maxCreditAmount",
+    "decisionDetails",
+    "releaseDate",
+    "isCurrent"
+  ]
+}

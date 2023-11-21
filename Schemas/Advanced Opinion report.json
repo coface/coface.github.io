@@ -1,0 +1,204 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "icon": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "orderResults": {
+          "type": "object",
+          "properties": {
+            "orderId": {
+              "type": "string"
+            },
+            "scoreCalculatedOn": {
+              "type": "string"
+            },
+            "iconCompanyNo": {
+              "type": "string"
+            },
+            "dra": {
+              "type": "string"
+            },
+            "draDescription": {
+              "type": "string"
+            },
+            "coCountryRisk": {
+              "type": "string"
+            },
+            "coCountryRiskDescription": {
+              "type": "string"
+            },
+            "decision_status": {
+              "type": "string"
+            },
+            "aoFinalValue": {
+              "type": "string"
+            },
+            "currency": {
+              "type": "string"
+            },
+            "motivationCodes": {
+              "type": "string"
+            },
+            "motivationLabels": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "orderId",
+            "scoreCalculatedOn",
+            "iconCompanyNo",
+            "dra",
+            "draDescription",
+            "coCountryRisk",
+            "coCountryRiskDescription",
+            "motivationCodes",
+            "motivationLabels"
+          ]
+        },
+        "company": {
+          "type": "object",
+          "properties": {
+            "companyName": {
+              "type": "string"
+            },
+            "addressLine": {
+              "type": "string"
+            },
+            "postalCode": {
+              "type": "string"
+            },
+            "cityName": {
+              "type": "string"
+            },
+            "country": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "value"
+              ]
+            },
+            "phone": {
+              "type": "string"
+            },
+            "fax": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            },
+            "foundationDate": {
+              "type": "string"
+            },
+            "legalStatus": {
+              "type": "string"
+            },
+            "easyNumber": {
+              "type": "string"
+            },
+            "nationalId": {
+              "type": "string"
+            },
+            "statisticNumber": {
+              "type": "string"
+            },
+            "vatNumber": {
+              "type": "string"
+            },
+            "registrationNumber": {
+              "type": "string"
+            },
+            "taxId": {
+              "type": "string"
+            },
+			"mainActivity": {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "code",
+                "label"
+              ]
+            },
+            "activities": {
+              "type": "object",
+              "properties": {
+                "activityList": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "naceCode": {
+                          "type": "string"
+                        },
+                        "naceText": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "naceCode",
+                        "naceText"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "activityList"
+              ]
+            }
+          },
+          "required": [
+            "companyName",
+            "addressLine",
+            "postalCode",
+            "cityName",
+            "country",
+            "phone",
+            "fax",
+            "email",
+            "url",
+            "foundationDate",
+            "legalStatus",
+            "easyNumber",
+            "nationalId",
+            "statisticNumber",
+            "vatNumber",
+            "registrationNumber",
+            "taxId"
+          ]
+        }
+      },
+      "required": [
+        "version",
+        "orderResults",
+        "company"
+      ]
+    }
+  },
+  "required": [
+    "icon"
+  ]
+}

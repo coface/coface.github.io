@@ -1,0 +1,52 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="CountryRiskAssessment">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:string" name="assessmentSlug"/>
+                <xs:element type="xs:string" name="countryCode"/>
+                <xs:element type="xs:string" name="inHouseRegionCode"/>
+                <xs:element type="xs:string" name="countryRiskValue">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="A1"/>
+                            <xs:enumeration value="A2"/>
+                            <xs:enumeration value="A3"/>
+                            <xs:enumeration value="A4"/>
+                            <xs:enumeration value="B"/>
+                            <xs:enumeration value="C"/>
+                            <xs:enumeration value="D"/>
+                            <xs:enumeration value="E"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" name="descriptions">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="label"/>
+                            <xs:element type="xs:string" name="short"/>
+                            <xs:element type="xs:string" name="full"/>
+                            <xs:element type="xs:string" name="language"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element type="xs:string" name="year"/>
+                <xs:element type="xs:string" name="yearPeriod">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="Q1"/>
+                            <xs:enumeration value="Q2"/>
+                            <xs:enumeration value="Q3"/>
+                            <xs:enumeration value="Q4"/>
+                            <xs:enumeration value="T1"/>
+                            <xs:enumeration value="T2"/>
+                            <xs:enumeration value="T3"/>
+                            <xs:enumeration value="T4"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element type="xs:string" name="releaseDate"/>
+                <xs:element type="xs:boolean" name="isCurrent"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,119 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Sector Risk Assessment",
+  "type": "object",
+  "properties": {
+    "assessmentSlug": {
+      "type": "string"
+    },
+    "countryCode": {
+      "type": "string"
+    },
+    "inHouseRegion": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "code",
+        "label"
+      ]
+    },
+    "sector": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "code",
+        "label"
+      ]
+    },
+    "nace": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "code",
+        "label"
+      ]
+    },
+    "countryRiskValue": {
+      "type": "string",
+      "enum": ["1", "2", "3", "4", "5", "6", "7", "8"]
+    },
+    "inHouseRegionRiskValue": {
+      "type": "string",
+      "enum": ["1", "2", "3", "4"]
+    },
+    "year": {
+      "type": "string"
+    },
+    "yearPeriod": {
+      "type": "string",
+      "enum": ["Q1", "Q2", "Q3", "Q4", "T1", "T2", "T3", "T4"]
+    },
+    "descriptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "short": {
+            "type": "string"
+          },
+          "full": {
+            "type": "string"
+          },
+          "language": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "label",
+          "short",
+          "full",
+          "language"
+        ]
+      }
+    },
+    "releaseDate": {
+      "type": "string"
+    },
+    "isCurrent": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "assessmentSlug",
+    "countryCode",
+    "inHouseRegion",
+    "sector",
+    "nace",
+    "countryRiskValue",
+    "inHouseRegionRiskValue",
+    "year",
+    "yearPeriod",
+    "descriptions",
+    "releaseDate",
+    "isCurrent"
+  ]
+}
