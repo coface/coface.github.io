@@ -1,8 +1,8 @@
 {
 	"info": {
-		"_postman_id": "f4aedade-9102-4232-a6a9-09d963af5663",
+		"_postman_id": "bbf0bab7-f2dd-4682-b633-60c09a9a9cc1",
 		"name": "ICON Data API",
-		"description": "Contact Support:\n Name: COFACE ICON\n Email: amandine.tridou-ext@coface.com",
+		"description": "Contact Support:  \nName: COFACE ICON Data API  \nEmail: georgiana.funieru@coface.com",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "24818438"
 	},
@@ -127,6 +127,64 @@
 							],
 							"path": [
 								"countries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET All country repositories/ externalIds",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "{{idToken}}",
+								"type": "text"
+							},
+							{
+								"key": "x-api-key",
+								"value": "{{apiKey}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{dataAPIBaseUrl}}/companies/repositories?countryCode=PL",
+							"host": [
+								"{{dataAPIBaseUrl}}"
+							],
+							"path": [
+								"companies",
+								"repositories"
+							],
+							"query": [
+								{
+									"key": "countryCode",
+									"value": "PL"
+								}
 							]
 						}
 					},
@@ -619,6 +677,68 @@
 					"response": []
 				},
 				{
+					"name": "By giid",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.environment.set(\"companyId\", JSON.parse(responseBody)[0].id);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "{{idToken}}",
+								"type": "text"
+							},
+							{
+								"key": "x-api-key",
+								"value": "{{apiKey}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{dataAPIBaseUrl}}/companies?countryCode=FR&externalId=giid%2334313033333630363940706e703d46522f373039",
+							"host": [
+								"{{dataAPIBaseUrl}}"
+							],
+							"path": [
+								"companies"
+							],
+							"query": [
+								{
+									"key": "countryCode",
+									"value": "FR",
+									"description": "Country code (ISO 3166 Alpha-2)"
+								},
+								{
+									"key": "externalId",
+									"value": "giid%2334313033333630363940706e703d46522f373039"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "By companyInfo",
 					"event": [
 						{
@@ -917,6 +1037,74 @@
 								{
 									"key": "externalId",
 									"value": "icon%23149276567"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Check available PRODUCTS by icon",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "{{idToken}}",
+								"type": "text"
+							},
+							{
+								"key": "x-api-key",
+								"value": "{{apiKey}}",
+								"type": "text"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "FR",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{dataAPIBaseUrl}}/companies/products?countryCode=FR&externalId=icon%23127682858",
+							"host": [
+								"{{dataAPIBaseUrl}}"
+							],
+							"path": [
+								"companies",
+								"products"
+							],
+							"query": [
+								{
+									"key": "countryCode",
+									"value": "FR"
+								},
+								{
+									"key": "externalId",
+									"value": "icon%23127682858"
 								}
 							]
 						}
@@ -1241,7 +1429,7 @@
 							"response": []
 						},
 						{
-							"name": "AO for a comapny",
+							"name": "AO for a company",
 							"event": [
 								{
 									"listen": "prerequest",
@@ -1304,6 +1492,69 @@
 							"response": []
 						},
 						{
+							"name": "LPI for a company via ICON no",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "FR",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"countryCode\": \"PL\",\r\n    \"externalId\":\"icon#5587710\",\r\n    \"customerReference\":\"Test GF LPI\",\r\n    \"assessments\": [\r\n        {\r\n            \"slug\": \"late-payment-index\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{dataAPIBaseUrl}}/publications/orders",
+									"host": [
+										"{{dataAPIBaseUrl}}"
+									],
+									"path": [
+										"publications",
+										"orders"
+									]
+								}
+							},
+							"response": []
+						},
+						{
 							"name": "Full report via companyId",
 							"event": [
 								{
@@ -1346,7 +1597,70 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"companyId\": \"{{companyId}}\",\r\n    \"report\": {\r\n    \"slug\": \"full-report\",\r\n    \"language\": \"EN\",\r\n    \"format\": [\r\n      \"pdf\",\r\n      \"json\"\r\n    ],\r\n    \"proccessingTimeInstruction\": \"immediate\"\r\n  }\r\n}",
+									"raw": "{\r\n    \"companyId\": \"{{companyId}}\",\r\n    \"report\": {\r\n    \"slug\": \"full-report\",\r\n    \"language\": \"EN\",\r\n    \"format\": [\r\n      \"pdf\",\r\n      \"json\"\r\n    ],\r\n    \"proccessingTimeInstruction\": \"immediate_if_available_inquiry_otherwise\"\r\n  }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{dataAPIBaseUrl}}/publications/orders",
+									"host": [
+										"{{dataAPIBaseUrl}}"
+									],
+									"path": [
+										"publications",
+										"orders"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Full report for an Unidentified company",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "EN",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"companyIdentificationId\": \"3b4b6eb5-69e7-4254-95be-2397d3c8756a\",\r\n    \"report\": {\r\n    \"slug\": \"full-report\",\r\n    \"language\": \"EN\",\r\n    \"format\": [\r\n      \"pdf\",\r\n      \"json\"\r\n    ]\r\n  }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1409,7 +1723,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"externalId\": \"icon#60129490\",\r\n    \"countryCode\": \"PL\",\r\n    \"report\": {\r\n    \"slug\": \"full-report\",\r\n    \"language\": \"EN\",\r\n    \"format\": [\r\n      \"pdf\",\r\n      \"json\"\r\n    ],\r\n    \"proccessingTimeInstruction\": \"immediate\"\r\n  }\r\n}",
+									"raw": "{\r\n    \"externalId\": \"icon#60129490\",\r\n    \"countryCode\": \"PL\",\r\n    \"report\": {\r\n    \"slug\": \"full-report\",\r\n    \"language\": \"EN\",\r\n    \"format\": [\r\n      \"pdf\",\r\n      \"json\"\r\n    ],\r\n    \"proccessingTimeInstruction\": \"immediate_if_available_inquiry_otherwise\"\r\n  }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1472,7 +1786,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"companyId\": \"{{companyId}}\",\r\n    \"report\": {\r\n    \"slug\": \"dra-report\",\r\n    \"language\": \"EN\",\r\n    \"format\": [\r\n      \"json\"\r\n    ],\r\n    \"proccessingTimeInstruction\": \"immediate\",\r\n    \"investigationSpeedLevel\": \"normal\"\r\n  }\r\n}",
+									"raw": "{\r\n    \"companyId\": \"{{companyId}}\",\r\n    \"report\": {\r\n    \"slug\": \"dra-report\",\r\n    \"language\": \"EN\",\r\n    \"format\": [\r\n      \"json\"\r\n    ],\r\n    \"proccessingTimeInstruction\": \"immediate_if_available_inquiry_otherwise\",\r\n    \"investigationSpeedLevel\": \"normal\"\r\n  }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1535,7 +1849,133 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"companyId\": \"{{companyId}}\",\r\n    \"report\": {\r\n    \"slug\": \"advanced-opinion-report\",\r\n    \"language\": \"EN\",\r\n    \"format\": [\r\n      \"json\"\r\n    ],\r\n    \"proccessingTimeInstruction\": \"immediate\",\r\n    \"investigationSpeedLevel\": \"normal\"\r\n  }\r\n}",
+									"raw": "{\r\n    \"companyId\": \"{{companyId}}\",\r\n    \"report\": {\r\n    \"slug\": \"advanced-opinion-report\",\r\n    \"language\": \"EN\",\r\n    \"format\": [\r\n      \"json\"\r\n    ],\r\n    \"proccessingTimeInstruction\": \"immediate_if_available_inquiry_otherwise\",\r\n    \"investigationSpeedLevel\": \"normal\"\r\n  }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{dataAPIBaseUrl}}/publications/orders",
+									"host": [
+										"{{dataAPIBaseUrl}}"
+									],
+									"path": [
+										"publications",
+										"orders"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Advanced Opinion report via externalId",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "FR",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"externalId\": \"icon#38739270\",\r\n    \"countryCode\": \"RO\",\r\n    \"report\": {\r\n    \"slug\": \"advanced-opinion-report\",\r\n    \"language\": \"EN\",\r\n    \"format\": [\r\n      \"json\"\r\n    ],\r\n    \"proccessingTimeInstruction\": \"immediate_if_available_inquiry_otherwise\"\r\n  }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{dataAPIBaseUrl}}/publications/orders",
+									"host": [
+										"{{dataAPIBaseUrl}}"
+									],
+									"path": [
+										"publications",
+										"orders"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Credit Opinion report",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "FR",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"companyId\": \"{{companyId}}\",\r\n    \"report\": {\r\n    \"slug\": \"credit-opinion-report\",\r\n    \"language\": \"EN\",\r\n    \"format\": [\r\n      \"json\"\r\n    ],\r\n    \"proccessingTimeInstruction\": \"immediate_if_available_inquiry_otherwise\",\r\n    \"investigationSpeedLevel\": \"normal\"\r\n  }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1598,7 +2038,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"companyId\": \"{{companyId}}\",\r\n    \"report\":\r\n        {\r\n            \"slug\": \"customized-report\",\r\n            \"customReportId\": \"200\",\r\n            \"language\": \"EN\",\r\n            \"format\": [\r\n            \"json\"],\r\n            \"proccessingTimeInstruction\": \"immediate\"\r\n        }\r\n\r\n}",
+									"raw": "{\r\n    \"companyId\": \"{{companyId}}\",\r\n    \"report\":\r\n        {\r\n            \"slug\": \"customized-report\",\r\n            \"customReportId\": \"200\",\r\n            \"language\": \"EN\",\r\n            \"format\": [\r\n            \"json\"],\r\n            \"proccessingTimeInstruction\": \"immediate_if_available_inquiry_otherwise\"\r\n        }\r\n\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1686,6 +2126,93 @@
 								"body": {
 									"mode": "raw",
 									"raw": "{\r\n    \"companyId\": \"{{companyId}}\",\r\n    \"assessments\": [\r\n        {\r\n            \"slug\": \"debtor-risk-assessment\"\r\n        },\r\n        {\r\n            \"slug\": \"debtor-risk-assessment-package\"\r\n        },\r\n        {\r\n            \"currency\" : \"EUR\",\r\n            \"slug\": \"credit-opinion\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{dataAPIBaseUrl}}/publications/orders",
+									"host": [
+										"{{dataAPIBaseUrl}}"
+									],
+									"path": [
+										"publications",
+										"orders"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DRA  Assessment package via companyId",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var moment = require('moment');\r",
+											"\r",
+											"pm.test(request.name, function () {\r",
+											"    pm.response.to.have.status(201);\r",
+											"    var responseJson = pm.response.json();\r",
+											"    pm.expect(responseJson.orderDate).to.include(moment().format(\"YYYY-MM-DD\"));\r",
+											"    pm.expect(responseJson.publications.length).to.eql(3);\r",
+											"    pm.expect(responseJson.status).to.eql(\"in-preparation\");\r",
+											"\r",
+											"    checkPublication(pm, responseJson.publications[0], 0);\r",
+											"    checkPublication(pm, responseJson.publications[1], 1);\r",
+											"    checkPublication(pm, responseJson.publications[2], 2);\r",
+											"});\r",
+											"\r",
+											"function checkPublication(pm, publication, index) {\r",
+											"    pm.expect(publication.href).to.eql(\"/publications/\" + publication.deliveryId);\r",
+											"    if (index == 0) {\r",
+											"        pm.expect(publication.assessmentSlug).to.eql(\"debtor-risk-assessment\");\r",
+											"    } else if (index == 1) {\r",
+											"        pm.expect(publication.assessmentSlug).to.eql(\"debtor-risk-assessment-package\");\r",
+											"    } else if (index == 2) {\r",
+											"        pm.expect(publication.assessmentSlug).to.eql(\"credit-opinion\");\r",
+											"    }\r",
+											"    pm.expect(publication.status).to.eql(\"in-preparation\");\r",
+											"}"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "EN",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"companyId\": \"{{companyId}}\",\r\n    \"assessments\": [\r\n        {\r\n            \"slug\": \"debtor-risk-assessment-package\"\r\n        }\r\n    ]\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1830,6 +2357,69 @@
 								}
 							},
 							"response": []
+						},
+						{
+							"name": "URBA products via ICON no",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "EN",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"countryCode\": \"FR\",\r\n    \"externalId\": \"icon#149297638\",\r\n    \"customerReference\":\"TestGZ_27June\",\r\n    \"assessments\": [\r\n        \r\n        {\r\n            \"slug\": \"debtor-risk-assessment-package\"\r\n        },\r\n         {\r\n            \"slug\": \"country-risk-assessment\"\r\n        },\r\n        {\r\n            \"slug\": \"sector-risk-assessment\",\r\n            \"naceCode\":\"5510\"\r\n        },\r\n        {\r\n            \"slug\": \"advanced-opinion\",\r\n            \"language\": \"EN\"\r\n        }\r\n    ],\r\n    \"report\": \r\n      {\r\n        \"slug\": \"full-report\",\r\n        \"language\": \"en\",\r\n         \"format\": [\r\n         \"pdf\",\r\n         \"json\"\r\n        ],\r\n        \"proccessingTimeInstruction\": \"immediate_if_available_inquiry_otherwise\",\r\n        \"investigationSpeedLevel\": \"normal\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{dataAPIBaseUrl}}/publications/orders",
+									"host": [
+										"{{dataAPIBaseUrl}}"
+									],
+									"path": [
+										"publications",
+										"orders"
+									]
+								}
+							},
+							"response": []
 						}
 					]
 				},
@@ -1942,7 +2532,322 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"countryCode\" :\"PL\",\r\n    \"companyId\" : \"8a4aa0e5-ed39-342d-afd4-15a609503db2\",\r\n   \"startDate\": \"2023-01-16\",\r\n   \"report\": \r\n      {\r\n        \"slug\": \"full-report\",\r\n        \"language\": \"en\",\r\n         \"format\": [\r\n         \"pdf\",\r\n         \"json\"\r\n        ],\r\n        \"proccessingTimeInstruction\": \"immediate\",\r\n        \"investigationSpeedLevel\": \"normal\"\r\n    }\r\n    }",
+									"raw": "{\r\n    \"countryCode\" :\"PL\",\r\n    \"companyId\" : \"8a4aa0e5-ed39-342d-afd4-15a609503db2\",\r\n   \"startDate\": \"2023-01-16\",\r\n   \"report\": \r\n      {\r\n        \"slug\": \"full-report\",\r\n        \"language\": \"en\",\r\n         \"format\": [\r\n         \"pdf\",\r\n         \"json\"\r\n        ],\r\n        \"investigationSpeedLevel\": \"normal\"\r\n    }\r\n    }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{dataAPIBaseUrl}}/monitorings/orders",
+									"host": [
+										"{{dataAPIBaseUrl}}"
+									],
+									"path": [
+										"monitorings",
+										"orders"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Customized report for a company via companyId",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "FR",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"countryCode\" :\"PL\",\r\n    \"companyId\" : \"8a4aa0e5-ed39-342d-afd4-15a609503db2\",\r\n   \"startDate\": \"2023-01-16\",\r\n   \"report\": \r\n      {\r\n        \"slug\": \"customized-report\",\r\n        \"customReportId\": \"301\",\r\n        \"language\": \"en\",\r\n         \"format\": [\r\n         \"pdf\",\r\n         \"json\"\r\n        ],\r\n        \"proccessingTimeInstruction\": \"immediate_if_available_inquiry_otherwise\",\r\n        \"investigationSpeedLevel\": \"normal\"\r\n    }\r\n    }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{dataAPIBaseUrl}}/monitorings/orders",
+									"host": [
+										"{{dataAPIBaseUrl}}"
+									],
+									"path": [
+										"monitorings",
+										"orders"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "AO report for a company via ICON no",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "FR",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"countryCode\" :\"CZ\",\r\n    \"externalId\" : \"icon#4724020\",\r\n    \"customerReference\":\"GF_Test_04072023_2\",\r\n   \"report\": \r\n      {\r\n        \"slug\": \"advanced-opinion-report\",\r\n        \"language\": \"en\",\r\n         \"format\": [\r\n         \"json\"\r\n        ],\r\n        \"investigationSpeedLevel\": \"normal\"\r\n    }\r\n    }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{dataAPIBaseUrl}}/monitorings/orders",
+									"host": [
+										"{{dataAPIBaseUrl}}"
+									],
+									"path": [
+										"monitorings",
+										"orders"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CO report for a company via ICON no",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "FR",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"countryCode\" :\"RO\",\r\n    \"externalId\" : \"icon#10131710\",\r\n    \"customerReference\":\"GF_Test_04072023_2\",\r\n   \"report\": \r\n      {\r\n        \"slug\": \"credit-opinion-report\",\r\n        \"language\": \"en\",\r\n         \"format\": [\r\n         \"json\"\r\n        ],\r\n        \"investigationSpeedLevel\": \"normal\"\r\n    }\r\n    }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{dataAPIBaseUrl}}/monitorings/orders",
+									"host": [
+										"{{dataAPIBaseUrl}}"
+									],
+									"path": [
+										"monitorings",
+										"orders"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DRA report for a company via ICON no",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "FR",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"countryCode\" :\"RO\",\r\n    \"externalId\" : \"icon#10131710\",\r\n    \"customerReference\":\"GF_Test_04072023_2\",\r\n   \"report\": \r\n      {\r\n        \"slug\": \"dra-opinion-report\",\r\n        \"language\": \"en\",\r\n         \"format\": [\r\n         \"json\"\r\n        ],\r\n        \"investigationSpeedLevel\": \"normal\"\r\n    }\r\n    }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{dataAPIBaseUrl}}/monitorings/orders",
+									"host": [
+										"{{dataAPIBaseUrl}}"
+									],
+									"path": [
+										"monitorings",
+										"orders"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DRA assessment via VAT number",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "FR",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"externalId\": \"vat-number#CZ00177041\",\r\n    \"customerReference\":\"GF_Test_04072023_3\",\r\n    \"countryCode\": \"CZ\",\r\n    \"assessments\": [\r\n        {\r\n            \"slug\": \"debtor-risk-assessment\"\r\n        }\r\n    ]\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -2029,7 +2934,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"companyId\": \"{{companyId}}\",\r\n    \"callbackUrl\": \"https://webhook.site/7b0d250c-6e7e-4823-94ed-4a6fc00fc79b\",\r\n    \"assessments\": [\r\n        \r\n        {\r\n            \"slug\": \"debtor-risk-assessment-package\"\r\n        },\r\n         {\r\n            \"slug\": \"country-risk-assessment\"\r\n        },\r\n        {\r\n            \"slug\": \"sector-risk-assessment\"\r\n        },\r\n        {\r\n            \"currency\" : \"EUR\",\r\n            \"slug\": \"credit-opinion\"\r\n        },\r\n        {\r\n            \"slug\": \"advanced-opinion\",\r\n            \"language\": \"EN\"\r\n        }\r\n    ],\r\n    \"report\": \r\n      {\r\n        \"slug\": \"full-report\",\r\n        \"language\": \"en\",\r\n         \"format\": [\r\n         \"pdf\",\r\n         \"json\"\r\n        ],\r\n        \"proccessingTimeInstruction\": \"immediate\",\r\n        \"investigationSpeedLevel\": \"normal\"\r\n    }\r\n}",
+									"raw": "{\r\n    \"companyId\": \"{{companyId}}\",\r\n    \"callbackUrl\": \"https://webhook.site/7b0d250c-6e7e-4823-94ed-4a6fc00fc79b\",\r\n    \"assessments\": [\r\n        \r\n        {\r\n            \"slug\": \"debtor-risk-assessment-package\"\r\n        },\r\n         {\r\n            \"slug\": \"country-risk-assessment\"\r\n        },\r\n        {\r\n            \"slug\": \"sector-risk-assessment\"\r\n        },\r\n        {\r\n            \"currency\" : \"EUR\",\r\n            \"slug\": \"credit-opinion\"\r\n        },\r\n        {\r\n            \"slug\": \"advanced-opinion\",\r\n            \"language\": \"EN\"\r\n        }\r\n    ],\r\n    \"report\": \r\n      {\r\n        \"slug\": \"full-report\",\r\n        \"language\": \"en\",\r\n         \"format\": [\r\n         \"pdf\",\r\n         \"json\"\r\n        ],\r\n        \"proccessingTimeInstruction\": \"immediate_if_available_inquiry_otherwise\",\r\n        \"investigationSpeedLevel\": \"normal\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -2156,6 +3061,69 @@
 								"body": {
 									"mode": "raw",
 									"raw": "{\r\n    \"externalId\": \"vat-number#5262879958\",\r\n    \"countryCode\": \"PL\",\r\n    \"callbackUrl\": \"https://webhook.site/7b0d250c-6e7e-4823-94ed-4a6fc00fc79b\",\r\n    \"assessments\": [\r\n        {\r\n            \"slug\": \"debtor-risk-assessment-package\"\r\n        },\r\n        {\r\n            \"currency\" : \"EUR\",\r\n            \"slug\": \"advanced-opinion\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{dataAPIBaseUrl}}/monitorings/orders",
+									"host": [
+										"{{dataAPIBaseUrl}}"
+									],
+									"path": [
+										"monitorings",
+										"orders"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DRAGON products via companyID",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "{{idToken}}",
+										"type": "text"
+									},
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "EN",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"companyId\":\"bdc56b01-5181-3e38-9f0b-b7d0ef014a4f\",\r\n    \"customerReference\":\"GF_Preparing_SAPAdapter_Tests\",\r\n    \"countryCode\": \"PL\",\r\n    \"assessments\": [\r\n        {\r\n            \"slug\": \"debtor-risk-assessment-package\"\r\n        },\r\n         {\r\n            \"slug\": \"debtor-risk-assessment\"\r\n        },\r\n        {\r\n            \"currency\" : \"EUR\",\r\n            \"slug\": \"advanced-opinion\"\r\n        }\r\n    ],\r\n     \"report\": \r\n      {\r\n        \"slug\": \"dra-report\",\r\n        \"language\": \"en\",\r\n         \"format\": [\r\n         \"json\"\r\n        ],\r\n        \"investigationSpeedLevel\": \"normal\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
