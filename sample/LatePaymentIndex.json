@@ -1,17 +1,17 @@
-{
-  "individualPaymentIndexReleaseDate": "2023-05-06",
-  "assessmentSlug": "late-payment-index",
-  "companyId": "dc5b0048-2a80-4a22-b2f9-fad7d72f074d",
-  "paymentIndexValue": 4,
-  "updateDate": "2023-06-13",
-  "descriptions": [
+[
     {
-      "label": "Generic label",
-      "short": "Short description if needed",
-      "full": "A long description for giving way more information",
-      "language": "fr"
+        "releaseDate": "2024-01-23",
+        "assessmentSlug": "late-payment-index",
+        "companyId": "b8639607-2084-36c1-8f50-069ee43c0e02",
+        "paymentIndexValue": 2,
+        "updateDate": "2024-01-23",
+        "descriptions": [
+            {
+                "label": "Late Payment Index (LPI)",
+                "full": "Considerable negative experience",
+                "language": "en",
+                "short": "LPI"
+            }
+        ]
     }
-  ],
-  "releaseDate": "2023-06-13",
-  "isCurrent": true
-}
+]
