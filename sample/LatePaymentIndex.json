@@ -1,0 +1,17 @@
+{
+  "individualPaymentIndexReleaseDate": "2023-05-06",
+  "assessmentSlug": "late-payment-index",
+  "companyId": "dc5b0048-2a80-4a22-b2f9-fad7d72f074d",
+  "paymentIndexValue": 4,
+  "updateDate": "2023-06-13",
+  "descriptions": [
+    {
+      "label": "Generic label",
+      "short": "Short description if needed",
+      "full": "A long description for giving way more information",
+      "language": "fr"
+    }
+  ],
+  "releaseDate": "2023-06-13",
+  "isCurrent": true
+}
