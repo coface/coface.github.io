@@ -1,0 +1,1525 @@
+[{
+        "releaseDate": "2024-07-02",
+        "companyId": "80681a13-4031-31b3-8a04-4dc2938e8854",
+        "externalId": "icon#4724020",
+        "financialSlug": "global-financial",
+        "years": [
+            "2022",
+            "2021"
+        ],
+        "type": "801",
+        "name": "IGF-IBS - ICON GLOBAL FINANCIALS",
+        "balanceSheetItems": [{
+                "type": "",
+                "name": "",
+                "indicators": [{
+                        "type": {
+                            "value": "5002",
+                            "name": "Fixed assets"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 6472379401.5875,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "5002",
+                            "name": "Fixed assets"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 5650302203.1586,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "5115",
+                            "name": "Intangible fixed assets"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 2439242825.1577,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5115",
+                            "name": "Intangible fixed assets"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 1898888672.2558,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5116",
+                            "name": "Tangible fixed assets"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 3316751475.6767,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5116",
+                            "name": "Tangible fixed assets"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 3192318190.6805,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5117",
+                            "name": "Other fixed assets"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 716385100.7531,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5117",
+                            "name": "Other fixed assets"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 559095340.2223,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "299",
+                            "name": "Current assets"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 3145980052.9208,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "299",
+                            "name": "Current assets"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 3375355819.8479,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "1321",
+                            "name": "Stock"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 1648157948.3004,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "1321",
+                            "name": "Stock"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 1243946188.3408,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5942",
+                            "name": "Cash and cash equivalents"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 67779360.8793,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5942",
+                            "name": "Cash and cash equivalents"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 874322480.0156,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5113",
+                            "name": "Other current assets"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 1430042743.7411,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5113",
+                            "name": "Other current assets"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 1257087151.4915,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "297",
+                            "name": "Total assets"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 9618359454.5084,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    }, {
+                        "type": {
+                            "value": "297",
+                            "name": "Total assets"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 9025658023.0065,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    }, {
+                        "type": {
+                            "value": "5924",
+                            "name": "Shareholders funds"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 3764502340.7286,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "5924",
+                            "name": "Shareholders funds"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 3958978358.3545,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "5112",
+                            "name": "Capital"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 680195399.9593,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5112",
+                            "name": "Capital"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 651550009.7485,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "939",
+                            "name": "Retained earnings"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 2807653165.0723,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "939",
+                            "name": "Retained earnings"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 3065392864.1061,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5111",
+                            "name": "Other shareholders funds"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 276653775.697,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5111",
+                            "name": "Other shareholders funds"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 242035484.4999,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "1033",
+                            "name": "Non-current liabilities"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 2202483207.816,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "1033",
+                            "name": "Non-current liabilities"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 1017586274.1275,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "5109",
+                            "name": "Other non-current liabilities"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 429798493.792,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5109",
+                            "name": "Other non-current liabilities"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 1017586274.1275,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "3002",
+                            "name": "Provisions"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 1772684714.024,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "345",
+                            "name": "Current liabilities"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 3651373905.9637,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "345",
+                            "name": "Current liabilities"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 4049093390.5245,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "5106",
+                            "name": "Other current liabilities"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 3651373905.9637,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5106",
+                            "name": "Other current liabilities"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 4049093390.5245,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5104",
+                            "name": "Total Liabilities"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 5853857113.7797,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    }, {
+                        "type": {
+                            "value": "5104",
+                            "name": "Total Liabilities"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 5066679664.652,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    }, {
+                        "type": {
+                            "value": "5103",
+                            "name": "TOTAL SHAREH. FUNDS & LIAB."
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 9618359454.5083,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    }, {
+                        "type": {
+                            "value": "5103",
+                            "name": "TOTAL SHAREH. FUNDS & LIAB."
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 9025658023.0065,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    }
+                ]
+            }, {
+                "type": "L1040",
+                "name": "PROFIT AND LOSS",
+                "indicators": [{
+                        "type": {
+                            "value": "401",
+                            "name": "Revenue"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 18587258294.321,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "401",
+                            "name": "Revenue"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 17020198869.1754,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "402",
+                            "name": "Sales"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 18083818440.871,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "402",
+                            "name": "Sales"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 16479118736.5959,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "720",
+                            "name": "Other operating expenses"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 18017993079.5847,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "720",
+                            "name": "Other operating expenses"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 16050809124.5857,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "404",
+                            "name": "Managerment expenses"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 1748666802.3611,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "405",
+                            "name": "Financial expenses"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 148259719.1126,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "405",
+                            "name": "Financial expenses"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 52875804.2503,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "406",
+                            "name": "Other"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 16121066558.111,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "406",
+                            "name": "Other"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 15997933320.3354,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5930",
+                            "name": "Operating profit"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 569265214.7364,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "5930",
+                            "name": "Operating profit"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 969389744.5896,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "407",
+                            "name": "Non Operating Income"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 83533482.5972,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "407",
+                            "name": "Non Operating Income"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 95925131.6046,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "409",
+                            "name": "P/L before tax"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 652798697.3336,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "409",
+                            "name": "P/L before tax"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 1065314876.1942,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "5670",
+                            "name": "Taxation"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 133034805.6177,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "5670",
+                            "name": "Taxation"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 191460323.6498,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    }, {
+                        "type": {
+                            "value": "410",
+                            "name": "P/L after tax"
+                        },
+                        "date": "20221231",
+                        "fromDate": "20220101",
+                        "toDate": "20221231",
+                        "fromAmount": 519763891.7159,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }, {
+                        "type": {
+                            "value": "410",
+                            "name": "P/L after tax"
+                        },
+                        "date": "20211231",
+                        "fromDate": "20210101",
+                        "toDate": "20211231",
+                        "fromAmount": 873854552.5444,
+                        "currency": {
+                            "value": "EUR",
+                            "name": "Euro"
+                        },
+                        "dimension": {
+                            "value": "0",
+                            "name": "Blank"
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
