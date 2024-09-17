@@ -1,0 +1,2000 @@
+ <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="root">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:string" name="version"/>
+                <xs:element name="orderStatus">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="intercreditOrderNumber"/>
+                            <xs:element name="provider">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="providerId"/>
+                                        <xs:element type="xs:string" name="name"/>
+                                        <xs:element type="xs:string" name="senderId"/>
+                                        <xs:element type="xs:string" name="city"/>
+                                        <xs:element name="country">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="street"/>
+                                        <xs:element type="xs:string" name="houseNumber"/>
+                                        <xs:element type="xs:string" name="zipcode"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="customer">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="customerId"/>
+                                        <xs:element type="xs:string" name="name"/>
+                                        <xs:element type="xs:string" name="recipientId"/>
+                                        <xs:element type="xs:string" name="city"/>
+                                        <xs:element name="country">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="street"/>
+                                        <xs:element type="xs:string" name="houseNumber"/>
+                                        <xs:element type="xs:string" name="zipcode"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element type="xs:string" name="customerReference"/>
+                            <xs:element type="xs:string" name="purchaseOrderNumber"/>
+                            <xs:element name="language">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="value"/>
+                                        <xs:element type="xs:string" name="name"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="product">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="code"/>
+                                        <xs:element type="xs:string" name="name"/>
+                                        <xs:element type="xs:string" name="productLine"/>
+                                        <xs:element type="xs:integer" name="order"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element type="xs:string" name="reportMimeType"/>
+                            <xs:element name="balanceSheetLayout">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="value"/>
+                                        <xs:element type="xs:string" name="name"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element type="xs:string" name="timestamp"/>
+                            <xs:element name="status">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="value"/>
+                                        <xs:element type="xs:string" name="name"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element type="xs:string" name="requiredBy"/>
+                            <xs:element type="xs:string" name="givenCompanyName"/>
+                            <xs:element name="requestedCompanyInformation">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="companyName"/>
+                                        <xs:element name="registrationCountry">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="zipcode"/>
+                                        <xs:element type="xs:string" name="city"/>
+                                        <xs:element type="xs:string" name="street"/>
+                                        <xs:element type="xs:string" name="houseNumber"/>
+                                        <xs:element type="xs:string" name="additionalAddressLine"/>
+                                        <xs:element name="country">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="telephonAreacode"/>
+                                        <xs:element type="xs:string" name="telephoneNumber"/>
+                                        <xs:element type="xs:string" name="nationalNumber"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element type="xs:string" name="question"/>
+                            <xs:element type="xs:string" name="answer"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="creditReport">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="company">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="copyright"/>
+                                        <xs:element type="xs:string" name="intercreditNumber"/>
+                                        <xs:element type="xs:string" name="nationalId"/>
+                                        <xs:element name="status">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="companyName"/>
+                                        <xs:element type="xs:string" name="sortName"/>
+                                        <xs:element type="xs:string" name="internationalName"/>
+                                        <xs:element type="xs:string" name="easyNumber"/>
+                                        <xs:element type="xs:string" name="shortName"/>
+                                        <xs:element name="legalForm">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="registration">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="number"/>
+                                                    <xs:element type="xs:string" name="city"/>
+                                                    <xs:element name="country">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="countryRegion">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="date"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="companyComment"/>
+                                        <xs:element type="xs:string" name="history"/>
+                                        <xs:element name="taxNumber">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="statisticalNumber">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="vatNumber">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="validityDate"/>
+                                        <xs:element type="xs:string" name="lastMajorUpdate"/>
+                                        <xs:element type="xs:string" name="established"/>
+                                        <xs:element name="capital">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="indicator">
+                                                        <xs:complexType>
+                                                            <xs:sequence></xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="nationalCurrency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element maxOccurs="unbounded" name="aliases">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="alias"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="addresses">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element maxOccurs="unbounded" name="addressList">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="validUntil"/>
+                                                                <xs:element name="addressType">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="value"/>
+                                                                            <xs:element type="xs:string" name="name"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element type="xs:string" name="runningNumber"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                                <xs:element type="xs:string" name="street"/>
+                                                                <xs:element type="xs:string" name="houseNumber"/>
+                                                                <xs:element type="xs:string" name="additionalAddressLine"/>
+                                                                <xs:element type="xs:string" name="zipcode"/>
+                                                                <xs:element type="xs:string" name="city"/>
+                                                                <xs:element name="country">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="value"/>
+                                                                            <xs:element type="xs:string" name="name"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="countryRegion">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="value"/>
+                                                                            <xs:element type="xs:string" name="name"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element type="xs:string" name="county"/>
+                                                                <xs:element type="xs:string" name="community"/>
+                                                                <xs:element type="xs:string" name="post"/>
+                                                                <xs:element name="telephone">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="international"/>
+                                                                            <xs:element type="xs:string" name="area"/>
+                                                                            <xs:element type="xs:string" name="number"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="telephone2">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="international"/>
+                                                                            <xs:element type="xs:string" name="area"/>
+                                                                            <xs:element type="xs:string" name="number"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="telephone3">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="international"/>
+                                                                            <xs:element type="xs:string" name="area"/>
+                                                                            <xs:element type="xs:string" name="number"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="telephone4">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="international"/>
+                                                                            <xs:element type="xs:string" name="area"/>
+                                                                            <xs:element type="xs:string" name="number"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="telephone5">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="international"/>
+                                                                            <xs:element type="xs:string" name="area"/>
+                                                                            <xs:element type="xs:string" name="number"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="fax">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="international"/>
+                                                                            <xs:element type="xs:string" name="area"/>
+                                                                            <xs:element type="xs:string" name="number"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element type="xs:string" name="email"/>
+                                                                <xs:element type="xs:string" name="internet"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="comment"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="primaryNationalIdentifier">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="shareholders">
+                                <xs:complexType>
+                                    <xs:sequence></xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="formerShareholders">
+                                <xs:complexType>
+                                    <xs:sequence></xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="auditors">
+                                <xs:complexType>
+                                    <xs:sequence></xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="management">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="managers">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element maxOccurs="unbounded" name="comments">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="comment"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="personFunctionsInOtherCompanies">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="name"/>
+                                        <xs:element name="functions">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="position"/>
+                                                    <xs:element name="functionCompany">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="vatNumber"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="country">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="comment"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="authority">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="authorityTypes">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="vatNumber"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="comment"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="activities">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="activitiesList">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="priority"/>
+                                                    <xs:element type="xs:string" name="naceCode"/>
+                                                    <xs:element type="xs:string" name="naceText"/>
+                                                    <xs:element type="xs:string" name="localActivityCode"/>
+                                                    <xs:element type="xs:string" name="localActivityText"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="comment"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="imports">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="importsList">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="date"/>
+                                                    <xs:element type="xs:string" name="amount"/>
+                                                    <xs:element name="currency">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="dimension">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="country">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="countryList">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTerms1">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentDays1">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTermsText1">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="termsQualifier1">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTerms2">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentDays2">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTermsText2">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="termsQualifier2">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTerms3">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentDays3">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTermsText3">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="termsQualifier3">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTerms4">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentDays4">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTermsText4">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="termsQualifier4">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTerms5">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentDays5">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTermsText5">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="termsQualifier5">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="retail"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="comment"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="exports">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="exportsList">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="date"/>
+                                                    <xs:element type="xs:string" name="amount"/>
+                                                    <xs:element name="currency">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="dimension">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="country">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="countryList">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTerms1">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentDays1">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTermsText1">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="termsQualifier1">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTerms2">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentDays2">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTermsText2">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="termsQualifier2">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTerms3">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentDays3">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTermsText3">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="termsQualifier3">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTerms4">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentDays4">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTermsText4">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="termsQualifier4">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTerms5">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentDays5">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="paymentTermsText5">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="termsQualifier5">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="retail"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="comment"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="keyData">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="keyDataIndicators">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element maxOccurs="unbounded" name="keyDataRatios">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="trends">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="value"/>
+                                        <xs:element type="xs:string" name="name"/>
+                                        <xs:element type="xs:string" name="trendValue"/>
+                                        <xs:element type="xs:string" name="currentYear"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="calculatedKeyDataInfo">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="calculatedKeyData">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="balanceSheet">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="balanceSheetItems">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="comment"/>
+                                        <xs:element maxOccurs="unbounded" name="historicalExchangeRates">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="currency"/>
+                                                    <xs:element type="xs:string" name="referenceCurrency"/>
+                                                    <xs:element type="xs:string" name="year"/>
+                                                    <xs:element type="xs:string" name="exchangeRate"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="additionalBalanceSheets">
+                                <xs:complexType>
+                                    <xs:sequence></xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="ratios">
+                                <xs:complexType>
+                                    <xs:sequence></xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="workforce">
+                                <xs:complexType>
+                                    <xs:sequence></xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="vehicles">
+                                <xs:complexType>
+                                    <xs:sequence></xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="motorVehicles">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="motorVehiclesList">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="comment"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="realEstates">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="realEstatesList">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="comment"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="linkedCompanies">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="linkedCompaniesList">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="comment"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="functionaryCompanies">
+                                <xs:complexType>
+                                    <xs:sequence></xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="bankConnections">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="bankConnectionsList">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="bank">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="intercreditNumber"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="located"/>
+                                                    <xs:element type="xs:string" name="accountNumber"/>
+                                                    <xs:element type="xs:string" name="iban"/>
+                                                    <xs:element type="xs:string" name="bic"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="comment"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="bankConfirmations">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="confirmationCurrent">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="bank">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="intercreditNumber"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="accountNumber"/>
+                                                    <xs:element type="xs:string" name="bankConfirmationDate"/>
+                                                    <xs:element type="xs:string" name="bankAccountBalance"/>
+                                                    <xs:element name="bankAccountBalanceCurrency">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="totalAccessioninLast30Days"/>
+                                                    <xs:element name="totalAccessioninLast30DaysCurrency">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="averageBalanceInLast30Days"/>
+                                                    <xs:element name="averageBalanceInLast30DaysCurrency">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="amountOfApprovedCredit"/>
+                                                    <xs:element name="amountOfApprovedCreditCurrency">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="accountPermanentlyBlockedFromDayOfIssuingThisReport"/>
+                                                    <xs:element type="xs:string" name="accountTemporarilyBlocked"/>
+                                                    <xs:element type="xs:string" name="numberOfDaysAccountBlockedInLast180Days"/>
+                                                    <xs:element type="xs:string" name="blockedAmount"/>
+                                                    <xs:element name="blockedAmountCurrency">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="accountClosureDate"/>
+                                                    <xs:element type="xs:string" name="comment"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="confirmationHistory">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="bank">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="intercreditNumber"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="accountNumber"/>
+                                                    <xs:element type="xs:string" name="bankConfirmationDate"/>
+                                                    <xs:element type="xs:string" name="bankAccountBalance"/>
+                                                    <xs:element name="bankAccountBalanceCurrency">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="totalAccessioninLast30Days"/>
+                                                    <xs:element name="totalAccessioninLast30DaysCurrency">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="averageBalanceInLast30Days"/>
+                                                    <xs:element name="averageBalanceInLast30DaysCurrency">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="amountOfApprovedCredit"/>
+                                                    <xs:element name="amountOfApprovedCreditCurrency">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="accountPermanentlyBlockedFromDayOfIssuingThisReport"/>
+                                                    <xs:element type="xs:string" name="accountTemporarilyBlocked"/>
+                                                    <xs:element type="xs:string" name="numberOfDaysAccountBlockedInLast180Days"/>
+                                                    <xs:element type="xs:string" name="blockedAmount"/>
+                                                    <xs:element name="blockedAmountCurrency">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="accountClosureDate"/>
+                                                    <xs:element type="xs:string" name="comment"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="shareCapital">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="nominalCapitalAmount"/>
+                                        <xs:element name="nominalCapitalCurrency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="nominalCapitalDate"/>
+                                        <xs:element type="xs:string" name="nominalCapitalShares1Number"/>
+                                        <xs:element name="nominalCapitalShares1Class">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="nominalCapitalShares1ValuePerShareCurrency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="nominalCapitalShares1ValuePerShareAmount"/>
+                                        <xs:element type="xs:string" name="nominalCapitalShares2Number"/>
+                                        <xs:element name="nominalCapitalShares2Class">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="nominalCapitalShares2ValuePerShareCurrency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="nominalCapitalShares2ValuePerShareAmount"/>
+                                        <xs:element type="xs:string" name="nominalCapitalShares3Number"/>
+                                        <xs:element name="nominalCapitalShares3Class">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="nominalCapitalShares3ValuePerShareCurrency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="nominalCapitalShares3ValuePerShareAmount"/>
+                                        <xs:element name="nominalCapitalPrevious1Currency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="nominalCapitalPrevious1Amount"/>
+                                        <xs:element type="xs:string" name="nominalCapitalPrevious1Date"/>
+                                        <xs:element name="nominalCapitalPrevious2Currency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="nominalCapitalPrevious2Amount"/>
+                                        <xs:element type="xs:string" name="nominalCapitalPrevious2Date"/>
+                                        <xs:element name="nominalCapitalPrevious3Currency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="nominalCapitalPrevious3Amount"/>
+                                        <xs:element type="xs:string" name="nominalCapitalPrevious3Date"/>
+                                        <xs:element type="xs:string" name="issuedCapitalAmount"/>
+                                        <xs:element name="issuedCapitalCurrency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="issuedCapitalDate"/>
+                                        <xs:element type="xs:string" name="issuedCapitalShares1Number"/>
+                                        <xs:element name="issuedCapitalShares1Class">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="issuedCapitalShares1ValuePerShareCurrency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="issuedCapitalShares1ValuePerShareAmount"/>
+                                        <xs:element type="xs:string" name="issuedCapitalShares2Number"/>
+                                        <xs:element name="issuedCapitalShares2Class">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="issuedCapitalShares2ValuePerShareCurrency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="issuedCapitalShares2ValuePerShareAmount"/>
+                                        <xs:element type="xs:string" name="issuedCapitalShares3Number"/>
+                                        <xs:element name="issuedCapitalShares3Class">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="issuedCapitalShares3ValuePerShareCurrency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="issuedCapitalShares3ValuePerShareAmount"/>
+                                        <xs:element name="issuedCapitalPrevious1Currency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="issuedCapitalPrevious1Amount"/>
+                                        <xs:element type="xs:string" name="issuedCapitalPrevious1Date"/>
+                                        <xs:element name="issuedCapitalPrevious2Currency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="issuedCapitalPrevious2Amount"/>
+                                        <xs:element type="xs:string" name="issuedCapitalPrevious2Date"/>
+                                        <xs:element name="issuedCapitalPrevious3Currency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="issuedCapitalPrevious3Amount"/>
+                                        <xs:element type="xs:string" name="issuedCapitalPrevious3Date"/>
+                                        <xs:element name="paidUpCapitalCurrency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="paidUpCapitalAmount"/>
+                                        <xs:element type="xs:string" name="paidUpCapitalDate"/>
+                                        <xs:element name="paidUpCapitalCashCurrency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="paidUpCapitalCashAmount"/>
+                                        <xs:element name="paidUpCapitalNoncashCurrency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="paidUpCapitalNoncashAmount"/>
+                                        <xs:element name="paidUpCapitalPrevious1Currency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="paidUpCapitalPrevious1Amount"/>
+                                        <xs:element type="xs:string" name="paidUpCapitalPrevious1Date"/>
+                                        <xs:element name="paidUpCapitalPrevious2Currency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="paidUpCapitalPrevious2Amount"/>
+                                        <xs:element type="xs:string" name="paidUpCapitalPrevious2Date"/>
+                                        <xs:element name="paidUpCapitalPrevious3Currency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="paidUpCapitalPrevious3Amount"/>
+                                        <xs:element type="xs:string" name="paidUpCapitalPrevious3Date"/>
+                                        <xs:element type="xs:string" name="comment"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="additionalInformation">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="additionalInformationList">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="comment"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="additionalComments">
+                                <xs:complexType>
+                                    <xs:sequence></xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="companyDevelopment">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="comment"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="insolvency">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="solvencyList">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="comment"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="additionalInsolvencies">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="additionalInsolvencyList">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="text">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="informationDate"/>
+                                                    <xs:element type="xs:string" name="courtDecisionDate"/>
+                                                    <xs:element type="xs:string" name="courtName"/>
+                                                    <xs:element type="xs:string" name="courtAddress"/>
+                                                    <xs:element type="xs:string" name="publicName"/>
+                                                    <xs:element type="xs:string" name="numberPublic"/>
+                                                    <xs:element type="xs:string" name="publicText"/>
+                                                    <xs:element type="xs:string" name="deadline"/>
+                                                    <xs:element type="xs:string" name="trusteeName"/>
+                                                    <xs:element type="xs:string" name="trusteeAddress"/>
+                                                    <xs:element type="xs:string" name="courtNumber"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="comment"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="ratingTexts">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="ratingTextCompanySize"/>
+                                        <xs:element type="xs:string" name="ratingTextTurnover"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="maximumCredit">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="indicator">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="comment"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="maximumCreditHistory">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="maximumCredit">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="indicator">
+                                                        <xs:complexType>
+                                                            <xs:sequence></xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="comment"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="date"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="customerSpecificMaxCredits">
+                                <xs:complexType>
+                                    <xs:sequence></xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="cceatRating">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="score">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="date"/>
+                                        <xs:element type="xs:string" name="pd"/>
+                                        <xs:element type="xs:string" name="softPd"/>
+                                        <xs:element type="xs:string" name="finPd"/>
+                                        <xs:element type="xs:string" name="threeDigitScore"/>
+                                        <xs:element type="xs:string" name="comment"/>
+                                        <xs:element maxOccurs="unbounded" name="contribution">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                    <xs:element type="xs:string" name="direction"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="historicalcceATRatings">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="score">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="date"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="financialSources">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="sourceType">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="date"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="audits">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="auditList">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="auditorPersonName"/>
+                                                    <xs:element type="xs:string" name="auditorCompanyName"/>
+                                                    <xs:element type="xs:string" name="auditorCompanyAddress"/>
+                                                    <xs:element type="xs:string" name="auditStatus"/>
+                                                    <xs:element type="xs:string" name="date"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="comment"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="companyHistory">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="formerCompanyNames">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                    <xs:element type="xs:string" name="validSince"/>
+                                                    <xs:element type="xs:string" name="validUntil"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element maxOccurs="unbounded" name="formerAddresses">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="validUntil"/>
+                                                    <xs:element name="addressType">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="runningNumber"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                    <xs:element type="xs:string" name="street"/>
+                                                    <xs:element type="xs:string" name="houseNumber"/>
+                                                    <xs:element type="xs:string" name="additionalAddressLine"/>
+                                                    <xs:element type="xs:string" name="zipcode"/>
+                                                    <xs:element type="xs:string" name="city"/>
+                                                    <xs:element name="country">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="countryRegion">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="county"/>
+                                                    <xs:element type="xs:string" name="community"/>
+                                                    <xs:element type="xs:string" name="post"/>
+                                                    <xs:element name="telephone">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="international"/>
+                                                                <xs:element type="xs:string" name="area"/>
+                                                                <xs:element type="xs:string" name="number"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="telephone2">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="international"/>
+                                                                <xs:element type="xs:string" name="area"/>
+                                                                <xs:element type="xs:string" name="number"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="telephone3">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="international"/>
+                                                                <xs:element type="xs:string" name="area"/>
+                                                                <xs:element type="xs:string" name="number"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="telephone4">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="international"/>
+                                                                <xs:element type="xs:string" name="area"/>
+                                                                <xs:element type="xs:string" name="number"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="telephone5">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="international"/>
+                                                                <xs:element type="xs:string" name="area"/>
+                                                                <xs:element type="xs:string" name="number"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="fax">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="international"/>
+                                                                <xs:element type="xs:string" name="area"/>
+                                                                <xs:element type="xs:string" name="number"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="email"/>
+                                                    <xs:element type="xs:string" name="internet"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element maxOccurs="unbounded" name="formerRegistrations">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="number"/>
+                                                    <xs:element type="xs:string" name="date"/>
+                                                    <xs:element type="xs:string" name="protocolPlace"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element maxOccurs="unbounded" name="formerLegalForms">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="legalForm">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="validSince"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="majorSuppliers">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="name"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="majorCustomers">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="name"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="executions">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="executionList">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="executionDate"/>
+                                                    <xs:element type="xs:string" name="executionAmount"/>
+                                                    <xs:element type="xs:string" name="executionCurrency"/>
+                                                    <xs:element type="xs:string" name="executorName"/>
+                                                    <xs:element name="executionStatus">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="comment"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="countryIndicators">
+                                <xs:complexType>
+                                    <xs:sequence></xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="additionalTextInformations">
+                                <xs:complexType>
+                                    <xs:sequence></xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="claimsRecords">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:integer" name="value"/>
+                                        <xs:element type="xs:string" name="description"/>
+                                        <xs:element type="xs:integer" name="updatedDate"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="notification">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="company">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="copyright"/>
+                                        <xs:element type="xs:string" name="intercreditNumber"/>
+                                        <xs:element type="xs:string" name="nationalId"/>
+                                        <xs:element name="status">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="companyName"/>
+                                        <xs:element type="xs:string" name="sortName"/>
+                                        <xs:element type="xs:string" name="internationalName"/>
+                                        <xs:element type="xs:string" name="easyNumber"/>
+                                        <xs:element type="xs:string" name="shortName"/>
+                                        <xs:element name="legalForm">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="registration">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="number"/>
+                                                    <xs:element type="xs:string" name="city"/>
+                                                    <xs:element name="country">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="countryRegion">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="value"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="date"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="companyComment"/>
+                                        <xs:element type="xs:string" name="history"/>
+                                        <xs:element name="taxNumber">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="statisticalNumber">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="vatNumber">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="validityDate"/>
+                                        <xs:element type="xs:string" name="lastMajorUpdate"/>
+                                        <xs:element type="xs:string" name="established"/>
+                                        <xs:element name="capital">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="indicator">
+                                                        <xs:complexType>
+                                                            <xs:sequence></xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="nationalCurrency">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="value"/>
+                                                    <xs:element type="xs:string" name="name"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element maxOccurs="unbounded" name="aliases">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="alias"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="addresses">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element maxOccurs="unbounded" name="addressList">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="validUntil"/>
+                                                                <xs:element name="addressType">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="value"/>
+                                                                            <xs:element type="xs:string" name="name"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element type="xs:string" name="runningNumber"/>
+                                                                <xs:element type="xs:string" name="name"/>
+                                                                <xs:element type="xs:string" name="street"/>
+                                                                <xs:element type="xs:string" name="houseNumber"/>
+                                                                <xs:element type="xs:string" name="additionalAddressLine"/>
+                                                                <xs:element type="xs:string" name="zipcode"/>
+                                                                <xs:element type="xs:string" name="city"/>
+                                                                <xs:element name="country">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="value"/>
+                                                                            <xs:element type="xs:string" name="name"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="countryRegion">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="value"/>
+                                                                            <xs:element type="xs:string" name="name"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element type="xs:string" name="county"/>
+                                                                <xs:element type="xs:string" name="community"/>
+                                                                <xs:element type="xs:string" name="post"/>
+                                                                <xs:element name="telephone">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="international"/>
+                                                                            <xs:element type="xs:string" name="area"/>
+                                                                            <xs:element type="xs:string" name="number"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="telephone2">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="international"/>
+                                                                            <xs:element type="xs:string" name="area"/>
+                                                                            <xs:element type="xs:string" name="number"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="telephone3">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="international"/>
+                                                                            <xs:element type="xs:string" name="area"/>
+                                                                            <xs:element type="xs:string" name="number"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="telephone4">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="international"/>
+                                                                            <xs:element type="xs:string" name="area"/>
+                                                                            <xs:element type="xs:string" name="number"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="telephone5">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="international"/>
+                                                                            <xs:element type="xs:string" name="area"/>
+                                                                            <xs:element type="xs:string" name="number"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="fax">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="international"/>
+                                                                            <xs:element type="xs:string" name="area"/>
+                                                                            <xs:element type="xs:string" name="number"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element type="xs:string" name="email"/>
+                                                                <xs:element type="xs:string" name="internet"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="comment"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="primaryNationalIdentifier">
+                                            <xs:complexType>
+                                                <xs:sequence></xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="changes">
+                                <xs:complexType>
+                                    <xs:sequence></xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:attribute default="http://json-schema.org/draft-04/schema#" name="$schema" type="xs:string"/>
+</xs:schema>

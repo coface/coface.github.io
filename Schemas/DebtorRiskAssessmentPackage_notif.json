@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "releaseDate": {
+          "type": "string"
+        },
+        "isCurrent": {
+          "type": "boolean"
+        },
+        "assessmentSlug": {
+          "type": "string"
+        },
+        "companyId": {
+          "type": "string"
+        },
+        "debtorRiskValue": {
+          "type": "string"
+        },
+        "probabilityOfDefault": {
+          "type": "number"
+        },
+        "descriptions": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string"
+                },
+                "full": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "contextKeys": {
+                  "type": "string"
+                },
+                "short": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "label",
+                "full",
+                "language",
+                "contextKeys",
+                "short"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "releaseDate",
+        "isCurrent",
+        "assessmentSlug",
+        "companyId",
+        "debtorRiskValue",
+        "probabilityOfDefault",
+        "descriptions"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="DebtorRiskAssessmentPackage">
+		<xs:complexType>
+            <xs:sequence>
+				<xs:element name="DebtorRiskAssessment" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="assessmentSlug">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="debtor-risk-assessment"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element type="xs:string" name="companyId"/>
+							<xs:element type="xs:string" name="debtorRiskValue">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="0"/>
+										<xs:enumeration value="1"/>
+										<xs:enumeration value="2"/>
+										<xs:enumeration value="3"/>
+										<xs:enumeration value="4"/>
+										<xs:enumeration value="5"/>
+										<xs:enumeration value="6"/>
+										<xs:enumeration value="7"/>
+										<xs:enumeration value="8"/>
+										<xs:enumeration value="9"/>
+										<xs:enumeration value="10"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element type="xs:decimal" name="probabilityOfDefault"/>
+							<xs:element maxOccurs="unbounded" name="descriptions">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:string" name="label"/>
+										<xs:element type="xs:string" name="short"/>
+										<xs:element type="xs:string" name="full"/>
+										<xs:element type="xs:string" name="language"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element type="xs:string" name="releaseDate"/>
+							<xs:element type="xs:boolean" name="isCurrent"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

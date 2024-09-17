@@ -1,0 +1,46 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="AdvancedOpinion">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:string" name="assessmentSlug"/>
+                <xs:element type="xs:string" name="companyId"/>
+                <xs:element name="maxCreditAmount">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="currency"/>
+                            <xs:element type="xs:decimal" name="value"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="requestedAmount">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="currency"/>
+                            <xs:element type="xs:decimal" name="value"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element type="xs:string" name="decisionStatus"/>
+                <xs:element maxOccurs="unbounded" name="decisionDetails">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="code"/>
+                            <xs:element name="descriptions">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="label"/>
+                                        <xs:element type="xs:string" name="short"/>
+                                        <xs:element type="xs:string" name="full"/>
+                                        <xs:element type="xs:string" name="language"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element type="xs:string" name="releaseDate"/>
+                <xs:element type="xs:boolean" name="isCurrent"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
