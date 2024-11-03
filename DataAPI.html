@@ -215,21 +215,7 @@
 							<p>Also, in order to test your flow in the begining, recomendation is to use a Demo company. Please check the <a href="utilities/Coface _API_ DemoCompanies.xlsx" target="_blank"><b>Demo companies</b></a> list.</p>
 							<p>Business blocks which are part of <b>Full Report</b> can be checked on <a href="utilities/Coface _API_ BusinessBlocks_FullReports.xlsx" target="_blank"><b>Business Blocks</b></a> document.</p>
 						</div>
-						<div id="Urba" class="mt-5">
-							<h2>URBA data via API</h2>
-							<hr>
-
-							<h4>You can order URBA360 data in one call using a corresponding urba360 endpoint. </h4>
-							<p>The result will be one big JSON file with all corresponding data inside. For details how to order, please check following link: <a href="utilities/How to order URBA.pdf">How to order URBA360 via API</a></p>
-
-							<h4>Monitoring and Notifications</h4>
-							<p>If you want to order URBA360 package with monitoring, you can do it only after you have ordered a simple URBA360 order for the wanted company</p>
-							<p>You can place one monitoring order, via corresponding monitoring urba360 endpoint. When changes occur for the company, you can find all corresponding notifications via notifications endpoint or you can use the callback mechanism to be announced when something is changed. 
-								Even if you use the callback mechanism, after you are announced about changes, you would need to still go to notifications endpoint to retrieve them.</p>
-							<p>Depending on which part URBA is changed, the corresponding notification is created. Example: if the DRA value is changed, you will receive a DRA notification. To see how each notification looks like, please check the notifications samples in the table above.</p>
-							
-							
-						</div>
+						
 						<div id="security" class="mt-5">
 							<h2>Access & Security</h2>
 							<hr>
@@ -379,6 +365,22 @@
 									</div>
 								</div>
 							</div>
+						</div>
+
+						<div id="Urba" class="mt-5">
+							<h3>URBA data via API</h3>
+							<hr>
+
+							<h4>You can order URBA360 data in one call using a corresponding urba360 endpoint. </h4>
+							<p>The result will be one big JSON file with all corresponding data inside. For details how to order, please check following link: <a href="utilities/How to order URBA.pdf">How to order URBA360 via API</a></p>
+
+							<h4>Monitoring and Notifications</h4>
+							<p>If you want to order URBA360 package with monitoring, you can do it only after you have ordered a simple URBA360 order for the wanted company</p>
+							<p>You can place one monitoring order, via corresponding monitoring urba360 endpoint. When changes occur for the company, you can find all corresponding notifications via notifications endpoint or you can use the callback mechanism to be announced when something is changed. 
+								Even if you use the callback mechanism, after you are announced about changes, you would need to still go to notifications endpoint to retrieve them.</p>
+							<p>Depending on which part URBA is changed, the corresponding notification is created. Example: if the DRA value is changed, you will receive a DRA notification. To see how each notification looks like, please check the notifications samples in the table above.</p>
+							
+							
 						</div>
 						<div id="documentation" class="mt-5">
 							<h2>Technical documentation</h2>
