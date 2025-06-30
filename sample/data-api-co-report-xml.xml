@@ -1,0 +1,48 @@
+<ICON VERSION="2.0.0">
+    <!--meta.report.documentId=21962654-4-S03-cce_clone-beacon-2.29.2.8-682f196d-P2
+meta.report.documentLayout=20400
+-->
+    <ORDERRESULTS>
+        <ORDERID>21962654</ORDERID>
+        <SCORECALCULATEDON>05/27/2025</SCORECALCULATEDON>
+        <ICONCOMPANYNO>5415240</ICONCOMPANYNO>
+        <DRA>4</DRA>
+        <DRADESCRIPTION>4/10: Significant risk. Company is facing some real weaknesses : if not solved, ability to fulfil obligations could be altered. Risk of default is significant but may be acceptable for limited short-term credits.</DRADESCRIPTION>
+        <CORATING>R</CORATING>
+        <COVALUE>45 000</COVALUE>
+        <CURRENCY>PLN</CURRENCY>
+        <COREFUSALCODES></COREFUSALCODES>
+        <COREFUSALTEXT></COREFUSALTEXT>
+        <COCOUNTRYRISK>A4</COCOUNTRYRISK>
+        <COCOUNTRYDESCRIPTION>A4: Economic and financial outlook could be marked by some weaknesses. Political context could suffer from tension. Business climate may present significant deficiencies. The average probability of company default is reasonable.</COCOUNTRYDESCRIPTION>
+    </ORDERRESULTS>
+    <COMPANY>
+        <COMPANYNAME>HYDROBUDOWA-6 S.A.</COMPANYNAME>
+        <ADDRESSLINE>ul. Augustowka 24</ADDRESSLINE>
+        <POSTALCODE>02-981</POSTALCODE>
+        <CITYNAME>Warszawa</CITYNAME>
+        <COUNTRY VALUE="POL"></COUNTRY>
+        <PHONE>48222443531</PHONE>
+        <FAX>48225454061</FAX>
+        <EMAIL></EMAIL>
+        <URL>www.hb6.pl</URL>
+        <FOUNDATIONDATE>01/10/2002</FOUNDATIONDATE>
+        <LEGALSTATUS>OPEN</LEGALSTATUS>
+        <EASYNUMBER>00000411224330</EASYNUMBER>
+        <NATIONALID></NATIONALID>
+        <STATISTICNUMBER>012074213</STATISTICNUMBER>
+        <VATNUMBER>5240303257</VATNUMBER>
+        <REGISTRATIONNUMBER>KRS0000079628</REGISTRATIONNUMBER>
+        <TAXID></TAXID>
+        <MAINACTIVITY>
+            <CODE>412</CODE>
+            <LABEL>Construction of residential and non-residential buildings</LABEL>
+        </MAINACTIVITY>
+        <ACTIVITIES>
+            <ACTIVITYLIST>
+                <NACECODE>412</NACECODE>
+                <NACETEXT>Construction of residential and non-residential buildings</NACETEXT>
+            </ACTIVITYLIST>
+        </ACTIVITIES>
+    </COMPANY>
+</ICON>
