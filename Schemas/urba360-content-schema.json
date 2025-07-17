@@ -1,0 +1,1188 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "companyGeneralInformation": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "format": "uuid"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "countryCode": {
+                    "type": "string"
+                },
+                "naceCodes": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "code": {
+                                "type": "string"
+                            },
+                            "label": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "legalForm": {
+                    "type": "object",
+                    "properties": {
+                        "code": {
+                            "type": "string"
+                        },
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "address": {
+                    "type": "object"
+                },
+                "emails": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "value": {
+                                "type": "string"
+                            },
+                            "main": {
+                                "type": "boolean"
+                            }
+                        }
+                    }
+                },
+                "phoneNumbers": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "internationalPrefix": {
+                                "type": "string"
+                            },
+                            "value": {
+                                "type": "string"
+                            },
+                            "countryCode": {
+                                "type": "string"
+                            },
+                            "main": {
+                                "type": "boolean"
+                            }
+                        }
+                    }
+                },
+                "websites": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "url": {
+                                "type": "string"
+                            },
+                            "main": {
+                                "type": "boolean"
+                            }
+                        }
+                    }
+                },
+                "externalIds": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            },
+                            "repositorySlug": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "registrationDate": {
+                    "type": "string"
+                },
+                "shareholders": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "type": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "value",
+                                    "name"
+                                ]
+                            },
+                            "activeSince": {
+                                "type": "string"
+                            },
+                            "address": {
+                                "type": "object",
+                                "properties": {
+                                    "street": {
+                                        "type": "string"
+                                    },
+                                    "houseNumber": {
+                                        "type": "string"
+                                    },
+                                    "additionalAddressline": {
+                                        "type": "string"
+                                    },
+                                    "zipcode": {
+                                        "type": "string"
+                                    },
+                                    "city": {
+                                        "type": "string"
+                                    },
+                                    "countryRegion": {
+                                        "type": "string"
+                                    },
+                                    "country": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "isPerson": {
+                                "type": "boolean"
+                            },
+                            "equityAmount": {
+                                "type": "string"
+                            },
+                            "equityCurrency": {
+                                "type": "string"
+                            },
+                            "equityDimension": {
+                                "type": "object",
+                                "properties": {
+                                    "equityDimensionValue": {
+                                        "type": "string"
+                                    },
+                                    "equityDimensionName": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "comment": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "name",
+                            "type",
+                            "activeSince",
+                            "address",
+                            "isPerson",
+                            "equityAmount",
+                            "equityCurrency",
+                            "equityDimension",
+                            "comment"
+                        ]
+                    }
+                },
+                "management": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "type": {
+                                "type": "object",
+                                "properties": {
+                                    "value": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "value",
+                                    "name"
+                                ]
+                            },
+                            "activeSince": {
+                                "type": "string"
+                            },
+                            "comment": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "name",
+                            "type",
+                            "activeSince",
+                            "comment"
+                        ]
+                    }
+                }
+            }
+        },
+        "productStatus": {
+            "type": "object",
+
+            "properties": {
+                "score": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "number"
+                        },
+                        "label": {
+                            "type": "string"
+                        },
+                        "description": {
+                            "const": "The status of URBA360"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "creditOpinion": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "number"
+                        },
+                        "label": {
+                            "type": "string"
+                        },
+                        "description": {
+                            "const": "The status of URBA360"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "sectorRiskAssessment": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "number"
+                        },
+                        "label": {
+                            "type": "string"
+                        },
+                        "description": {
+                            "const": "The status of URBA360"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "countryRiskAssessment": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "number"
+                        },
+                        "label": {
+                            "type": "string"
+                        },
+                        "description": {
+                            "const": "The status of URBA360"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "latePaymentIndex": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "number"
+                        },
+                        "label": {
+                            "type": "string"
+                        },
+                        "description": {
+                            "const": "The status of URBA360"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "financials": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "number"
+                        },
+                        "label": {
+                            "type": "string"
+                        },
+                        "description": {
+                            "const": "The status of URBA360"
+                        }
+                    },
+                    "additionalProperties": false
+                }
+            },
+            "required": [
+                "countryRiskAssessment",
+                "creditOpinion",
+                "financials",
+                "latePaymentIndex",
+                "score",
+                "sectorRiskAssessment"
+            ]
+        },
+        "expectedDeliveryDates": {
+            "type": "object",
+
+            "properties": {
+                "score": {
+                    "type": "string"
+                },
+                "creditOpinion": {
+                    "type": "string"
+                },
+                "sectorRiskAssessment": {
+                    "type": "string"
+                },
+                "countryRiskAssessment": {
+                    "type": "string"
+                },
+                "latePaymentIndex": {
+                    "type": "string"
+                },
+                "financials": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "countryRiskAssessment",
+                "creditOpinion",
+                "financials",
+                "latePaymentIndex",
+                "score",
+                "sectorRiskAssessment"
+            ]
+        },
+        "productDetails": {
+            "type": "object",
+            "properties": {
+                "score": {
+                    "type": "array",
+                    "items": [{
+                            "type": "object",
+                            "properties": {
+                                "releaseDate": {
+                                    "type": "string"
+                                },
+                                "isCurrent": {
+                                    "type": "boolean"
+                                },
+                                "assessmentSlug": {
+                                    "type": "string"
+                                },
+                                "companyId": {
+                                    "type": "string"
+                                },
+                                "debtorRiskValue": {
+                                    "type": "string",
+                                    "enum": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+                                },
+                                "probabilityOfDefault": {
+                                    "type": "number"
+                                },
+                                "descriptions": {
+                                    "type": "array",
+                                    "items": [{
+                                            "type": "object",
+                                            "properties": {
+                                                "label": {
+                                                    "type": "string"
+                                                },
+                                                "full": {
+                                                    "type": "string"
+                                                },
+                                                "language": {
+                                                    "type": "string"
+                                                },
+                                                "contextKeys": {
+                                                    "type": "string"
+                                                },
+                                                "short": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": [
+                                                "label",
+                                                "full",
+                                                "language",
+                                                "short"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                "creditOpinion": {
+                    "type": "array",
+                    "items": [{
+                            "type": "object",
+                            "properties": {
+                                "assessmentSlug": {
+                                    "type": "string"
+                                },
+                                "companyId": {
+                                    "type": "string"
+                                },
+                                "maxCreditAmount": {
+                                    "type": "object",
+                                    "properties": {
+                                        "currency": {
+                                            "type": "string"
+                                        },
+                                        "value": {
+                                            "type": "number"
+                                        }
+                                    },
+                                    "required": [
+                                        "currency",
+                                        "value"
+                                    ]
+                                },
+                                "requestedAmount": {
+                                    "type": "object",
+                                    "properties": {
+                                        "currency": {
+                                            "type": "string"
+                                        },
+                                        "value": {
+                                            "type": "number"
+                                        }
+                                    },
+                                    "required": [
+                                        "currency",
+                                        "value"
+                                    ]
+                                },
+                                "decisionStatus": {
+                                    "type": "string"
+                                },
+                                "decisionDetails": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "code": {
+                                                "type": "string"
+                                            },
+                                            "descriptions": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "label": {
+                                                            "type": "string"
+                                                        },
+                                                        "short": {
+                                                            "type": "string"
+                                                        },
+                                                        "full": {
+                                                            "type": "string"
+                                                        },
+                                                        "language": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "label",
+                                                        "short",
+                                                        "full",
+                                                        "language"
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "required": [
+                                            "code",
+                                            "descriptions"
+                                        ]
+                                    }
+                                },
+                                "releaseDate": {
+                                    "type": "string"
+                                },
+                                "isCurrent": {
+                                    "type": "boolean"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "sectorRiskAssessment": {
+                    "type": "array",
+                    "items": [{
+                            "type": "object",
+                            "properties": {
+                                "assessmentSlug": {
+                                    "type": "string"
+                                },
+                                "countryCode": {
+                                    "type": "string"
+                                },
+                                "inHouseRegionCode": {
+                                    "type": "string"
+                                },
+                                "countryRiskValue": {
+                                    "type": "string",
+                                    "enum": ["A1", "A2", "A3", "A4", "B", "C", "D", "E"]
+                                },
+                                "descriptions": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "label": {
+                                                "type": "string"
+                                            },
+                                            "short": {
+                                                "type": "string"
+                                            },
+                                            "full": {
+                                                "type": "string"
+                                            },
+                                            "language": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "label",
+                                            "short",
+                                            "full",
+                                            "language"
+                                        ]
+                                    }
+                                },
+                                "year": {
+                                    "type": "string"
+                                },
+                                "yearPeriod": {
+                                    "type": "string",
+                                    "enum": ["Q1", "Q2", "Q3", "Q4", "T1", "T2", "T3", "T4"]
+                                },
+                                "releaseDate": {
+                                    "type": "string"
+                                },
+                                "isCurrent": {
+                                    "type": "boolean"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "countryRiskAssessment": {
+                    "type": "array",
+                    "items": [{
+                            "type": "object",
+                            "properties": {
+                                "assessmentSlug": {
+                                    "type": "string"
+                                },
+                                "countryCode": {
+                                    "type": "string"
+                                },
+                                "inHouseRegionCode": {
+                                    "type": "string"
+                                },
+                                "countryRiskValue": {
+                                    "type": "string",
+                                    "enum": ["A1", "A2", "A3", "A4", "B", "C", "D", "E"]
+                                },
+                                "descriptions": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "label": {
+                                                "type": "string"
+                                            },
+                                            "short": {
+                                                "type": "string"
+                                            },
+                                            "full": {
+                                                "type": "string"
+                                            },
+                                            "language": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "label",
+                                            "short",
+                                            "full",
+                                            "language"
+                                        ]
+                                    }
+                                },
+                                "year": {
+                                    "type": "string"
+                                },
+                                "yearPeriod": {
+                                    "type": "string",
+                                    "enum": ["Q1", "Q2", "Q3", "Q4", "T1", "T2", "T3", "T4"]
+                                },
+                                "releaseDate": {
+                                    "type": "string"
+                                },
+                                "isCurrent": {
+                                    "type": "boolean"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "latePaymentIndex": {
+                    "type": "array",
+                    "items": [{
+                            "type": "object",
+                            "properties": {
+                                "value": {
+                                    "type": "integer",
+									"enum": [0,1,2,3,4]
+                                },
+                                "description": {
+                                    "type": "string"
+                                },
+                                "updatedDate": {
+                                    "type": "integer"
+                                },
+                                "newUpdate": {
+                                    "type": "boolean"
+                                },
+                                "customerReference": {
+                                    "type": "string"
+                                },
+                                "assessmentSlug": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "financials": {
+                    "type": "object",
+                    "properties": {
+                        "balanceSheet": {
+                            "type": "object",
+                            "properties": {
+                                "balanceSheetItems": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "indicators": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "type": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "value": {
+                                                                    "type": "string"
+                                                                },
+                                                                "name": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "value",
+                                                                "name"
+                                                            ]
+                                                        },
+                                                        "date": {
+                                                            "type": "string"
+                                                        },
+                                                        "fromDate": {
+                                                            "type": "string"
+                                                        },
+                                                        "toDate": {
+                                                            "type": "string"
+                                                        },
+                                                        "fromAmount": {
+                                                            "type": "number"
+                                                        },
+                                                        "currency": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "value": {
+                                                                    "type": "string"
+                                                                },
+                                                                "name": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "value",
+                                                                "name"
+                                                            ]
+                                                        },
+                                                        "dimension": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "value": {
+                                                                    "type": "string"
+                                                                },
+                                                                "name": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "value",
+                                                                "name"
+                                                            ]
+                                                        },
+                                                        "measure": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "value": {
+                                                                    "type": "string"
+                                                                },
+                                                                "name": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "value",
+                                                                "name"
+                                                            ]
+                                                        },
+                                                        "labelType": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "outlineNumber": {
+                                                                    "type": "string"
+                                                                },
+                                                                "name": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "outlineNumber",
+                                                                "name"
+                                                            ]
+                                                        },
+                                                        "partialBalanceSheet": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "type",
+                                                        "date",
+                                                        "fromDate",
+                                                        "toDate",
+                                                        "fromAmount",
+                                                        "currency",
+                                                        "dimension",
+                                                        "measure",
+                                                        "labelType",
+                                                        "partialBalanceSheet"
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "required": [
+                                            "type",
+                                            "name",
+                                            "indicators"
+                                        ]
+                                    }
+                                },
+                                "comment": {
+                                    "type": "string"
+                                },
+                                "historicalExchangeRates": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "currency": {
+                                                "type": "string"
+                                            },
+                                            "referenceCurrency": {
+                                                "type": "string"
+                                            },
+                                            "year": {
+                                                "type": "string"
+                                            },
+                                            "exchangeRate": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "currency",
+                                            "referenceCurrency",
+                                            "year",
+                                            "exchangeRate"
+                                        ]
+                                    }
+                                }
+                            },
+                            "required": [
+                                "balanceSheetItems",
+                                "comment",
+                                "historicalExchangeRates"
+                            ]
+                        },
+                        "additionalBalanceSheets": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "type": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "balanceSheetItems": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                },
+                                                "name": {
+                                                    "type": "string"
+                                                },
+                                                "indicators": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "type": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "value": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "name": {
+                                                                        "type": "string"
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "value",
+                                                                    "name"
+                                                                ]
+                                                            },
+                                                            "date": {
+                                                                "type": "string"
+                                                            },
+                                                            "fromDate": {
+                                                                "type": "string"
+                                                            },
+                                                            "toDate": {
+                                                                "type": "string"
+                                                            },
+                                                            "fromAmount": {
+                                                                "type": "number"
+                                                            },
+                                                            "currency": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "value": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "name": {
+                                                                        "type": "string"
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "value",
+                                                                    "name"
+                                                                ]
+                                                            },
+                                                            "dimension": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "value": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "name": {
+                                                                        "type": "string"
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "value",
+                                                                    "name"
+                                                                ]
+                                                            },
+                                                            "measure": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "value": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "name": {
+                                                                        "type": "string"
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "value",
+                                                                    "name"
+                                                                ]
+                                                            },
+                                                            "labelType": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "outlineNumber": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "name": {
+                                                                        "type": "string"
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "outlineNumber",
+                                                                    "name"
+                                                                ]
+                                                            },
+                                                            "partialBalanceSheet": {
+                                                                "type": "string"
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "type",
+                                                            "date",
+                                                            "fromDate",
+                                                            "toDate",
+                                                            "fromAmount",
+                                                            "currency",
+                                                            "dimension",
+                                                            "measure",
+                                                            "labelType",
+                                                            "partialBalanceSheet"
+                                                        ]
+                                                    }
+                                                }
+                                            },
+                                            "required": [
+                                                "type",
+                                                "name",
+                                                "indicators"
+                                            ]
+                                        }
+                                    }
+                                },
+                                "required": [
+                                    "type",
+                                    "name",
+                                    "balanceSheetItems"
+                                ]
+                            }
+                        },
+                        "workforce": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "type": {
+                                        "type": "object",
+                                        "properties": {
+                                            "value": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "value",
+                                            "name"
+                                        ]
+                                    },
+                                    "date": {
+                                        "type": "string"
+                                    },
+                                    "fromAmount": {
+                                        "type": "number"
+                                    },
+                                    "currency": {
+                                        "type": "object",
+                                        "properties": {
+                                            "value": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "value",
+                                            "name"
+                                        ]
+                                    },
+                                    "dimension": {
+                                        "type": "object",
+                                        "properties": {
+                                            "value": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "value",
+                                            "name"
+                                        ]
+                                    },
+                                    "measure": {
+                                        "type": "object",
+                                        "properties": {
+                                            "value": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "value",
+                                            "name"
+                                        ]
+                                    }
+                                },
+                                "required": [
+                                    "type",
+                                    "date",
+                                    "fromAmount",
+                                    "currency",
+                                    "dimension",
+                                    "measure"
+                                ]
+                            }
+                        },
+                        "peerGroupRatios": {
+                            "type": "array"
+                        },
+                        "ratios": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "type": {
+                                        "type": "object",
+                                        "properties": {
+                                            "value": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "value",
+                                            "name"
+                                        ]
+                                    },
+                                    "description": {
+                                        "type": "string"
+                                    },
+                                    "date": {
+                                        "type": "string"
+                                    },
+                                    "fromDate": {
+                                        "type": "string"
+                                    },
+                                    "toDate": {
+                                        "type": "string"
+                                    },
+                                    "fromAmount": {
+                                        "type": "number"
+                                    },
+                                    "currency": {
+                                        "type": "object",
+                                        "properties": {
+                                            "value": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "value",
+                                            "name"
+                                        ]
+                                    },
+                                    "resultValue": {
+                                        "type": "string"
+                                    },
+                                    "resultText": {
+                                        "type": "string"
+                                    },
+                                    "resultDate": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "type",
+                                    "description",
+                                    "date",
+                                    "fromDate",
+                                    "toDate",
+                                    "fromAmount",
+                                    "currency",
+                                    "resultValue",
+                                    "resultText",
+                                    "resultDate"
+                                ]
+                            }
+                        }
+                    },
+                    "required": [
+                        "additionalBalanceSheets",
+                        "balanceSheet",
+                        "peerGroupRatios",
+                        "ratios",
+                        "workforce"
+                    ]
+                }
+            },
+            "required": [
+                "countryRiskAssessment",
+                "creditOpinion",
+                "financials",
+                "latePaymentIndex",
+                "score",
+                "sectorRiskAssessment"
+            ]
+        }
+    },
+    "required": [
+        "companyGeneralInformation",
+        "expectedDeliveryDates",
+        "productDetails",
+        "productStatus"
+    ]
+}
