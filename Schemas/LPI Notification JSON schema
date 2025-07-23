@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "assessmentSlug": {
+      "type": "string",
+      "enum": ["late-payment-index"]
+    },
+    "paymentIndexValue": {
+      "type": "integer"
+    },
+    "updateDate": {
+      "type": "string"
+    },
+    "descriptions": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string"
+            },
+            "full": {
+              "type": "string"
+            },
+            "language": {
+              "type": "string"
+            },
+            "short": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "label",
+            "full",
+            "language",
+            "short"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "assessmentSlug",
+    "paymentIndexValue",
+    "updateDate",
+    "descriptions"
+  ]
+}
