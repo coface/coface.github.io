@@ -1,63 +1,51 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Generated schema for Individual Payment Index",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Generated schema for Late Payment Index",
   "type": "object",
   "properties": {
-	"individualPaymentIndexReleaseDate": {
-      "type": "string"
-    },
     "assessmentSlug": {
-      "type": "string"
-    },
-    "companyId": {
-      "type": "string"
+      "type": "string",
+      "enum": ["late-payment-index"]
     },
     "paymentIndexValue": {
-      "type": "number"
+      "type": "integer"
     },
     "updateDate": {
       "type": "string"
     },
     "descriptions": {
       "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "label": {
-            "type": "string"
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string"
+            },
+            "full": {
+              "type": "string"
+            },
+            "language": {
+              "type": "string"
+            },
+            "short": {
+              "type": "string"
+            }
           },
-          "short": {
-            "type": "string"
-          },
-          "full": {
-            "type": "string"
-          },
-          "language": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "label",
-          "short",
-          "full",
-          "language"
-        ]
-      }
-    },
-    "releaseDate": {
-      "type": "string"
-    },
-    "isCurrent": {
-      "type": "boolean"
+          "required": [
+            "label",
+            "full",
+            "language",
+            "short"
+          ]
+        }
+      ]
     }
   },
   "required": [
     "assessmentSlug",
-    "companyId",
     "paymentIndexValue",
     "updateDate",
-    "descriptions",
-    "releaseDate",
-    "isCurrent"
+    "descriptions"
   ]
 }
