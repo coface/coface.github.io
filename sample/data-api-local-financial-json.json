@@ -1,0 +1,2814 @@
+[
+    {
+        "releaseDate": "2025-05-28",
+        "companyId": "aa272cd1-c4d1-3c4c-9df8-d99616f5ef21",
+        "externalId": "icon#5415240",
+        "financialSlug": "global-financial",
+        "years": [
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+        ],
+        "type": "801",
+        "name": "IGF-IBS - ICON GLOBAL FINANCIALS",
+        "balanceSheetItems": [
+            {
+                "type": "",
+                "name": "",
+                "indicators": [
+                    {
+                        "type": {
+                            "value": "5002",
+                            "name": "Fixed assets"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 706720.02,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5002",
+                            "name": "Fixed assets"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 812003.08,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5002",
+                            "name": "Fixed assets"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 2324645.63,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5002",
+                            "name": "Fixed assets"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 770611,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5115",
+                            "name": "Intangible fixed assets"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 0,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5115",
+                            "name": "Intangible fixed assets"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 0,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5115",
+                            "name": "Intangible fixed assets"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 0,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5115",
+                            "name": "Intangible fixed assets"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 0,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5116",
+                            "name": "Tangible fixed assets"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 706720.02,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5116",
+                            "name": "Tangible fixed assets"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 812003.08,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5116",
+                            "name": "Tangible fixed assets"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 2324645.63,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5116",
+                            "name": "Tangible fixed assets"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 770611,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5117",
+                            "name": "Other fixed assets"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 0,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5117",
+                            "name": "Other fixed assets"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 0,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5117",
+                            "name": "Other fixed assets"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 0,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5117",
+                            "name": "Other fixed assets"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 0,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "299",
+                            "name": "Current assets"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 3424033.57,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "299",
+                            "name": "Current assets"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 3546521.21,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "299",
+                            "name": "Current assets"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 2400652.65,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "299",
+                            "name": "Current assets"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 4537115.23,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "1321",
+                            "name": "Stock"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 0,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "1321",
+                            "name": "Stock"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 0,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "1321",
+                            "name": "Stock"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 0,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "1321",
+                            "name": "Stock"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 0,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5113",
+                            "name": "Other current assets"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 3424033.57,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5113",
+                            "name": "Other current assets"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 3546521.21,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5113",
+                            "name": "Other current assets"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 2400652.65,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5113",
+                            "name": "Other current assets"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 4537115.23,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "297",
+                            "name": "Total assets"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 4130753.59,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "297",
+                            "name": "Total assets"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 4358524.29,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "297",
+                            "name": "Total assets"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 4725298.28,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "297",
+                            "name": "Total assets"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 5307726.23,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5924",
+                            "name": "Shareholders funds"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 1522885.03,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5924",
+                            "name": "Shareholders funds"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 1761599.62,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5924",
+                            "name": "Shareholders funds"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 1649461.11,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5924",
+                            "name": "Shareholders funds"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 2319483.51,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5112",
+                            "name": "Capital"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 100000,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5112",
+                            "name": "Capital"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 100000,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5112",
+                            "name": "Capital"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 100000,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5112",
+                            "name": "Capital"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 100000,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "939",
+                            "name": "Retained earnings"
+                        },
+                        "date": "20230000",
+                        "fromAmount": -3899430.64,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "939",
+                            "name": "Retained earnings"
+                        },
+                        "date": "20220000",
+                        "fromAmount": -3660716.05,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "939",
+                            "name": "Retained earnings"
+                        },
+                        "date": "20210000",
+                        "fromAmount": -3772854.56,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "939",
+                            "name": "Retained earnings"
+                        },
+                        "date": "20200000",
+                        "fromAmount": -3102832.16,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5111",
+                            "name": "Other shareholders funds"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 5322315.67,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5111",
+                            "name": "Other shareholders funds"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 5322315.67,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5111",
+                            "name": "Other shareholders funds"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 5322315.67,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5111",
+                            "name": "Other shareholders funds"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 5322315.67,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "1033",
+                            "name": "Non-current liabilities"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 221600,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "1033",
+                            "name": "Non-current liabilities"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 204000,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "1033",
+                            "name": "Non-current liabilities"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 632200,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "1033",
+                            "name": "Non-current liabilities"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 632200,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5109",
+                            "name": "Other non-current liabilities"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 221600,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5109",
+                            "name": "Other non-current liabilities"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 204000,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5109",
+                            "name": "Other non-current liabilities"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 632200,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5109",
+                            "name": "Other non-current liabilities"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 632200,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "345",
+                            "name": "Current liabilities"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 2386268.56,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "345",
+                            "name": "Current liabilities"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 2392924.67,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "345",
+                            "name": "Current liabilities"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 2443637.17,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "345",
+                            "name": "Current liabilities"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 2356042.72,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5106",
+                            "name": "Other current liabilities"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 2386268.56,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5106",
+                            "name": "Other current liabilities"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 2392924.67,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5106",
+                            "name": "Other current liabilities"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 2443637.17,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5106",
+                            "name": "Other current liabilities"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 2356042.72,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5104",
+                            "name": "Total Liabilities"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 2607868.56,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5104",
+                            "name": "Total Liabilities"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 2596924.67,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5104",
+                            "name": "Total Liabilities"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 3075837.17,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5104",
+                            "name": "Total Liabilities"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 2988242.72,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5103",
+                            "name": "TOTAL SHAREH. FUNDS & LIAB."
+                        },
+                        "date": "20230000",
+                        "fromAmount": 4130753.59,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5103",
+                            "name": "TOTAL SHAREH. FUNDS & LIAB."
+                        },
+                        "date": "20220000",
+                        "fromAmount": 4358524.29,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5103",
+                            "name": "TOTAL SHAREH. FUNDS & LIAB."
+                        },
+                        "date": "20210000",
+                        "fromAmount": 4725298.28,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5103",
+                            "name": "TOTAL SHAREH. FUNDS & LIAB."
+                        },
+                        "date": "20200000",
+                        "fromAmount": 5307726.23,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "2"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "L1040",
+                "name": "PROFIT AND LOSS",
+                "indicators": [
+                    {
+                        "type": {
+                            "value": "401",
+                            "name": "Revenue"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 905170.4,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "401",
+                            "name": "Revenue"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 1363934.74,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "401",
+                            "name": "Revenue"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 741336.18,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "401",
+                            "name": "Revenue"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 958948.29,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "402",
+                            "name": "Sales"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 904766.4,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "402",
+                            "name": "Sales"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 863930.21,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "402",
+                            "name": "Sales"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 741332.54,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "402",
+                            "name": "Sales"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 698371.11,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "720",
+                            "name": "Other operating expenses"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 1255240.79,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "720",
+                            "name": "Other operating expenses"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 1330705.89,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "720",
+                            "name": "Other operating expenses"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 1433655.48,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "720",
+                            "name": "Other operating expenses"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 1425322.74,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "404",
+                            "name": "Managerment expenses"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 176470.44,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "404",
+                            "name": "Managerment expenses"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 162554.12,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "404",
+                            "name": "Managerment expenses"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 158433.64,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "404",
+                            "name": "Managerment expenses"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 153215.92,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "405",
+                            "name": "Financial expenses"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 1973.78,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "405",
+                            "name": "Financial expenses"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 29133.33,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "405",
+                            "name": "Financial expenses"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 2559.75,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "405",
+                            "name": "Financial expenses"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 15.06,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "406",
+                            "name": "Other"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 1076796.57,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "406",
+                            "name": "Other"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 1139018.44,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "406",
+                            "name": "Other"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 1272662.09,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "406",
+                            "name": "Other"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 1272091.76,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5930",
+                            "name": "Operating profit"
+                        },
+                        "date": "20230000",
+                        "fromAmount": -350070.39,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5930",
+                            "name": "Operating profit"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 33228.85,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5930",
+                            "name": "Operating profit"
+                        },
+                        "date": "20210000",
+                        "fromAmount": -692319.3,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5930",
+                            "name": "Operating profit"
+                        },
+                        "date": "20200000",
+                        "fromAmount": -466374.45,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "407",
+                            "name": "Non Operating Income"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 111355.8,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "407",
+                            "name": "Non Operating Income"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 78909.66,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "407",
+                            "name": "Non Operating Income"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 22296.9,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "407",
+                            "name": "Non Operating Income"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 140908.57,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "409",
+                            "name": "P/L before tax"
+                        },
+                        "date": "20230000",
+                        "fromAmount": -238714.59,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "409",
+                            "name": "P/L before tax"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 112138.51,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "409",
+                            "name": "P/L before tax"
+                        },
+                        "date": "20210000",
+                        "fromAmount": -670022.4,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "409",
+                            "name": "P/L before tax"
+                        },
+                        "date": "20200000",
+                        "fromAmount": -325465.88,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5670",
+                            "name": "Taxation"
+                        },
+                        "date": "20230000",
+                        "fromAmount": 0,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5670",
+                            "name": "Taxation"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 0,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5670",
+                            "name": "Taxation"
+                        },
+                        "date": "20210000",
+                        "fromAmount": 0,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "5670",
+                            "name": "Taxation"
+                        },
+                        "date": "20200000",
+                        "fromAmount": 0,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": ""
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "410",
+                            "name": "P/L after tax"
+                        },
+                        "date": "20230000",
+                        "fromAmount": -238714.59,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "410",
+                            "name": "P/L after tax"
+                        },
+                        "date": "20220000",
+                        "fromAmount": 112138.51,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "410",
+                            "name": "P/L after tax"
+                        },
+                        "date": "20210000",
+                        "fromAmount": -670022.4,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    },
+                    {
+                        "type": {
+                            "value": "410",
+                            "name": "P/L after tax"
+                        },
+                        "date": "20200000",
+                        "fromAmount": -325465.88,
+                        "currency": {
+                            "value": "PLN",
+                            "name": "Polish Zloty"
+                        },
+                        "dimension": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "measure": {
+                            "value": "",
+                            "name": ""
+                        },
+                        "labelType": {
+                            "outlineNumber": "",
+                            "name": "3"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

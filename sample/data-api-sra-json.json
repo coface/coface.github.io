@@ -1,0 +1,524 @@
+[
+    {
+        "isCurrent": true,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "4",
+        "inHouseRegionRiskValue": "4",
+        "year": "2025",
+        "yearPeriod": "Q1",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "Very high risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "4",
+        "inHouseRegionRiskValue": "4",
+        "year": "2024",
+        "yearPeriod": "Q4",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "Very high risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "4",
+        "inHouseRegionRiskValue": "4",
+        "year": "2024",
+        "yearPeriod": "Q3",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "Very high risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "4",
+        "inHouseRegionRiskValue": "4",
+        "year": "2024",
+        "yearPeriod": "Q2",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "Very high risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "4",
+        "inHouseRegionRiskValue": "4",
+        "year": "2024",
+        "yearPeriod": "Q1",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "Very high risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "4",
+        "inHouseRegionRiskValue": "4",
+        "year": "2023",
+        "yearPeriod": "Q4",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "Very high risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "4",
+        "inHouseRegionRiskValue": "4",
+        "year": "2023",
+        "yearPeriod": "Q3",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "Very high risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "4",
+        "inHouseRegionRiskValue": "4",
+        "year": "2023",
+        "yearPeriod": "Q2",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "Very high risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "4",
+        "inHouseRegionRiskValue": "4",
+        "year": "2023",
+        "yearPeriod": "Q1",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "Very high risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "4",
+        "inHouseRegionRiskValue": "4",
+        "year": "2022",
+        "yearPeriod": "Q4",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "Very high risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "4",
+        "inHouseRegionRiskValue": "4",
+        "year": "2022",
+        "yearPeriod": "Q3",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "Very high risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "4",
+        "inHouseRegionRiskValue": "4",
+        "year": "2022",
+        "yearPeriod": "Q2",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "Very high risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2021",
+        "yearPeriod": "Q4",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "High risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2021",
+        "yearPeriod": "Q3",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "High risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2021",
+        "yearPeriod": "Q2",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "High risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2021",
+        "yearPeriod": "Q1",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "High risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2020",
+        "yearPeriod": "Q4",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "High risk",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "isCurrent": false,
+        "assessmentSlug": "sector-risk-assessment",
+        "countryCode": "PL",
+        "inHouseRegion": {
+            "code": "CER",
+            "label": "Europe Centrale et de l'Est"
+        },
+        "sector": {
+            "code": "CONSTRUCTION",
+            "label": "Construction"
+        },
+        "nace": {
+            "code": "4120",
+            "label": "CONSTRUCTION OF RESIDENTIAL AND NON-RESIDENTIAL BUILDINGS"
+        },
+        "countryRiskValue": "3",
+        "inHouseRegionRiskValue": "3",
+        "year": "2020",
+        "yearPeriod": "Q3",
+        "descriptions": [
+            {
+                "label": "Sector Risk Assessment",
+                "short": "SRA",
+                "full": "High risk",
+                "language": "en"
+            }
+        ]
+    }
+]

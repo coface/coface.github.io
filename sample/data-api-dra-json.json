@@ -1,0 +1,102 @@
+{
+    "icon": {
+        "version": "1.0.0",
+        "orderResults": {
+            "orderId": "21962741",
+            "scoreCalculatedOn": "05/28/2025",
+            "iconCompanyNo": "5415240",
+            "dra": "4",
+            "draDescription": "4/10: Significant risk. Company is facing some real weaknesses : if not solved, ability to fulfil obligations could be altered. Risk of default is significant but may be acceptable for limited short-term credits.",
+            "probabilityOfDefault": "2%",
+            "draHistory": [
+                {
+                    "year": "2021",
+                    "dra": "4",
+                    "previousValuesThisYear": [
+                        {
+                            "dra": "4",
+                            "date": "5/11/2021"
+                        }
+                    ]
+                },
+                {
+                    "year": "2022",
+                    "dra": "4",
+                    "previousValuesThisYear": [
+                        {
+                            "dra": "4",
+                            "date": "3/16/2022"
+                        },
+                        {
+                            "dra": "3",
+                            "date": "5/19/2022"
+                        },
+                        {
+                            "dra": "4",
+                            "date": "5/25/2022"
+                        }
+                    ]
+                },
+                {
+                    "year": "2023",
+                    "dra": "0",
+                    "previousValuesThisYear": []
+                },
+                {
+                    "year": "2024",
+                    "dra": "4",
+                    "previousValuesThisYear": [
+                        {
+                            "dra": "4",
+                            "date": "9/2/2024"
+                        }
+                    ]
+                },
+                {
+                    "year": "2025",
+                    "dra": "4",
+                    "previousValuesThisYear": [
+                        {
+                            "dra": "4",
+                            "date": "2/26/2025"
+                        }
+                    ]
+                }
+            ]
+        },
+        "company": {
+            "companyName": "HYDROBUDOWA-6 S.A.",
+            "addressLine": "ul. Augustowka 24",
+            "postalCode": "02-981",
+            "cityName": "Warszawa",
+            "country": {
+                "name": "POL",
+                "value": ""
+            },
+            "phone": "48222443531",
+            "fax": "48225454061",
+            "email": "",
+            "url": "www.hb6.pl",
+            "foundationDate": "01/10/2002",
+            "legalStatus": "OPEN",
+            "easyNumber": "00000411224330",
+            "nationalId": "",
+            "statisticNumber": "012074213",
+            "vatNumber": "5240303257",
+            "registrationNumber": "KRS0000079628",
+            "taxId": "",
+            "mainActivity": {
+                "code": "412",
+                "label": "Construction of residential and non-residential buildings"
+            },
+            "activities": {
+                "activityList": [
+                    {
+                        "naceCode": "412",
+                        "naceText": "Construction of residential and non-residential buildings"
+                    }
+                ]
+            }
+        }
+    }
+}

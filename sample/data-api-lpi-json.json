@@ -1,0 +1,17 @@
+[
+    {
+        "releaseDate": "2025-05-28",
+        "assessmentSlug": "late-payment-index",
+        "companyId": "aa272cd1-c4d1-3c4c-9df8-d99616f5ef21",
+        "paymentIndexValue": 4,
+        "updateDate": "2025-05-28",
+        "descriptions": [
+            {
+                "label": "Late Payment Index (LPI)",
+                "short": "LPI",
+                "full": "No negative experience",
+                "language": "en"
+            }
+        ]
+    }
+]

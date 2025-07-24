@@ -1,0 +1,57 @@
+[
+    {
+        "releaseDate": "2025-05-28",
+        "assessmentSlug": "advanced-opinion",
+        "companyId": "aa272cd1-c4d1-3c4c-9df8-d99616f5ef21",
+        "maxCreditAmount": {
+            "currency": "EUR",
+            "value": 10000.0000
+        },
+        "decisionDetails": [
+            {
+                "code": "AB10",
+                "descriptions": [
+                    {
+                        "label": "Decision Details",
+                        "short": "AO",
+                        "full": "Operating Losses",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "code": "AB09",
+                "descriptions": [
+                    {
+                        "label": "Decision Details",
+                        "short": "AO",
+                        "full": "Weak  Profitability",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "code": "AB05",
+                "descriptions": [
+                    {
+                        "label": "Decision Details",
+                        "short": "AO",
+                        "full": "Decrease In Turnover",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "code": "AA05",
+                "descriptions": [
+                    {
+                        "label": "Decision Details",
+                        "short": "AO",
+                        "full": "Weak Financial Position",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    }
+]
