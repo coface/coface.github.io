@@ -1,0 +1,72 @@
+{
+	"icon": {
+		"version": "1.0.0",
+		"orderResults" : {
+		    "orderId" : "25926398",
+		    "scoreCalculatedOn" : "09/02/2025",
+		    "iconCompanyNo" : "5606280",
+		    "dra" : "1" ,
+		    "draDescription" : "1/10: Extremely high risk. Global situation is very bad and close to critical/pre-insolvency. Any commitment corresponds to an extremely high risk of default. Also applies to Inactive company.",
+		    "probabilityOfDefault" : "25%",
+		    "draHistory": [
+		        {
+		            "year" : "2021",
+		            "dra" : "1",
+		            "previousValuesThisYear": [{"dra":"1", "date":"2/18/2021"}]
+                },
+		        {
+		            "year" : "2022",
+		            "dra" : "1",
+		            "previousValuesThisYear": [{"dra":"1", "date":"8/24/2022"}]
+                },
+		        {
+		            "year" : "2023",
+		            "dra" : "0",
+		            "previousValuesThisYear": []
+                },
+		        {
+		            "year" : "2024",
+		            "dra" : "1",
+		            "previousValuesThisYear": [{"dra":"1", "date":"8/28/2024"}]
+                },
+		        {
+		            "year" : "2025",
+		            "dra" : "1",
+		            "previousValuesThisYear": [{"dra":"1", "date":"2/25/2025"}]
+                }
+            ]
+        },
+		"company" : {
+		    "companyName" : "Grupa Polskie Sklady Budowlane S.A.",
+		    "addressLine" : "Welecz 142",
+		    "postalCode" : "28-100",
+		    "cityName" : "Busko-Zdroj",
+		    "country" : {
+		        "name" : "POL",
+		        "value" : ""
+		    },
+		    "phone" : "48413785200",
+		    "fax" : "48413785205",
+		    "email" : "",
+		    "url" : "www.grupapsb.com.pl",
+		    "foundationDate" : "05/29/2001",
+                    "legalStatus" : "CLOSED",
+                    "easyNumber" : "00000414980824",
+                    "nationalId" : "",
+                    "statisticNumber" : "290938715",
+                    "vatNumber" : "6551640402",
+                    "registrationNumber" : "KRS0000015152",
+                    "taxId" : "6551640402",
+                    "mainActivity" : {
+             	        "code" : "4673",
+             	        "label" : "Wholesale of wood, construction materials and sanitary equipment"
+                     },
+                    "activities" : {
+                        "activityList" : [{
+                            "naceCode": "4673",
+                            "naceText": "Wholesale of wood, construction materials and sanitary equipment"
+                   }]
+                }
+	    }
+        }
+    }

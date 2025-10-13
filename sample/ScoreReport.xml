@@ -1,0 +1,80 @@
+<ICON VERSION="2.0.0">
+<!--meta.report.documentId=25926397-4-S02-cce_clone-beacon-2.31.0.7-182ef854-P2
+meta.report.documentLayout=20300
+-->
+    <ORDERRESULTS>
+        <ORDERID>25926397</ORDERID>
+        <SCORECALCULATEDON>09/02/2025</SCORECALCULATEDON>
+        <ICONCOMPANYNO>5606280</ICONCOMPANYNO>
+        <DRA>1</DRA>
+        <DRADESCRIPTION>1/10: Extremely high risk. Global situation is very bad and close to critical/pre-insolvency. Any commitment corresponds to an extremely high risk of default. Also applies to Inactive company.</DRADESCRIPTION>
+        <PROBABILITYOFDEFAULT>25%</PROBABILITYOFDEFAULT>
+        <DRAHISTORY>
+                <HISTORICALYEAR>
+                    <YEAR>2021</YEAR>
+                    <DRA>1</DRA>
+                    <PREVIOUSVALUESTHISYEAR>
+                        <DRA>1</DRA>
+                        <DATE>02/18/2021</DATE>
+                    </PREVIOUSVALUESTHISYEAR>
+                </HISTORICALYEAR>
+                <HISTORICALYEAR>
+                    <YEAR>2022</YEAR>
+                    <DRA>1</DRA>
+                    <PREVIOUSVALUESTHISYEAR>
+                        <DRA>1</DRA>
+                        <DATE>08/24/2022</DATE>
+                    </PREVIOUSVALUESTHISYEAR>
+                </HISTORICALYEAR>
+                <HISTORICALYEAR>
+                    <YEAR>2023</YEAR>
+                    <DRA>0</DRA>
+                </HISTORICALYEAR>
+                <HISTORICALYEAR>
+                    <YEAR>2024</YEAR>
+                    <DRA>1</DRA>
+                    <PREVIOUSVALUESTHISYEAR>
+                        <DRA>1</DRA>
+                        <DATE>08/28/2024</DATE>
+                    </PREVIOUSVALUESTHISYEAR>
+                </HISTORICALYEAR>
+                <HISTORICALYEAR>
+                    <YEAR>2025</YEAR>
+                    <DRA>1</DRA>
+                    <PREVIOUSVALUESTHISYEAR>
+                        <DRA>1</DRA>
+                        <DATE>02/25/2025</DATE>
+                    </PREVIOUSVALUESTHISYEAR>
+                </HISTORICALYEAR>
+        </DRAHISTORY>
+    </ORDERRESULTS>
+    <COMPANY>
+        <COMPANYNAME>Grupa Polskie Sklady Budowlane S.A.</COMPANYNAME>
+        <ADDRESSLINE>Welecz 142</ADDRESSLINE>
+        <POSTALCODE>28-100</POSTALCODE>
+        <CITYNAME>Busko-Zdroj</CITYNAME>
+        <COUNTRY VALUE="POL"></COUNTRY>
+        <PHONE>48413785200</PHONE>
+        <FAX>48413785205</FAX>
+        <EMAIL></EMAIL>
+        <URL>www.grupapsb.com.pl</URL>
+        <FOUNDATIONDATE>05/29/2001</FOUNDATIONDATE>
+        <LEGALSTATUS>CLOSED</LEGALSTATUS>
+        <EASYNUMBER>00000414980824</EASYNUMBER>
+        <NATIONALID></NATIONALID>
+        <STATISTICNUMBER>290938715</STATISTICNUMBER>
+        <VATNUMBER>6551640402</VATNUMBER>
+        <REGISTRATIONNUMBER>KRS0000015152</REGISTRATIONNUMBER>
+        <TAXID>6551640402</TAXID>
+        <MAINACTIVITY>
+            <CODE>4673</CODE>
+            <LABEL>Wholesale of wood, construction materials and sanitary equipment</LABEL>
+        </MAINACTIVITY>
+        <ACTIVITIES>
+            <ACTIVITYLIST>
+                <NACECODE>4673</NACECODE>
+                <NACETEXT>Wholesale of wood, construction materials and sanitary equipment</NACETEXT>
+            </ACTIVITYLIST>
+        </ACTIVITIES>
+    </COMPANY>
+</ICON>
