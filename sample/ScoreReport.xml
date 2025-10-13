@@ -1,14 +1,14 @@
 <ICON VERSION="2.0.0">
-<!--meta.report.documentId=25926397-4-S02-cce_clone-beacon-2.31.0.7-182ef854-P2
+<!--meta.report.documentId=25944808-4-S02-cce_clone-beacon-2.31.0.27-2a8bc80c-P2
 meta.report.documentLayout=20300
 -->
     <ORDERRESULTS>
-        <ORDERID>25926397</ORDERID>
-        <SCORECALCULATEDON>09/02/2025</SCORECALCULATEDON>
+        <ORDERID>25944808</ORDERID>
+        <SCORECALCULATEDON>10/10/2025</SCORECALCULATEDON>
         <ICONCOMPANYNO>5606280</ICONCOMPANYNO>
-        <DRA>1</DRA>
-        <DRADESCRIPTION>1/10: Extremely high risk. Global situation is very bad and close to critical/pre-insolvency. Any commitment corresponds to an extremely high risk of default. Also applies to Inactive company.</DRADESCRIPTION>
-        <PROBABILITYOFDEFAULT>25%</PROBABILITYOFDEFAULT>
+        <DRA>3</DRA>
+        <DRADESCRIPTION>3/10: High risk. The company is facing increasing financial problems and its future is questionable. Even if there is a potential for improvements, its situation is likely to deteriorate quickly. Risk of default is high.</DRADESCRIPTION>
+        <PROBABILITYOFDEFAULT>4%</PROBABILITYOFDEFAULT>
         <DRAHISTORY>
                 <HISTORICALYEAR>
                     <YEAR>2021</YEAR>
@@ -40,10 +40,14 @@ meta.report.documentLayout=20300
                 </HISTORICALYEAR>
                 <HISTORICALYEAR>
                     <YEAR>2025</YEAR>
-                    <DRA>1</DRA>
+                    <DRA>3</DRA>
                     <PREVIOUSVALUESTHISYEAR>
                         <DRA>1</DRA>
                         <DATE>02/25/2025</DATE>
+                    </PREVIOUSVALUESTHISYEAR>
+                    <PREVIOUSVALUESTHISYEAR>
+                        <DRA>3</DRA>
+                        <DATE>09/26/2025</DATE>
                     </PREVIOUSVALUESTHISYEAR>
                 </HISTORICALYEAR>
         </DRAHISTORY>

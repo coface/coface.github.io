@@ -2,8 +2,8 @@
 	"icon": {
 		"version": "1.0.0",
 		"orderResults" : {
-		    "orderId" : "25926398",
-		    "scoreCalculatedOn" : "09/02/2025",
+		    "orderId" : "25934268",
+		    "scoreCalculatedOn" : "09/24/2025",
 		    "iconCompanyNo" : "5606280",
 		    "dra" : "1" ,
 		    "draDescription" : "1/10: Extremely high risk. Global situation is very bad and close to critical/pre-insolvency. Any commitment corresponds to an extremely high risk of default. Also applies to Inactive company.",
@@ -32,7 +32,7 @@
 		        {
 		            "year" : "2025",
 		            "dra" : "1",
-		            "previousValuesThisYear": [{"dra":"1", "date":"2/25/2025"}]
+		            "previousValuesThisYear": [{"dra":"1", "date":"2/25/2025"}, {"dra":"8", "date":"9/10/2025"}, {"dra":"1", "date":"9/11/2025"}]
                 }
             ]
         },
