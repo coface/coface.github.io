@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "monitTitle": {
+      "type": "string"
+    },
+    "monitReleaseDate": {
+      "type": "string"
+    },
+    "monitDetailsProduct": {
+      "type": "string"
+    },
+    "monitDetailOrderNo": {
+      "type": "string"
+    },
+    "monitCpDetailsName": {
+      "type": "string"
+    },
+    "monitCpDetailsAddress": {
+      "type": "string"
+    },
+    "monitCpDetailsContact": {
+      "type": "string"
+    },
+    "monitCpDetailsICONNo": {
+      "type": "string"
+    },
+    "monitCpDetailsNationalId": {
+      "type": "string"
+    },
+    "monitCpDetailsVATNo": {
+      "type": "string"
+    },
+    "monitCpDetailsRegistrationNo": {
+      "type": "string"
+    },
+    "monitCpDetailsTAXNo": {
+      "type": "string"
+    },
+    "monitCpDetailsRegDate": {
+      "type": "string"
+    },
+    "monitCpDetailsLegalStatus": {
+      "type": "string"
+    },
+    "monitCpDetailsEasyNo": {
+      "type": "string"
+    },
+    "monitCpDetailsStatisticNo": {
+      "type": "string"
+    },
+    "monitILChangesNewValue": {
+      "type": "number"
+    },
+    "monitILChangesOldValue": {
+      "type": "number"
+    },
+    "monitCOChangesNewValue": {
+      "type": "number"
+    },
+    "monitCOChangesOldValue": {
+      "type": "number"
+    },
+    "monitProductTitle": {
+      "type": "string"
+    },
+    "monitProductCurrency": {
+      "type": "string"
+    },
+    "isUrbaOrder": {
+      "type": "boolean"
+    },
+    "isApionDragonProduct": {
+      "type": "boolean"
+    },
+    "internationalCompanyName": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "monitTitle",
+    "monitReleaseDate",
+    "monitDetailsProduct",
+    "monitDetailOrderNo",
+    "monitCpDetailsName",
+    "monitCpDetailsAddress",
+    "monitCpDetailsContact",
+    "monitCpDetailsICONNo",
+    "monitCpDetailsNationalId",
+    "monitCpDetailsVATNo",
+    "monitCpDetailsRegistrationNo",
+    "monitCpDetailsLegalStatus",
+    "monitCpDetailsEasyNo",
+    "monitProductCurrency",
+    "isUrbaOrder",
+    "isApionDragonProduct"
+  ]
+}

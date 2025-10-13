@@ -1,0 +1,34 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="root">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:string" name="monitTitle"/>
+                <xs:element type="xs:string" name="monitReleaseDate"/>
+                <xs:element type="xs:string" name="monitDetailsProduct"/>
+                <xs:element type="xs:string" name="monitDetailOrderNo"/>
+                <xs:element type="xs:string" name="monitCpDetailsName"/>
+                <xs:element type="xs:string" name="monitCpDetailsAddress"/>
+                <xs:element type="xs:string" name="monitCpDetailsContact"/>
+                <xs:element type="xs:string" name="monitCpDetailsICONNo"/>
+                <xs:element type="xs:string" name="monitCpDetailsNationalId"/>
+                <xs:element type="xs:string" name="monitCpDetailsVATNo"/>
+                <xs:element type="xs:string" name="monitCpDetailsRegistrationNo"/>
+                <xs:element type="xs:string" name="monitCpDetailsTAXNo"/>
+                <xs:element type="xs:string" name="monitCpDetailsRegDate"/>
+                <xs:element type="xs:string" name="monitCpDetailsLegalStatus"/>
+                <xs:element type="xs:string" name="monitCpDetailsEasyNo"/>
+                <xs:element type="xs:string" name="monitCpDetailsStatisticNo"/>
+                <xs:element type="xs:number" name="monitILChangesNewValue"/>
+                <xs:element type="xs:number" name="monitILChangesOldValue"/>
+                <xs:element type="xs:number" name="monitCOChangesNewValue"/>
+                <xs:element type="xs:number" name="monitCOChangesOldValue"/>
+                <xs:element type="xs:string" name="monitProductTitle"/>
+                <xs:element type="xs:string" name="monitProductCurrency"/>
+                <xs:element type="xs:boolean" name="isUrbaOrder"/>
+                <xs:element type="xs:boolean" name="isApionDragonProduct"/>
+                <xs:element type="xs:string" name="internationalCompanyName"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:attribute default="http://json-schema.org/draft-04/schema#" name="$schema" type="xs:string"/>
+</xs:schema>
