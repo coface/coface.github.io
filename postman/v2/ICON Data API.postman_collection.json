@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "d6237d17-4e49-4f42-a833-b01ff06e15fe",
+		"_postman_id": "09a1b2d4-9f89-446e-a5d0-3671a0d27248",
 		"name": "ICON Data API",
 		"description": "Contact Support:  \nName: COFACE ICON Data API  \nEmail: georgiana.funieru@coface.com",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "24818438"
+		"_exporter_id": "19166921"
 	},
 	"item": [
 		{
@@ -1904,7 +1904,7 @@
 							"response": []
 						},
 						{
-							"name": "DRA- report",
+							"name": "Score - report",
 							"event": [
 								{
 									"listen": "prerequest",
@@ -2219,7 +2219,7 @@
 							"response": []
 						},
 						{
-							"name": "DRA + DRA Package + Credit opinion with companyId",
+							"name": "Score + Score Package + Credit opinion with companyId",
 							"event": [
 								{
 									"listen": "prerequest",
@@ -2306,7 +2306,7 @@
 							"response": []
 						},
 						{
-							"name": "DRA  Assessment package via companyId",
+							"name": "Score Assessment package via companyId",
 							"event": [
 								{
 									"listen": "prerequest",
@@ -2393,7 +2393,7 @@
 							"response": []
 						},
 						{
-							"name": "DRA package + financial with companyId",
+							"name": "Score package + financial with companyId",
 							"event": [
 								{
 									"listen": "prerequest",
@@ -2456,7 +2456,7 @@
 							"response": []
 						},
 						{
-							"name": "DRA package + advanced opinion with VAT",
+							"name": "Score package + advanced opinion with VAT",
 							"event": [
 								{
 									"listen": "prerequest",
@@ -2902,7 +2902,7 @@
 							"response": []
 						},
 						{
-							"name": "DRA report for a company via ICON no",
+							"name": "Score report for a company via ICON no",
 							"event": [
 								{
 									"listen": "prerequest",
@@ -2965,7 +2965,7 @@
 							"response": []
 						},
 						{
-							"name": "DRA assessment via VAT number",
+							"name": "Score assessment via VAT number",
 							"event": [
 								{
 									"listen": "prerequest",
@@ -3115,7 +3115,7 @@
 							"response": []
 						},
 						{
-							"name": "DRA + financial with externalId",
+							"name": "Score + financial with externalId",
 							"event": [
 								{
 									"listen": "prerequest",
@@ -3178,7 +3178,7 @@
 							"response": []
 						},
 						{
-							"name": "DRA assessment via VAT number",
+							"name": "Score assessment via VAT number",
 							"event": [
 								{
 									"listen": "prerequest",
@@ -3243,7 +3243,7 @@
 							"response": []
 						},
 						{
-							"name": "DRA package + advanced opinion with externalId",
+							"name": "Score package + advanced opinion with externalId",
 							"event": [
 								{
 									"listen": "prerequest",
@@ -3306,7 +3306,7 @@
 							"response": []
 						},
 						{
-							"name": "DRAGON products via companyID",
+							"name": "Score products via companyID",
 							"event": [
 								{
 									"listen": "prerequest",
