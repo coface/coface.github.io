@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "52615600-0544-45a5-baf5-fd0186677d9c",
+		"_postman_id": "64d54b93-cb03-4495-a2d0-17a66b8675bb",
 		"name": "ICON Report API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "17265261"
+		"_exporter_id": "19166921"
 	},
 	"item": [
 		{
@@ -753,7 +753,7 @@
 							"response": []
 						},
 						{
-							"name": "DRA report",
+							"name": "Score report",
 							"event": [
 								{
 									"listen": "test",
@@ -1058,7 +1058,7 @@
 							"response": []
 						},
 						{
-							"name": "DRA Report",
+							"name": "Score Report",
 							"event": [
 								{
 									"listen": "prerequest",
