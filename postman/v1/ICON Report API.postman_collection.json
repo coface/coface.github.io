@@ -556,7 +556,7 @@
 										"creditreport"
 									]
 								},
-								"description": "Order a Business Report, a Score report (DRA: Debtor Risk Assessment), a Credit Opinion (CO) report and a Coface Advanced Opinion (CAO) report using the corresponding product codes from CC8800 table.\n\nYou will need to specify at least:\n* the company to order (either with the company_id if the company has already been uniquely identified or with company_unidentified).\n* the product to order (product_details).\n  * product_code: 200 for a standard credit report (values from code table CC8800).\n  * language: the language of the report (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, restrict your order to the company_id of a demo company.\n"
+								"description": "Order a Business Report, a Score report, a Credit Opinion (CO) report and a Coface Advanced Opinion (CAO) report using the corresponding product codes from CC8800 table.\n\nYou will need to specify at least:\n* the company to order (either with the company_id if the company has already been uniquely identified or with company_unidentified).\n* the product to order (product_details).\n  * product_code: 200 for a standard credit report (values from code table CC8800).\n  * language: the language of the report (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, restrict your order to the company_id of a demo company.\n"
 							},
 							"response": []
 						},
@@ -620,7 +620,7 @@
 										"creditreport"
 									]
 								},
-								"description": "Order a Business Report, a Score report (DRA: Debtor Risk Assessment), a Credit Opinion (CO) report and a Coface Advanced Opinion (CAO) report using the corresponding product codes from CC8800 table.\n\nYou will need to specify at least:\n* the company to order (either with the company_id if the company has already been uniquely identified or with company_unidentified).\n* the product to order (product_details).\n  * product_code: 200 for a standard credit report (values from code table CC8800).\n  * language: the language of the report (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, restrict your order to the company_id of a demo company.\n"
+								"description": "Order a Business Report, a Score report, a Credit Opinion (CO) report and a Coface Advanced Opinion (CAO) report using the corresponding product codes from CC8800 table.\n\nYou will need to specify at least:\n* the company to order (either with the company_id if the company has already been uniquely identified or with company_unidentified).\n* the product to order (product_details).\n  * product_code: 200 for a standard credit report (values from code table CC8800).\n  * language: the language of the report (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, restrict your order to the company_id of a demo company.\n"
 							},
 							"response": []
 						},
@@ -684,7 +684,7 @@
 										"creditreport"
 									]
 								},
-								"description": "Order a Business Report, a Score report (DRA: Debtor Risk Assessment), a Credit Opinion (CO) report and a Coface Advanced Opinion (CAO) report using the corresponding product codes from CC8800 table.\n\nYou will need to specify at least:\n* the company to order (either with the company_id if the company has already been uniquely identified or with company_unidentified).\n* the product to order (product_details).\n  * product_code: 200 for a standard credit report (values from code table CC8800).\n  * language: the language of the report (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, restrict your order to the company_id of a demo company.\n"
+								"description": "Order a Business Report, a Score report, a Credit Opinion (CO) report and a Coface Advanced Opinion (CAO) report using the corresponding product codes from CC8800 table.\n\nYou will need to specify at least:\n* the company to order (either with the company_id if the company has already been uniquely identified or with company_unidentified).\n* the product to order (product_details).\n  * product_code: 200 for a standard credit report (values from code table CC8800).\n  * language: the language of the report (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, restrict your order to the company_id of a demo company.\n"
 							},
 							"response": []
 						},
@@ -748,7 +748,7 @@
 										"creditreport"
 									]
 								},
-								"description": "Order a Business Report, a Score report (DRA: Debtor Risk Assessment), a Credit Opinion (CO) report and a Coface Advanced Opinion (CAO) report using the corresponding product codes from CC8800 table.\n\nYou will need to specify at least:\n* the company to order (either with the company_id if the company has already been uniquely identified or with company_unidentified).\n* the product to order (product_details).\n  * product_code: 200 for a standard credit report (values from code table CC8800).\n  * language: the language of the report (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, restrict your order to the company_id of a demo company.\n"
+								"description": "Order a Business Report, a Score report, a Credit Opinion (CO) report and a Coface Advanced Opinion (CAO) report using the corresponding product codes from CC8800 table.\n\nYou will need to specify at least:\n* the company to order (either with the company_id if the company has already been uniquely identified or with company_unidentified).\n* the product to order (product_details).\n  * product_code: 200 for a standard credit report (values from code table CC8800).\n  * language: the language of the report (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, restrict your order to the company_id of a demo company.\n"
 							},
 							"response": []
 						},
@@ -812,7 +812,7 @@
 										"creditreport"
 									]
 								},
-								"description": "Order a Business Report, a Score report (DRA: Debtor Risk Assessment), a Credit Opinion (CO) report and a Coface Advanced Opinion (CAO) report using the corresponding product codes from CC8800 table.\n\nYou will need to specify at least:\n* the company to order (either with the company_id if the company has already been uniquely identified or with company_unidentified).\n* the product to order (product_details).\n  * product_code: 200 for a standard credit report (values from code table CC8800).\n  * language: the language of the report (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, restrict your order to the company_id of a demo company.\n"
+								"description": "Order a Business Report, a Score report, a Credit Opinion (CO) report and a Coface Advanced Opinion (CAO) report using the corresponding product codes from CC8800 table.\n\nYou will need to specify at least:\n* the company to order (either with the company_id if the company has already been uniquely identified or with company_unidentified).\n* the product to order (product_details).\n  * product_code: 200 for a standard credit report (values from code table CC8800).\n  * language: the language of the report (e.g en for english).\n  * format: xml, json, pdf, html or txt.\n* if you're using the demo API key, restrict your order to the company_id of a demo company.\n"
 							},
 							"response": []
 						}
