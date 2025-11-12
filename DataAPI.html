@@ -22,7 +22,7 @@
 				</div>
 				<div class="col-10 text-center">
 					<h1 id="introduction">Coface Business Information API</h1>
-					<h3>Data API</h3>
+					<h3>Data API : update 12/11/2025</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -253,6 +253,7 @@
 							<p>You can find the <a href="utilities/Coface_Data_API_ Products.xlsx" target="_self"><b>list of standard products</b></a>  (assessments, reports or financials) together with their internal IDs in ICON application.</p>
 							<p>Also, in order to test your flow in the begining, recomendation is to use a Demo company. Please check the <a href="utilities/Coface _API_ DemoCompanies.xlsx" target="_blank"><b>Demo companies</b></a> list.</p>
 							<p>Business blocks which are part of <b>Full Report</b> can be checked on <a href="utilities/Coface _API_ BusinessBlocks_FullReports.xlsx" target="_blank"><b>Business Blocks</b></a> document.</p>
+							<p>In Business reports when there is notion of <b>intercreditNumber</b> or <b>intercreditOrderNumber</b> it is corresponding respectivelly to <b>iconNumber</b> and <b>orderNumber</b>.</p>
 						</div>
 						
 						<div id="security" class="mt-5">
@@ -307,7 +308,9 @@
 											<p>Retrieving a company depends on the accuracy of your input : 
 												<ul>
 													<li>if you know an unique identifier for this company (like icon number or use an unique id from a national referential, like VAT number), you will retrieve all identification data on this company (address, phone number, nace codes, legal forms, email, external id...)</li>
-													<li>if you don't then search a company with its name and address. You will receive a summary of matching companies. When you find the one you want, you can retrieve the full details about this company by calling the GET /companies with the external id provided in the summary.</li>
+													<li>if you don't then search a company with its name and address. You will receive a summary of matching companies. When you find the one you want, you can retrieve the full details about this company by calling the GET /companies with the external id provided in the summary.
+													<p>When search invoilve a provider, the externalId retured is a giid. Then search company with this giid will return details of the company </p>
+													</li>
 												</ul>
 											</p>
 											<ul class="nav nav-tabs">
